@@ -1,60 +1,40 @@
-//META{"name":"NotAnotherAnimeTheme","description":"Anime theme made by WhatDaPuck#2080","author":"WhatDaPuck","version":"2.1"}*//{}
-
-
+//META{"name":"NotAnotherAnimeTheme","description":"Anime theme made by WhatDaPuck#2080","author":"WhatDaPuck","version":"2.2"}*//{}
 @import url(https://gitcdn.xyz/repo/WhatDaPuck/NotAnotherAnimeTheme/master/css/NotAnotherAnimeTheme.css);
 
 
-/*EDIT THIS TO CHANGE THE BACKGROUND, I RECOMMEND USING IMGUR TO HOST YOUR IMAGE*/
 
+
+
+
+
+
+/*EDIT THIS TO CHANGE THE BACKGROUND, I RECOMMEND USING IMGUR TO HOST YOUR IMAGE*/
 [class~=app] {
-    background:url(https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/image/PTT4OKi.jpg) !important;
+    background: url(https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/image/PTT4OKi.jpg) !important;
     background-size: cover !important;
 }
 
 
-
-
-
-
 /*THIS CHANGES THE COLOR OF THE UNREAD NOTIFICATION*/
-.guilds-wrapper .guilds .guild.unread:not(.selected):before, .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
-
-    background: #43b581; /*change this to any hex code you want*/
-
+.guilds-wrapper .guilds .guild.unread:not(.selected):before,
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+    background: #43b581;    /*change this to any hex code you want*/
 }
 
 
-
-
-
-
-
-
-/*EDIT THIS TO CHANGE THE FRIENDS ICON IMAGE*/
-/*IF YOU DON'T WANT A CUSTOM FRIENDS ICON JUST REMOVE THIS BIT OF CODE*/
-
+/*EDIT THIS TO CHANGE THE FRIENDS ICON IMAGE, I WOULD RECOMMEND USING IMGUR TO HOST YOUR IMAGE*/
 [class~=guilds-wrapper] [class~=guilds] [class~=friends-icon] {
     background-image: url(https://s-media-cache-ak0.pinimg.com/originals/26/64/b5/2664b58e5882ff735aef9019d7f2bd3e.jpg)
 }
+
+
+/*IF YOU DON'T WANT A CUSTOM FRIENDS ICON JUST REMOVE THIS BIT OF CODE*/
 [class~=guilds-wrapper] [class~=guilds] [class~=friends-icon] {
-    display:block;
-    width:50px;
-    height:50px;
-    content:'';
-    background-size:230%;/*how zoomed in or zoomed out your image is*/
-    background-repeat:no-repeat;
-    background-position:top left;/*the positioning of your image in the icon, for example "top left" uses the top left of the image*/
+    display: block;
+    width: 50px;
+    height: 50px;
+    content: '';
+    background-size: 230%;    /*how zoomed in or zoomed out your image is*/
+    background-repeat: no-repeat;
+    background-position: top left;    /*the positioning of your image in the icon, for example "top left" uses the top left of the image*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
