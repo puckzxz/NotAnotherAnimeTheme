@@ -486,7 +486,7 @@
 
 [class~=guilds-wrapper] [class~=guilds] [class~=guild]:first-child,
 [class~=guilds-wrapper] [class~=guilds] [class~=friends-online] {
-    margin-bottom: auto;
+    margin-bottom: -10px;
 }
 
 [class~=search-results-wrap] [class~=search-result]:not([class~=expanded]) [class~=search-result-message][class~=hit] {
@@ -709,7 +709,7 @@
 }
 
 .theme-dark .autocomplete-1TnWNR{
-    background-color: rgba(0, 0, 0, .4)
+    background-color: rgba(0, 0, 0, .8)
 }
 
 [class~=guild-header] {
@@ -1064,7 +1064,7 @@
 
 [class~=guilds-wrapper] [class~=guilds] [class~=friends-online],
 [class~=guilds-add] {
-    margin-top: .625pc !important;
+    margin-top: 10px !important;
 }
 
 [class~=guilds-wrapper] {
@@ -4009,7 +4009,14 @@
 }
 
 [class~=channel-members] [class~=member] [class~=member-username] {
-    font-size: 1pc;
+    font-size: 15px;
+}
+
+.channel-members .member .member-activity {
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.3);
 }
 
 [class~=channel-textarea-autocomplete-inner] {
