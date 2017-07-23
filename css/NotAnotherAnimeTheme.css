@@ -708,6 +708,10 @@
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+.theme-dark .autocomplete-1TnWNR{
+    background-color: rgba(0, 0, 0, .4)
+}
+
 [class~=guild-header] {
     margin-left: -5pc;
 }
