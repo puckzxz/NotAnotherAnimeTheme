@@ -1,5 +1,5 @@
 # NotAnotherAnimeTheme
-### [To download the theme click here then: Right Click -> Save As.. -> Save](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css)
+### [To download the theme click here then: Right Click -> Save As... -> Save](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css)
 
 
 
