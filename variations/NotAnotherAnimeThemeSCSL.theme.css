@@ -4032,7 +4032,7 @@
 }
 
 .channel-members .member:hover {
-    background: rgba(255, 255, 255, .07) !important;
+    background: linear-gradient(90deg,rgba(67,181,129,0.2) 85%,rgba(0, 0, 0, 0));
 }
 
 [class~=markup] code[class~=inline] {
@@ -7357,4 +7357,29 @@ textarea {
     width: 50px;
     line-height: 130%;
     text-align: center;
+}
+
+.headerNormal-1cioxU {
+    background: rgba(0, 0, 0, .5);
+    background-size: 270px 213px;
+}
+
+.body-3rkFrF {
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-bottom: 1px solid #43b581;
+}
+
+.footer-2J5zqP {
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.avatarNormal-3luwna {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
+    background: -webkit-gradient(linear,left top,right top,color-stop(85%,#282b30),to(#2f3136));
+    background: linear-gradient(90deg,rgba(67,181,129,0.2) 85%,rgba(0, 0, 0, 0));
 }
