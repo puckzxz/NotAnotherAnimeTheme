@@ -7294,7 +7294,7 @@ textarea {
 }
 
 .headerNormal-1cioxU {
-    background: rgba(0, 0, 0, .9);
+    background: rgba(0, 0, 0, .9) !important;
     background-size: 270px 213px;
 }
 
