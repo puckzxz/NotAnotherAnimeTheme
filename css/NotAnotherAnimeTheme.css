@@ -7328,3 +7328,7 @@ textarea {
     background-color: rgba(0,0,0,0.8);
     box-shadow: 0 0 0 1px rgba(67, 181, 129, 0.2), 0 2px 10px 0 rgba(67, 181, 129, 0.2);
 }
+
+.theme-dark .header-toolbar .toolbar-badge {
+    border-color: rgba(0, 0, 0, 0);
+}
