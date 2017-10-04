@@ -7063,14 +7063,6 @@
     background: transparent !important;
 }
 
-[class~=popout-top] {
-    top: auto !important;
-}
-
-[class~=popout-top] {
-    bottom: -7.875pc !important;
-}
-
 [class~=themed-popout] {
     background-color: rgba(12, 13, 14, .9) !important;
 }
