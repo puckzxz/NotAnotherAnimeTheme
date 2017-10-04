@@ -7336,3 +7336,44 @@ textarea {
 .iconCollapsed-1INdMX, .iconDefault-xzclSQ, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm {
     color: #43b581;
 }
+
+.theme-dark .private-channel-call {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.ui-video {
+    background-color: rgba(0, 0, 0, 0) !important;
+    background-position: 50%;
+    background-size: 100%;
+    cursor: default;
+    height: 100%;
+    min-height: 275px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+[class~=markup] pre code[class~=hljs] {
+    background: rgba(0, 0, 0, 0.75) !important;
+}
+
+[class~=markup] pre {
+    border-top-color: rgba(67, 181, 129, .5) !important;
+}
+
+[class~=markup] pre {
+    border-right-color: rgba(67, 181, 129, 0.5) !important;
+}
+
+[class~=markup] pre {
+    border-bottom-color: rgba(67, 181, 129, 0.5) !important;
+}
+
+[class~=markup] pre {
+    border-left-color: rgba(67, 181, 129, 0.5) !important;
+}
+
+.theme-dark .private-channel-call.minimum .private-channel-call-actions .center {
+    background-color: rgba(24, 25, 28, 0);
+    border-color: rgba(67, 181, 129, 0.5);
+}
