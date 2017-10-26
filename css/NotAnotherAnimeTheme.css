@@ -7369,3 +7369,47 @@ textarea {
     background-color: rgba(24, 25, 28, 0);
     border-color: rgba(67, 181, 129, 0.5);
 }
+
+.container-2OU7Cz {
+    background-color: rgba(32, 34, 37, 0);
+}
+
+.theme-dark .chat form {
+    -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+    background-color: rgba(54, 57, 63, 0);
+    box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+}
+
+.theme-dark .title-qAcLxz {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+}
+
+.channels-3g2vYe {
+    -ms-flex-negative: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    flex-shrink: 0;
+    width: 240px;
+}
+
+.theme-dark .headerBar-cxbhPD {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+}
+
+.appMount-14L89u {
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    background-color: #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+}
