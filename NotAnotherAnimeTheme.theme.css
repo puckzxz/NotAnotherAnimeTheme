@@ -14,6 +14,7 @@
 /*Usually you can just right click your image and then click "Copy image address" and that should give you the direct link to the image*/
 
 
+
 /*To edit any colors in this theme you can use hex or rgba*/
 /*Example hex code: #43b581 - that is the default discord green*/
 /*Example rgba: rbga(255, 0, 0, 0.5) - that is red with half transparency*/
@@ -65,7 +66,7 @@
 
 
 
-/*THIS CHANGES THE COLOR OF THE UNREAD NOTIFICATION FOR A TEXT - https://i.imgur.com/49JPciq.png */
+/*THIS CHANGES THE COLOR OF THE UNREAD NOTIFICATION FOR A TEXT CHANNEL - https://i.imgur.com/49JPciq.png */
 [class~=unread-23Kvxk] {
     background-color: #43b581;
 }
