@@ -108,3 +108,11 @@
 .appMount-14L89u {
     background-color: #000000;
 }
+
+
+
+/*THIS CHANGES THE COLOR WHEN A PERSON IS SPEAKING AND THE COLOR WHEN YOU HOVER OF THEIR NAME*/
+[class~=nameSpeaking-3ROx9q],
+[class~=nameHovered-28u_Fz] {
+    color: #43b581;
+}

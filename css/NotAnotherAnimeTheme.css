@@ -2309,10 +2309,6 @@
     background: rgba(255, 255, 255, .2) !important;
 }
 
-[class~=nameSpeaking-3ROx9q],
-[class~=nameHovered-28u_Fz] {
-    color: #43b581;
-}
 
 [class~=react-datepicker] [class~=react-datepicker__month] [class~=react-datepicker__week]>[class~=react-datepicker__day]:last-of-type {
     border-right-color: rgba(255, 255, 255, .15) !important;
