@@ -116,3 +116,11 @@
 [class~=nameHovered-28u_Fz] {
     color: #43b581;
 }
+
+
+
+/*THIS CHANGES THE EMBED BACKGROUND DARKNESS AND BORDER COLOR*/
+.theme-dark .message-group .embed {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-color: rgba(67, 181, 129, 0.2);
+}
