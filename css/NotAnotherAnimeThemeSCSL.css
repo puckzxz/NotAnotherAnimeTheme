@@ -300,10 +300,6 @@
     border-bottom-color: #25ace8;
 }
 
-[class~=scroller-wrap] [class~=scroller]::-webkit-scrollbar-thumb {
-    background-color: rgba(67, 181, 129, .5) !important;
-}
-
 [class~=scroller-wrap] [class~=scroller]::-webkit-scrollbar-track-piece {
     border-left-width: .1875pc !important;
 }
@@ -1329,13 +1325,6 @@
     border-image: none !important;
 }
 
-[class~=nameSelectedVoice-XpjYTw],
-.nameHoveredText-2FFqiz,
-[class~=nameHoveredVoice-TIoHRJ],
-[class~=nameSelectedText-32NDX5] {
-    color: #43b581;
-}
-
 [class~=container-iksrDt] [class~=status],
 [class~=guilds-wrapper] [class~=guilds] [class~=guild]:first-of-type,
 [class~=search-results-wrap] [class~=search-result]:before {
@@ -2247,10 +2236,6 @@
 
 [class~=spoiler]:before {
     background: rgba(25, 25, 25, .7);
-}
-
-[class~=unread-23Kvxk] {
-    background-color: #43b581;
 }
 
 [class~=private-channels] [class~=search-result]:hover:before {
@@ -3210,20 +3195,12 @@
     padding-bottom: 1em !important;
 }
 
-[class~=chat] [class~=new-messages-bar]:hover {
-    background-color: rgba(29, 101, 134, 1);
-}
-
 .markdown-modal .markdown-modal-footer {
     border-top-color: rgba(255, 255, 255, .2);
 }
 
 [class~=modal-content] [class~=user-name] {
     color: #fff;
-}
-
-[class~=chat] [class~=new-messages-bar] {
-    background-color: rgba(29, 101, 134, .9);
 }
 
 [class~=chat]>[class~=title-wrap]>[class~=topic] {
@@ -7348,10 +7325,6 @@ textarea {
     border-color: rgba(0, 0, 0, 0);
 }
 
-.iconCollapsed-1INdMX, .iconDefault-xzclSQ, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm {
-    color: #43b581;
-}
-
 .theme-dark .private-channel-call {
     background-color: rgba(0, 0, 0, 0.9) !important;
 }
@@ -7426,7 +7399,6 @@ textarea {
     -ms-flex-direction: column;
     -webkit-box-direction: normal;
     -webkit-box-orient: vertical;
-    background-color: #000000;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -7435,4 +7407,33 @@ textarea {
     overflow: hidden;
     position: absolute;
     width: 100vw;
+}
+
+.headerFill-TTyrtz {
+    background-color: rgb(0, 0, 0);
+}
+
+.topSectionPlaying-3jAH9b {
+    background: #000000;
+}
+
+.theme-dark .body-3_tdh6 {
+    background-color: #000000;
+}
+
+.topSectionNormal-2LlRG1 {
+    background-color: #000000;
+}
+
+.theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP {
+    background-color: #000000;
+}
+
+.headerPlaying-2eYqm9 {
+    background: #000000;
+}
+
+.theme-dark .message-group .embed {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-color: rgba(67, 181, 129, 0.2);
 }

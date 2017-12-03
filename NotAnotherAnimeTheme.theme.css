@@ -2,6 +2,26 @@
 @import url(https://gitcdn.xyz/repo/WhatDaPuck/NotAnotherAnimeTheme/master/css/NotAnotherAnimeTheme.css);
 
 
+
+
+/*To make editing this theme easier I recommend using Notepad++ , you can donwload it for free here - https://notepad-plus-plus.org/download/ */
+
+
+
+/*Any images you use MUST end with .jpg or .png or any other image extension*/
+/*This is NOT a valid link, https://imgur.com/a/ycjL2 */
+/*THIS IS A VALID LINK https://i.imgur.com/rCqnrQ7.jpg */
+/*Usually you can just right click your image and then click "Copy image address" and that should give you the direct link to the image*/
+
+
+/*To edit any colors in this theme you can use hex or rgba*/
+/*Example hex code: #43b581 - that is the default discord green*/
+/*Example rgb: rbga(255, 0, 0, 0.5) - that is red with half transparency*/
+/*rgba works like this rgba(RED, GREEN, BLUE, ALPHA) - red, green and blue should be self-explanatory.  alpha is just transparency with 0.00 being the lowest and 1.00 being the highest*/
+
+
+
+
 /*EDIT THIS TO CHANGE THE BACKGROUND, I RECOMMEND USING IMGUR TO HOST YOUR IMAGE*/
 [class~=app] {
     background: url(https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/image/PTT4OKi.jpg) !important;
@@ -9,17 +29,12 @@
 }
 
 
-/*THIS CHANGES THE COLOR OF THE UNREAD NOTIFICATION*/
-.guilds-wrapper .guilds .guild.unread:not(.selected):before,
-.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
-    background: #43b581;    /*change this to any hex code you want*/
-}
-
 
 /*EDIT THIS TO CHANGE THE FRIENDS ICON IMAGE, I WOULD RECOMMEND USING IMGUR TO HOST YOUR IMAGE*/
 [class~=guilds-wrapper] [class~=guilds] [class~=friends-icon] {
     background-image: url(https://s-media-cache-ak0.pinimg.com/originals/26/64/b5/2664b58e5882ff735aef9019d7f2bd3e.jpg)
 }
+
 
 
 /*IF YOU DON'T WANT A CUSTOM FRIENDS ICON JUST REMOVE THIS BIT OF CODE*/
@@ -31,4 +46,62 @@
     background-size: 230%;    /*how zoomed in or zoomed out your image is*/
     background-repeat: no-repeat;
     background-position: top left;    /*the positioning of your image in the icon, for example "top left" uses the top left of the image*/
+}
+
+
+
+/*THIS CHANGES THE COLOR OF THE UNREAD NOTIFICATION - https://i.imgur.com/ZNds6nn.png */
+.guilds-wrapper .guilds .guild.unread:not(.selected):before,
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+    background: #43b581;
+}
+
+
+
+/*THIS CHANGES THE COLOR OF SELECTED TEXT CHANNEL AND THE COLOR WHEN YOU HOVER OVER A CHANNEL - https://i.imgur.com/P7KT3hj.png */
+[class~=nameSelectedVoice-XpjYTw], .nameHoveredText-2FFqiz, [class~=nameHoveredVoice-TIoHRJ], [class~=nameSelectedText-32NDX5] {
+    color: #43b581;
+}
+
+
+
+/*THIS CHANGES THE COLOR OF THE UNREAD NOTIFICATION FOR A TEXT - https://i.imgur.com/49JPciq.png */
+[class~=unread-23Kvxk] {
+    background-color: #43b581;
+}
+
+
+
+/*THIS CHANGES THE COLOR OF THE NEW MESSAGES BAR - https://i.imgur.com/ZtGJ8hy.png */
+[class~=chat] [class~=new-messages-bar] {
+    background-color: rgba(29, 101, 134, .9);
+}
+/*AND THIS CHANGES THE COLOR FOR WHEN YOU HOVER OVER IT*/
+[class~=chat] [class~=new-messages-bar]:hover {
+    background-color: rgba(29, 101, 134, 1);
+}
+
+
+
+/*THIS CHANGES THE SCROLLBAR COLOR FOR THE CHAT - https://i.imgur.com/VP1h36R.png */
+[class~=scroller-wrap] [class~=scroller]::-webkit-scrollbar-thumb {
+    background-color: rgba(67, 181, 129, .5) !important;
+}
+
+
+
+/*THIS CHANGES THE COLOR OF THE CHANNEL/VOICE CATEGORIES*/
+.iconCollapsed-1INdMX, .iconDefault-xzclSQ, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm {
+    color: #43b581;
+}
+/*THIS CHANGES THE COLOR FOR WHEN YOU HOVER OF THE CATEGORY*/
+.iconHovered-3PRzOR, iconHoveredCollapsed-jNYgOD, .nameHovered-1YFSWq, .nameHoveredCollapsed-2c-EHI{
+    color: #43b581;
+}
+
+
+
+/*THIS CHANGES THE COLOR OF THE TITLE BAR - https://i.imgur.com/WHZoI2W.png */
+.appMount-14L89u {
+    background-color: #000000;
 }
