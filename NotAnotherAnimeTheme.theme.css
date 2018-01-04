@@ -122,3 +122,58 @@
     background-color: rgba(0, 0, 0, 0.7);
     border-color: rgba(67, 181, 129, 0.2);
 }
+
+
+/*THIS CHANGES THE COLOR/TRANSPARENCY OF THE CONTAINER FOR THE SERVER LISTING*/
+[class~=guilds-wrapper] {
+    background: rgba(0, 0, 0, .8) !important;
+}
+
+
+
+/*THIS CHANGES THE COLOR/STRANSPARENCY OF THE CONTAINER FOR THE CHANNEL LISTING*/
+.channels-3g2vYe {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+/*THIS CHANGES THE COLOR/TRANSPAENCY OF THE CONTAINER FOR THE CHANNEL INFO*/
+.theme-dark .title-qAcLxz {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+/*THIS CHANGES THE COLOR/TRANSPARENCY OF MAIN CONTENT IN THE WINDOW*/
+[class~=content] [class~=flex-spacer] {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+/*THIS CHANGES COLOR/TRANSPARENCY OF THE MEMBER LISTING*/
+[class~=channel-members], [class~=private-channels] [class~=search-bar] input {
+    background: rgba(0, 0, 0, .8) !important;
+}
+
+
+
+/*THIS CHANGES THE COLOR/TRANSPARENCY OF THE LFG TAB*/
+.theme-dark .lfg-3xoFkI {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+/*THIS CHANGES THE COLOR/TRANSPARENCY OF THE FRIENDS LIST*/
+.friends-table {
+    background: rgba(0, 0, 0, 0.8) !important;
+}
+
+
+
+/*THIS CHANGES THE COLOR/TRANSPARENCY OF THE FRIENDS HEADER*/
+.theme-dark .headerBar-cxbhPD {
+    background: rgba(0, 0, 0, 0.8);
+}
