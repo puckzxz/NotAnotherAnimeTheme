@@ -16,4 +16,11 @@ If you have any issues then you can,
 
 * Message me on Discord at WhatDaPuck#2080
 
-![ScreenShot](https://i.imgur.com/ZtL84Ci.png)
+#### Main Theme
+![NotAnotherAnimeTheme](https://i.imgur.com/B5N8Owl.jpg)
+
+#### Single Column Server List
+![NotAnotherAnimeThemeSCSL](https://i.imgur.com/HStMvDg.jpg)
+
+#### Triple Column Server List
+![NotAnotherAnimeThemeTCSL](https://i.imgur.com/J4CHHcV.jpg)
