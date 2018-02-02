@@ -1,8 +1,10 @@
 # NotAnotherAnimeTheme
 
-### [To download the theme click here then: Right Click -> Save As... -> Save](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css)
+### [To download the main theme click here then: Right Click -> Save As... -> Save](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css)
 
-Don't like the double column server list?  I got you covered!  [Download this file instead](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeSCSL.theme.css) , same instructions as above.
+Don't like the double column server list? [Download the Single Column Server List here](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeSCSL.theme.css) , Open the link then Right Click -> Save As... -> Save.
+
+Want to go even further beyond? [Download the Triple Column Server List here](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeSCSL.theme.css) , Open the link then Right Click -> Save As... -> Save.
 
 In your appearance settings make sure you select "**Dark**"
 
