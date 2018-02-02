@@ -6,7 +6,7 @@ Don't like the double column server list?  I got you covered!  [Download this fi
 
 In your appearance settings make sure you select "**Dark**"
 
-If you have any questions, comments, or concerns feel free to send me a message Discord at WhatDaPuck#2080
+If you have any questions, comments, or concerns feel free to send me a message on Discord at WhatDaPuck#2080
 
 If you have any issues then you can,
 
