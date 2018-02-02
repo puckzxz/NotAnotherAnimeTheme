@@ -1,6 +1,6 @@
 # NotAnotherAnimeTheme
 
-## [To download the theme click here then: Right Click -> Save As... -> Save](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css)
+### [To download the theme click here then: Right Click -> Save As... -> Save](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css)
 
 Don't like the double column server list?  I got you covered!  [Download this file instead](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeSCSL.theme.css) , same instructions as above.
 
