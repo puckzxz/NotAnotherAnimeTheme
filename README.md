@@ -6,7 +6,9 @@ Don't like the double column server list? [Download the Single Column Server Lis
 
 Want to go even further beyond? [Download the Triple Column Server List here](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeSCSL.theme.css) , Open the link then Right Click -> Save As... -> Save.
 
-In your appearance settings make sure you select "**Dark**"
+In your appearance settings make sure you select **Dark**
+
+This theme is **NOT** minimal mode compatible
 
 If you have any questions, comments, or concerns feel free to send me a message on Discord at WhatDaPuck#2080
 
