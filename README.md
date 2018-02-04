@@ -4,7 +4,7 @@
 
 Don't like the double column server list? [Download the Single Column Server List here](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeSCSL.theme.css) , Open the link then Right Click -> Save As... -> Save.
 
-Want to go even further beyond? [Download the Triple Column Server List here](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeSCSL.theme.css) , Open the link then Right Click -> Save As... -> Save.
+Want to go even further beyond? [Download the Triple Column Server List here](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeTCSL.theme.css) , Open the link then Right Click -> Save As... -> Save.
 
 In your appearance settings make sure you select **Dark**
 
