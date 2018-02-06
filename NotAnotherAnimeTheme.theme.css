@@ -118,9 +118,12 @@
 
 
 /*THIS CHANGES THE EMBED BACKGROUND DARKNESS AND BORDER COLOR*/
-.theme-dark .message-group .embed {
-    background-color: rgba(0, 0, 0, 0.7);
+.theme-dark .embedInner-t4ag7g {
+    background-color: rgba(0, 0, 0, 0.8);
     border-color: rgba(67, 181, 129, 0.2);
+}
+.theme-dark .embedPill-3sYS1X {
+    background-color: rgba(67, 181, 129, 0.4);
 }
 
 
