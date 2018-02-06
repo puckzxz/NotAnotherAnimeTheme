@@ -26,3 +26,7 @@ If you have any issues then you can,
 
 #### Triple Column Server List
 ![NotAnotherAnimeThemeTCSL](https://i.imgur.com/J4CHHcV.jpg)
+
+The creator of this theme is a proud supporter of domestic catgirl ownership.
+
+![neko4lyfe](https://catgirlcare.org/logo.png)
