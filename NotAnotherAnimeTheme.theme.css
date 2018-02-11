@@ -180,3 +180,33 @@
 .theme-dark .headerBar-cxbhPD {
     background: rgba(0, 0, 0, 0.8);
 }
+
+
+
+/*THIS CHANGES THE COLOR WHEN YOUR HOVER OVER SOMEONE IN THE SERVER MEMBERS LISTING*/
+dark .channel-members .member:hover {
+    background: linear-gradient(90deg,rgba(67,181,129,0.2) 85%,rgba(0, 0, 0, 0));
+}
+
+
+
+/*THIS CHANGES THE COLOR AND SIZE OF THE SEPARATION LINE WHEN YOU CLICK ON A USER*/
+.body-3rkFrF {
+    background-color: rgba(0,0,0,0.9);
+    padding: 20px;
+    border-bottom: 1px solid #43b581;
+}
+
+
+
+/*THIS CHANGES THE COLOR OF THE "PROTIP:" WHEN YOU CLICK ON A USER*/
+.statusGreen-1ADNRt {
+    color: #43b581;
+}
+
+
+
+/*THIS CHANGES COLOR OF THE TEXT SHOWING THE MAX VOICE CONNECTIONS FOR A VOICE CHANNEL https://i.imgur.com/sgqWPke.png */
+.wrapper-2ldvyE {
+    color: #43b581;
+}
