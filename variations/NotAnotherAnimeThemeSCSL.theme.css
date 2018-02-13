@@ -214,3 +214,13 @@ dark .channel-members .member:hover {
 .wrapper-2ldvyE {
     color: #43b581;
 }
+
+
+/*THIS CHANGES THE MENU WHEN CLICK THE SERVER OPTIONS DROPDOWN AND THE STATUS MENU */
+.menu-3BZuDT {
+    background: #000;
+}
+/*THIS CHANGES THE COLOR WHEN YOU HOVER OVER THE ITEMS IN THE ABOVE MENU*/
+.item-rK1j5B:hover {
+    background-color: rgb(25, 25, 25);
+}
