@@ -224,3 +224,18 @@ dark .channel-members .member:hover {
 .item-rK1j5B:hover {
     background-color: rgb(25, 25, 25);
 }
+
+
+
+/*THIS CHANGES THE COLOR OF THE MENU WHEN YOU RIGHT CLICK ON A SERVER*/
+.theme-dark .contextMenu-uoJTbz {
+    background: #000000;
+}
+
+
+
+/*THIS CHANGES THE MENU WHEN YOU CLICK THE 3 DOTS ON THE TOP RIGHT OF A MESSAGE*/
+.small-popout-box {
+    background: #000;
+    border: 1px solid #43b581;
+}
