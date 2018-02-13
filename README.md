@@ -12,9 +12,13 @@ This theme is **NOT** minimal mode compatible
 
 If you have any questions, comments, or concerns feel free to send me a message on Discord at WhatDaPuck#2080
 
+I made a Discord server for comments, recommendations, issues/support or anything really. [Click here to join](https://discord.gg/FdZhbjY)
+
 If you have any issues then you can,
 
 * [Open an issue on GitHub](https://github.com/WhatDaPuck/NotAnotherAnimeTheme/issues)
+
+* [Join the Discord server](https://discord.gg/FdZhbjY)
 
 * Message me on Discord at WhatDaPuck#2080
 
