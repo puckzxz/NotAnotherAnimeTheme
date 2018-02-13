@@ -227,9 +227,12 @@ dark .channel-members .member:hover {
 
 
 
-/*THIS CHANGES THE COLOR OF THE MENU WHEN YOU RIGHT CLICK ON A SERVER*/
+/*THESE CHANGE THE COLOR OF THE MENU WHEN YOU RIGHT CLICK ON A SERVER*/
 .theme-dark .contextMenu-uoJTbz {
     background: #000000;
+}
+.theme-dark .itemSubMenu-3ZgIw- { /*DO NOT CHANGE THE URL HERE*/
+    background: #000000 url(/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50%;
 }
 
 
