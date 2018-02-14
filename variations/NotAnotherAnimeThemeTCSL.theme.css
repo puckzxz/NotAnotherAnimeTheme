@@ -243,3 +243,10 @@ dark .channel-members .member:hover {
     background: #000;
     border: 1px solid #43b581;
 }
+
+
+
+/*THIS CHANGES THE COLOR OF THE PRIVATE CALL BACKGROUND*/
+.video-3lOWa6 {
+    background-color: rgba(0, 0, 0, 0.9);
+}
