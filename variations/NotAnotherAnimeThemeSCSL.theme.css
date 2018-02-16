@@ -249,3 +249,10 @@ dark .channel-members .member:hover {
 .video-3lOWa6 {
     background-color: rgba(0, 0, 0, 0.9);
 }
+
+
+
+/*THIS CHANGES THE TEXT SIZE IN SERVER CHAT AND DM'S*/
+.messages .markup {
+    font-size: .85em !important;
+}
