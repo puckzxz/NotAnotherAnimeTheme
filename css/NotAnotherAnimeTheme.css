@@ -415,7 +415,7 @@
     background-color: #25ace8;
 }
 
-[class~=guilds-wrapper] [class~=guilds] [class~=guild]:first-child,
+[class~=guilds-wrapper] [class~=guilds].not(.dms) [class~=guild]:first-child,
 [class~=guilds-wrapper] [class~=guilds] [class~=friends-online] {
     margin-left: auto;
 }
@@ -497,7 +497,7 @@
     border-right-width: .020833333in !important;
 }
 
-[class~=guilds-wrapper] [class~=guilds] [class~=guild]:first-child {
+[class~=guilds-wrapper] [class~=guilds].not(.dms) [class~=guild]:first-child {
     margin-right: auto;
 }
 
@@ -708,7 +708,7 @@
     border-left-style: solid;
 }
 
-[class~=guilds-wrapper] [class~=guilds] [class~=guild]:first-of-type {
+[class~=guilds-wrapper] [class~=guilds].not(.dms) [class~=guild]:first-of-type {
     border-left-width: 3.75pt;
 }
 
@@ -807,7 +807,7 @@
     border-bottom-width: 3.75pt;
 }
 
-[class~=guilds-wrapper] [class~=guilds] [class~=guild]:first-of-type {
+[class~=guilds-wrapper] [class~=guilds].not(.dms) [class~=guild]:first-of-type {
     border-right-width: 3.75pt;
 }
 
