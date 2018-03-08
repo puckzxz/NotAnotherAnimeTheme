@@ -396,7 +396,7 @@
 }
 
 [class~=guilds-wrapper] [class~=guilds] [class~=guild]:first-child {
-    left: 0;
+    left: 37px;
 }
 
 [class~=scroller-wrap] [class~=scroller]::-webkit-scrollbar-track-piece {
