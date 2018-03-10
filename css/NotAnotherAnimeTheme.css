@@ -104,7 +104,13 @@
 }
 
 [class~=guilds-wrapper] [class~=guild-separator]:after {
-    background: transparent;
+    background: hsla(0,0%,100%,.1) !important;
+    content: " ";
+    height: 1px;
+    left: 20%;
+    position: absolute;
+    right: 20%;
+    top: 0;
 }
 
 [class~=scroller-wrap] [class~=scroller]::-webkit-scrollbar-thumb {
@@ -1014,7 +1020,7 @@
 }
 
 [class~=guilds-wrapper] [class~=guild-separator] {
-    display: none;
+    display: flex;
 }
 
 [class~=guilds-wrapper] [class~=guilds] {
