@@ -3422,10 +3422,6 @@
     font-size: .85em;
 }
 
-.messages .markup:not([data-colour="true"]) {
-    color: rgba(255, 255, 255, .5) !important;
-}
-
 [class~=bd-minimal] [class~=guilds-wrapper] [class~=guilds] [class~=guild]:before {
     height: 1.5625pc;
 }

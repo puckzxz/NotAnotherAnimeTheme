@@ -238,10 +238,14 @@ dark .channel-members .member:hover {
 
 
 
-/*THIS CHANGES THE MENU WHEN YOU CLICK THE 3 DOTS ON THE TOP RIGHT OF A MESSAGE*/
+/*THIS CHANGES THE MENU WHEN YOU CLICK THE 3 DOTS IN THE TOP RIGHT OF A MESSAGE*/
 .small-popout-box {
     background: #000;
     border: 1px solid #43b581;
+}
+/*AND THIS CHANGED THE HOVER COLOR */
+.option-popout .btn-item:hover {
+    color:#43b581;
 }
 
 
@@ -256,4 +260,12 @@ dark .channel-members .member:hover {
 /*THIS CHANGES THE TEXT SIZE IN SERVER CHAT AND DM'S*/
 .messages .markup {
     font-size: .85em !important;
+}
+
+
+
+/*THIS CHANGES THE FONT COLOR*/
+.theme-dark .message-group .comment .markup {
+    color: rgba(255, 255, 255, 0.5) !important;
+    /*You can change the font weight by editing the alpha, 0.5 is default, 1.0 would be bold*/
 }
