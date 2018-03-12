@@ -2,13 +2,21 @@
 
 ## Downloading the theme
 
- [To download the main theme open this link](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css)  then: Right Click -> Save As... -> Save
+#### Theme Variations
+* [Single Column](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeSCSL.theme.css)
 
-Don't like the double column server list? [Download the Single Column version here](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeSCSL.theme.css) Open the link then: Right Click -> Save As... -> Save
+* [Double Column](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css)
 
-Want to go even further beyond? [Download the Triple Column version here](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeTCSL.theme.css) Open the link then: Right Click -> Save As... -> Save
+* [Triple Column](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeTCSL.theme.css)
 
-If you're having trouble downloading with the method above or you want to download it all [Click here to download a .zip of the latest release](https://github.com/WhatDaPuck/NotAnotherAnimeTheme/archive/master.zip)
+To download from the links above,
+1. Click the link
+2. Right click
+3. Click "Save As..."
+4. Click "Save"
+
+
+[Click here to download a .zip of the latest release (includes everything)](https://github.com/WhatDaPuck/NotAnotherAnimeTheme/archive/master.zip)
 
 Here is a video showing how to download the theme if you're having trouble
 
@@ -28,7 +36,7 @@ The request I get the most is "How do I change the background" so I made a video
 # Support
 I made a Discord server for issues, support, comments, recommendations, etc.
 
-[![image](https://canary.discordapp.com/api/guilds/412794678791110664/widget.png?style=banner3)](https://discord.gg/FdZhbjY)
+[<img src="https://canary.discordapp.com/api/guilds/412794678791110664/widget.png?style=banner3">](https://discord.gg/FdZhbjY)
 
 If you have any issues then you can,
 
