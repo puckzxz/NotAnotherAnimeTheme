@@ -1,12 +1,12 @@
 # NotAnotherAnimeTheme
 
-### [To download the main theme click here then: Right Click -> Save As... -> Save](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css)
+### [To download the main theme open this link](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css)  then: Right Click -> Save As... -> Save
 
-Don't like the double column server list? [Download the Single Column Server List here](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeSCSL.theme.css) , Open the link then Right Click -> Save As... -> Save.
+Don't like the double column server list? [Download the Single Column version here](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeSCSL.theme.css) Open the link then: Right Click -> Save As... -> Save
 
-Want to go even further beyond? [Download the Triple Column Server List here](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeTCSL.theme.css) , Open the link then Right Click -> Save As... -> Save.
+Want to go even further beyond? [Download the Triple Column version here](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeTCSL.theme.css) Open the link then: Right Click -> Save As... -> Save
 
-If you're having trouble downloading with the method above or you just want to download it all [Click here to download a .zip of the latest release](https://github.com/WhatDaPuck/NotAnotherAnimeTheme/archive/master.zip)
+If you're having trouble downloading with the method above or you want to download it all [Click here to download a .zip of the latest release](https://github.com/WhatDaPuck/NotAnotherAnimeTheme/archive/master.zip)
 
 In your appearance settings make sure you select **Dark**
 
@@ -19,10 +19,12 @@ I made a Discord server for comments, recommendations, issues/support or anythin
 If you have any issues then you can,
 
 * [Open an issue on GitHub](https://github.com/WhatDaPuck/NotAnotherAnimeTheme/issues)
-
 * [Join the Discord server](https://discord.gg/FdZhbjY)
-
 * Message me on Discord at WhatDaPuck#2080
+
+The theme wil always be free and open source but if you like it please consider donating. Any donation is greatly appreciated.  Thanks in advance!
+* [Donating with PayPal](https://www.paypal.me/ChrisBock)
+* [Becoming a Patron with Patreon](https://www.patreon.com/ChrisBock)
 
 #### Main Theme
 ![NotAnotherAnimeTheme](https://i.imgur.com/B5N8Owl.jpg)
