@@ -14,6 +14,12 @@ Here is a video showing how to download the theme if you're having trouble
 
  [![image](https://i.imgur.com/hsEYSEL.jpg)](https://www.youtube.com/watch?v=1ML5_F-n5iw)
 
+ ## Installing the theme
+
+ Here is a video showing how to install the theme.
+
+ [![image](https://i.imgur.com/1tnVh0O.png)](https://www.youtube.com/watch?v=R-aZTjHWRZc)
+
 # Support
 I made a Discord server for issues, support, comments, recommendations, etc.
 
