@@ -31,6 +31,7 @@ Here is a video showing how to download the theme if you're having trouble
 ## Editing the theme
 
 The request I get the most is "How do I change the background" so I made a video showing how to
+
 [![image](https://i.imgur.com/ptpowjC.png)](https://www.youtube.com/watch?v=YYsdNkLOQjU)
 
 # Support
