@@ -12,7 +12,7 @@ NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDis
 ## FAQ
 
 ####  Q: *Where is my BetterDiscord Theme folder located?*
-   - Traditionally it is intalled in ` %AppData%\BetterDiscord\themes`, however if you have a custom installation and don't remember where you set it, you can find it by going to User Settings in Discord > Themes > Open Theme Folder.
+   - Traditionally it is installed in ` %AppData%\BetterDiscord\themes`, however if you have a custom installation and don't remember where you set it, you can find it by going to User Settings in Discord > Themes > Open Theme Folder.
 
 ####  Q: *I'm still not sure on how to install this*
   - You're not alone. I've made a video thats steps through the installation process for [downloading](https://www.youtube.com/watch?v=1ML5_F-n5iw) and [installing.](https://www.youtube.com/watch?v=R-aZTjHWRZc)
