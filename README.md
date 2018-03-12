@@ -26,7 +26,7 @@ If you have any issues then you can,
 * Message me on Discord at WhatDaPuck#2080
 
 # Notes
-The theme wil always be free and open source but if you like it please consider donating. Any donation is greatly appreciated.  Thanks in advance!
+The theme will always be free and open source but if you like it please consider donating. Any donation is greatly appreciated.  Thanks in advance!
 * [Donate with PayPal](https://www.paypal.me/ChrisBock)
 * [Become a Patron with Patreon](https://www.patreon.com/ChrisBock)
 
