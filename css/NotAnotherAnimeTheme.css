@@ -3949,10 +3949,6 @@
     background: rgba(0, 0, 0, .8) !important;
 }
 
-.channel-members .member:hover {
-    background: linear-gradient(90deg,rgba(67,181,129,0.2) 85%,rgba(0, 0, 0, 0));
-}
-
 [class~=markup] code[class~=inline] {
     border-radius: 0 !important;
 }
@@ -7278,7 +7274,6 @@ textarea {
 
 .theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
     background: -webkit-gradient(linear,left top,right top,color-stop(85%,#282b30),to(#2f3136));
-    background: linear-gradient(90deg,rgba(67,181,129,0.2) 85%,rgba(0, 0, 0, 0));
 }
 
 .theme-dark .footer-1PYmcw {
