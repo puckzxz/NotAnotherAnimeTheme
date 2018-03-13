@@ -42,6 +42,7 @@ This theme is **NOT** minimal mode compatible
 
 # Acknowledgements
 * Thanks to [appu1232](https://github.com/appu1232/) for fixing the issue with DM's
+* Thanks to [V-X](https://github.com/ImVexed) for making the readme significantly better
 
 # Images of variations
 #### Main Theme
