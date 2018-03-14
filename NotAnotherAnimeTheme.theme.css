@@ -258,6 +258,14 @@
 
 
 
+/*THIS CHANGES THE USERNAME SIZE IN CHAT*/
+[class~=messages] h2 [class~=user-name] {
+    font-size: .85em !important;
+    /*.85em is default*/
+}
+
+
+
 /*THIS CHANGES THE FONT COLOR*/
 .theme-dark .message-group .comment .markup {
     color: rgba(255, 255, 255, 0.5) !important;
