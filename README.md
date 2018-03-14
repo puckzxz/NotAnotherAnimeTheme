@@ -7,7 +7,8 @@ NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDis
       * [Double Column](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css)
       * [Triple Column](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeTCSL.theme.css)
 3. In the new tab, Right click > "Save As..." > save to the BetterDiscord Theme folder.
-4. Go to User Settings in Discord > Themes > Select `NotAnotherAnimeTheme vX.X by WhatDaPuck#2080`
+4. Restart your Discord client either by right clicking the tray icon and clicking "Quit Discord" or by pressing Ctrl+R inside the client.
+5. Go to User Settings in Discord > Themes > Select `NotAnotherAnimeTheme vX.X by WhatDaPuck#2080`
 
 ## FAQ
 
