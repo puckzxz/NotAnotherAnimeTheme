@@ -5,4 +5,4 @@ Themes submitted by the community
 
 # Notes
 
-These theme are not guaranteed to be updated.
+These themes are not guaranteed to stay updated.
