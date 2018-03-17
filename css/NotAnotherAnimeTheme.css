@@ -4635,7 +4635,7 @@
 }
 
 [class~=checkbox] [class~=checkbox-inner]+span {
-    color: rgba(255, 255, 255, .7) !important;
+    color: #2f3136 !important;
 }
 
 [class~=checkbox] [class~=checkbox-inner]+span {
