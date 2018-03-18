@@ -21,7 +21,10 @@ NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDis
 #### Q: *How would I go about customizing the theme?*
   - I've also detailed how you can customize the theme [here.](https://www.youtube.com/watch?v=YYsdNkLOQjU)
 
-# Support
+## Contributing
+Have you made something cool with NotAnotherAnimeTheme and feel like sharing it? Fork me and add it to the community folder! If you're not git savvy you can either open an issue or just PM it to me on discord and I'll add your theme!
+
+## Support
 I made a Discord server for issues, support, comments, recommendations, etc.
 
 [<img src="https://canary.discordapp.com/api/guilds/412794678791110664/widget.png?style=banner3">](https://discord.gg/FdZhbjY)
@@ -32,7 +35,7 @@ If you have any issues then you can,
 * [Open an issue on GitHub](https://github.com/WhatDaPuck/NotAnotherAnimeTheme/issues)
 * Message me on Discord at WhatDaPuck#2080
 
-# Notes
+## Notes
 While the theme is Free and Open Source, it takes time to keep the theme up to date. If you enjoy the theme please consider supporting the Author to continue maintinance and development of it.
 * [Donate with PayPal](https://www.paypal.me/ChrisBock)
 * [Become a Patron with Patreon](https://www.patreon.com/ChrisBock)
@@ -41,11 +44,11 @@ In your appearance settings make sure you select **Dark**
 
 This theme is **NOT** minimal mode compatible
 
-# Acknowledgements
+## Acknowledgements
 * Thanks to [appu1232](https://github.com/appu1232/) for fixing the issue with DM's
 * Thanks to [V-X](https://github.com/ImVexed) for making the readme significantly better
 
-# Images of variations
+## Images of variations
 #### Main Theme
 ![NotAnotherAnimeTheme](https://i.imgur.com/B5N8Owl.jpg)
 
