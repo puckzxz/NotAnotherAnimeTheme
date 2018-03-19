@@ -1,5 +1,5 @@
 //META{"name":"NotAnotherAnimeTheme","description":"Anime theme made by WhatDaPuck#2080, make sure you're up to date at https://goo.gl/dcCBQd","author":"WhatDaPuck#2080","version":"2.2"}*//{}
-@import url(https://gitcdn.xyz/repo/WhatDaPuck/NotAnotherAnimeTheme/master/css/NotAnotherAnimeTheme.css);
+@import url(https://cdn.rawgit.com/WhatDaPuck/NotAnotherAnimeTheme/master/css/NotAnotherAnimeTheme.css);
 @IMPORT URL("HTTPS://RAWGIT.COM/0MNISCIENT/DISCORD-THEMES/MASTER/CSS/TAGS.CSS");
 
 
@@ -183,8 +183,8 @@
 
 
 /*THIS CHANGES THE COLOR WHEN YOUR HOVER OVER SOMEONE IN THE SERVER MEMBERS LISTING*/
-dark .channel-members .member:hover {
-    background: linear-gradient(90deg,rgba(67,181,129,0.2) 85%,rgba(0, 0, 0, 0));
+.channel-members .member:hover {
+    background: linear-gradient(90deg,rgba(67,181,129,0.2) 85%,rgba(0, 0, 0, 0)) !important;
 }
 
 
@@ -238,7 +238,10 @@ dark .channel-members .member:hover {
     background: #000;
     border: 1px solid #43b581;
 }
-
+/*AND THIS CHANGED THE HOVER COLOR */
+.option-popout .btn-item:hover {
+    color:#43b581;
+}
 
 
 /*THIS CHANGES THE COLOR OF THE PRIVATE CALL BACKGROUND*/
@@ -251,4 +254,27 @@ dark .channel-members .member:hover {
 /*THIS CHANGES THE TEXT SIZE IN SERVER CHAT AND DM'S*/
 .messages .markup {
     font-size: .85em !important;
+}
+
+
+
+/*THIS CHANGES THE USERNAME SIZE IN CHAT*/
+[class~=messages] h2 [class~=user-name] {
+    font-size: .85em !important;
+    /*.85em is default*/
+}
+
+
+
+/*THIS CHANGES THE FONT COLOR*/
+.theme-dark .message-group .comment .markup {
+    color: rgba(255, 255, 255, 0.5) !important;
+    /*You can change the font weight by editing the alpha, 0.5 is default, 1.0 would be bold*/
+}
+
+
+
+/*THIS CHANGES THE TOOLTIP FOR WHEN YOU HOVER OVER A SERVER*/
+.tooltip.tooltip-black {
+    background-color: #2f3136;
 }

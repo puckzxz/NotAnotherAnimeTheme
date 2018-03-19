@@ -3423,10 +3423,6 @@
     font-size: .85em;
 }
 
-.messages .markup:not([data-colour="true"]) {
-    color: rgba(255, 255, 255, .5) !important;
-}
-
 [class~=bd-minimal] [class~=guilds-wrapper] [class~=guilds] [class~=guild]:before {
     height: 1.5625pc;
 }
@@ -3952,10 +3948,6 @@
 
 [class~=user-popout] [class~=header] {
     background: rgba(0, 0, 0, .8) !important;
-}
-
-.channel-members .member:hover {
-    background: linear-gradient(90deg,rgba(67,181,129,0.2) 85%,rgba(0, 0, 0, 0));
 }
 
 [class~=markup] code[class~=inline] {
@@ -4644,7 +4636,7 @@
 }
 
 [class~=checkbox] [class~=checkbox-inner]+span {
-    color: rgba(255, 255, 255, .7) !important;
+    color: #2f3136 !important;
 }
 
 [class~=checkbox] [class~=checkbox-inner]+span {
@@ -7283,7 +7275,6 @@ textarea {
 
 .theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
     background: -webkit-gradient(linear,left top,right top,color-stop(85%,#282b30),to(#2f3136));
-    background: linear-gradient(90deg,rgba(67,181,129,0.2) 85%,rgba(0, 0, 0, 0));
 }
 
 .theme-dark .footer-1PYmcw {

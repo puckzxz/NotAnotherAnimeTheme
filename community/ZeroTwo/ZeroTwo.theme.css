@@ -1,10 +1,9 @@
-//META{"name":"NotAnotherAnimeThemeSCSL","description":"Anime theme made by WhatDaPuck#2080 | Single Column Server List, make sure you're up to date at https://goo.gl/dcCBQd","author":"WhatDaPuck#2080","version":"1.0"}*//{}
-@import url(https://cdn.rawgit.com/WhatDaPuck/NotAnotherAnimeTheme/master/css/NotAnotherAnimeThemeSCSL.css);
+//META{"name":"Zero Two Theme","description":"Anime theme made by WhatDaPuck#2080, make sure you're up to date at https://goo.gl/dcCBQd","author":"WhatDaPuck#2080","version":"2.2"}*//{}
+@import url(https://cdn.rawgit.com/WhatDaPuck/NotAnotherAnimeTheme/master/css/NotAnotherAnimeTheme.css);
 @IMPORT URL("HTTPS://RAWGIT.COM/0MNISCIENT/DISCORD-THEMES/MASTER/CSS/TAGS.CSS");
 
 
-/*      THIS THEME IS THE SAME AS THE ORIGINAL EXCEPT IT HAS A SINGLE COLUMN FOR SERVERS INSTEAD OF TWO                                                 */
-/*      IF YOU WANT THE ORIGINAL GO TO THIS LINK -> https://github.com/WhatDaPuck/NotAnotherAnimeTheme/blob/master/NotAnotherAnimeTheme.theme.css       */
+/*Theme customized by Seva#4085*/
 
 
 /*To make editing this theme easier I recommend using Notepad++ , you can download it for free here - https://notepad-plus-plus.org/download/ */
@@ -28,7 +27,7 @@
 
 /*EDIT THIS TO CHANGE THE BACKGROUND, I RECOMMEND USING IMGUR TO HOST YOUR IMAGE*/
 [class~=app] {
-    background: url(https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/image/PTT4OKi.jpg) !important;
+    background: url(https://i.imgur.com/xMwczSz.png) !important;
     background-size: cover !important;
 }
 
@@ -36,7 +35,7 @@
 
 /*EDIT THIS TO CHANGE THE FRIENDS ICON IMAGE, I WOULD RECOMMEND USING IMGUR TO HOST YOUR IMAGE*/
 [class~=guilds-wrapper] [class~=guilds] [class~=friends-icon] {
-    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/26/64/b5/2664b58e5882ff735aef9019d7f2bd3e.jpg)
+    background-image: url(https://i.imgur.com/WxDaETH.png)
 }
 
 
@@ -47,7 +46,7 @@
     width: 50px;
     height: 50px;
     content: '';
-    background-size: 230%;    /*how zoomed in or zoomed out your image is*/
+    background-size: 100%;    /*how zoomed in or zoomed out your image is*/
     background-repeat: no-repeat;
     background-position: top left;    /*the positioning of your image in the icon, for example "top left" uses the top left of the image*/
 }
@@ -57,50 +56,50 @@
 /*THIS CHANGES THE COLOR OF THE UNREAD NOTIFICATION - https://i.imgur.com/ZNds6nn.png */
 .guilds-wrapper .guilds .guild.unread:not(.selected):before,
 .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
-    background: #43b581;    /*change this to any hex code you want*/
+    background: #f37489;
 }
 
 
 
-/*THIS CHANGES THE COLOR OF SELECTED TEXT CHANNEL AND THE COLOR WHEN YOU HOVER OVER A CHANNEL*/
+/*THIS CHANGES THE COLOR OF SELECTED TEXT CHANNEL AND THE COLOR WHEN YOU HOVER OVER A CHANNEL - https://i.imgur.com/P7KT3hj.png */
 [class~=nameSelectedVoice-XpjYTw], .nameHoveredText-2FFqiz, [class~=nameHoveredVoice-TIoHRJ], [class~=nameSelectedText-32NDX5] {
-    color: #43b581;
+    color: #f37489;
 }
 
 
 
 /*THIS CHANGES THE COLOR OF THE UNREAD NOTIFICATION FOR A TEXT CHANNEL - https://i.imgur.com/49JPciq.png */
 [class~=unread-23Kvxk] {
-    background-color: #43b581;
+    background-color: #f37489;
 }
 
 
 
 /*THIS CHANGES THE COLOR OF THE NEW MESSAGES BAR - https://i.imgur.com/ZtGJ8hy.png */
 [class~=chat] [class~=new-messages-bar] {
-    background-color: rgba(29, 101, 134, .9);
+    background-color: rgba(137, 66, 77, .9);
 }
 /*AND THIS CHANGES THE COLOR FOR WHEN YOU HOVER OVER IT*/
 [class~=chat] [class~=new-messages-bar]:hover {
-    background-color: rgba(29, 101, 134, 1);
+    background-color: rgba(137, 66, 77, 1);
 }
 
 
 
 /*THIS CHANGES THE SCROLLBAR COLOR FOR THE CHAT - https://i.imgur.com/VP1h36R.png */
 [class~=scroller-wrap] [class~=scroller]::-webkit-scrollbar-thumb {
-    background-color: rgba(67, 181, 129, .5) !important;
+    background-color: rgba(229, 149, 162, .5) !important;
 }
 
 
 
 /*THIS CHANGES THE COLOR OF THE CHANNEL/VOICE CATEGORIES - https://i.imgur.com/4cURWzl.png */
 .iconCollapsed-1INdMX, .iconDefault-xzclSQ, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm {
-    color: #43b581;
+    color: #e595a2;
 }
 /*THIS CHANGES THE COLOR FOR WHEN YOU HOVER OF THE CATEGORY*/
 .iconHovered-3PRzOR, iconHoveredCollapsed-jNYgOD, .nameHovered-1YFSWq, .nameHoveredCollapsed-2c-EHI{
-    color: #43b581;
+    color: #e595a2;
 }
 
 
@@ -115,7 +114,7 @@
 /*THIS CHANGES THE COLOR WHEN A PERSON IS SPEAKING AND THE COLOR WHEN YOU HOVER OF THEIR NAME*/
 [class~=nameSpeaking-3ROx9q],
 [class~=nameHovered-28u_Fz] {
-    color: #43b581;
+    color: #e595a2;
 }
 
 
@@ -123,12 +122,11 @@
 /*THIS CHANGES THE EMBED BACKGROUND DARKNESS AND BORDER COLOR*/
 .theme-dark .embedInner-t4ag7g {
     background-color: rgba(0, 0, 0, 0.8);
-    border-color: rgba(67, 181, 129, 0.2);
+    border-color: rgba(229, 149, 162, 0.2);
 }
 .theme-dark .embedPill-3sYS1X {
-    background-color: rgba(67, 181, 129, 0.4);
+    background-color: rgba(229, 149, 162, 0.4);
 }
-
 
 
 /*THIS CHANGES THE COLOR/TRANSPARENCY OF THE CONTAINER FOR THE SERVER LISTING*/
@@ -189,7 +187,7 @@
 
 /*THIS CHANGES THE COLOR WHEN YOUR HOVER OVER SOMEONE IN THE SERVER MEMBERS LISTING*/
 .channel-members .member:hover {
-    background: linear-gradient(90deg,rgba(67,181,129,0.2) 85%,rgba(0, 0, 0, 0)) !important;
+    background: linear-gradient(90deg,rgba(229, 149, 162,0.2) 85%,rgba(0, 0, 0, 0)) !important;
 }
 
 
@@ -198,22 +196,23 @@
 .body-3rkFrF {
     background-color: rgba(0,0,0,0.9);
     padding: 20px;
-    border-bottom: 1px solid #43b581;
+    border-bottom: 1px solid #e595a2;
 }
 
 
 
 /*THIS CHANGES THE COLOR OF THE "PROTIP:" WHEN YOU CLICK ON A USER*/
 .statusGreen-1ADNRt {
-    color: #43b581;
+    color: #e595a2;
 }
 
 
 
 /*THIS CHANGES COLOR OF THE TEXT SHOWING THE MAX VOICE CONNECTIONS FOR A VOICE CHANNEL https://i.imgur.com/sgqWPke.png */
 .wrapper-2ldvyE {
-    color: #43b581;
+    color: #e595a2;
 }
+
 
 
 /*THIS CHANGES THE MENU WHEN CLICK THE SERVER OPTIONS DROPDOWN AND THE STATUS MENU */
@@ -240,13 +239,12 @@
 /*THIS CHANGES THE MENU WHEN YOU CLICK THE 3 DOTS IN THE TOP RIGHT OF A MESSAGE*/
 .small-popout-box {
     background: #000;
-    border: 1px solid #43b581;
+    border: 1px solid #e595a2;
 }
 /*AND THIS CHANGED THE HOVER COLOR */
 .option-popout .btn-item:hover {
-    color:#43b581;
+    color:#e595a2;
 }
-
 
 
 /*THIS CHANGES THE COLOR OF THE PRIVATE CALL BACKGROUND*/
@@ -263,23 +261,8 @@
 
 
 
-/*THIS CHANGES THE USERNAME SIZE IN CHAT*/
-[class~=messages] h2 [class~=user-name] {
-    font-size: .85em !important;
-    /*.85em is default*/
-}
-
-
-
 /*THIS CHANGES THE FONT COLOR*/
 .theme-dark .message-group .comment .markup {
     color: rgba(255, 255, 255, 0.5) !important;
     /*You can change the font weight by editing the alpha, 0.5 is default, 1.0 would be bold*/
-}
-
-
-
-/*THIS CHANGES THE TOOLTIP FOR WHEN YOU HOVER OVER A SERVER*/
-.tooltip.tooltip-black {
-    background-color: #2f3136;
 }
