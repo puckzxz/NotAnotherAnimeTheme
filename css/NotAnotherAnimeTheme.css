@@ -7436,3 +7436,8 @@ textarea {
 .headerPlaying-2Q7mBy {
     background: #000000;
 }
+
+.theme-dark .input-2YozMi {
+    background: rgba(32,34,37,.3);
+    border-color: #202225;
+}
