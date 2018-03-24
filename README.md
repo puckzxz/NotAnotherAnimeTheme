@@ -1,7 +1,7 @@
 # NotAnotherAnimeTheme
-NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDiscord](https://betterdiscord.net/home/)) allowing for a revitalized and fresh take on the Discord UI. Every part of the theme is customizable, from the background image to the scroll bar colors, if there's something you don't like about the default configuration you have full control. You can find some preview pictures [here.](https://github.com/WhatDaPuck/NotAnotherAnimeTheme#images-of-variations)
+NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases/latest)) allowing for a revitalized and fresh take on the Discord UI. Every part of the theme is customizable, from the background image to the scroll bar colors, if there's something you don't like about the default configuration you have full control. You can find some preview pictures [here.](https://github.com/WhatDaPuck/NotAnotherAnimeTheme#images-of-variations)
 ## Installation
-1. Ensure you have [BetterDiscord](https://betterdiscord.net/home/) installed.
+1. Ensure you have [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases/latest) installed.
 2. Open one of the following variations of the theme in a new tab
       * [Single Column](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeSCSL.theme.css)
       * [Double Column](https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css)
