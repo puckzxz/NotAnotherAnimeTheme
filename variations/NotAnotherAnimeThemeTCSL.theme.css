@@ -283,3 +283,14 @@
 .tooltip.tooltip-black {
     background-color: #2f3136;
 }
+
+
+
+/*THESE CHANGE THE MENTION COLOR*/
+.theme-dark .message-group .mentioned .message-text {
+    background: rgba(37, 172, 232, .2) !important;
+}
+.message-group .mentioned .message-text:after {
+    background: rgba(37, 172, 232, .2) !important;
+    border-left: 4px solid #25ace8 !important;
+}
