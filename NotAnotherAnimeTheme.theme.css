@@ -183,10 +183,9 @@
 
 
 /*THIS CHANGES THE COLOR WHEN YOUR HOVER OVER SOMEONE IN THE SERVER MEMBERS LISTING*/
-.channel-members .member:hover {
-    background: linear-gradient(90deg,rgba(67,181,129,0.2) 85%,rgba(0, 0, 0, 0)) !important;
+.theme-dark .member-2FrNV0:hover .content-3JzEqq {
+    background-color: rgba(67, 181, 129, 0.3) !important;
 }
-
 
 
 /*THIS CHANGES THE COLOR AND SIZE OF THE SEPARATION LINE WHEN YOU CLICK ON A USER*/
