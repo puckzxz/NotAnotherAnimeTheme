@@ -1,4 +1,4 @@
-//META{"name":"NotAnotherAnimeTheme","description":"Anime theme made by puckzxz#2080, make sure you're up to date at https://goo.gl/jfR9BS , Get support here https://discord.gg/FdZhbjY","author":"puckzxz#2080","version":"1.0.0"}*//{}
+//META{"name":"NotAnotherAnimeThemeSCSL","description":"Anime theme made by puckzxz#2080, make sure you're up to date at https://goo.gl/jfR9BS , Get support here https://discord.gg/FdZhbjY","author":"puckzxz#2080","version":"1.0"}*//{}
 
 
 
@@ -35,9 +35,6 @@
     height: 50px;
     width: 50px;
 }
-
-
-
 
 
 
@@ -259,64 +256,6 @@
     background-color: rgba(54, 57, 62, 0);
 }
 
-.guilds-wrapper {
-  width: 150px;
-}
-
-.guilds-wrapper .scroller-wrap {
-  width: 150px;
-  left: 12px;
-}
-
-.guilds-wrapper .guilds {
-  display: flex;
-  flex-flow: row wrap;
-  padding-left: 0;
-  align-content: flex-start;
-}
-
-.guilds-wrapper .guilds .guild {
-  margin-left: 8px;
-  margin-top: 8px;
-}
-
-.guilds-wrapper .guilds .guild:first-child {
-  position: relative;
-  left: 0;
-  margin: auto;
-  margin-top: 15px;
-}
-
-.guilds-wrapper .guilds .guild-separator {
-  position: relative;
-  width: 100%;
-  margin-top: 10px;
-}
-
-.guilds-wrapper .guilds .friends-online {
-  position: relative;
-  width: 100%;
-  margin: auto;
-  margin-top: 5px;
-}
-
-.guilds-wrapper .guilds .guild.selected:before {
-  display: none;
-}
-
-.guilds-wrapper .guilds .guild {
-  position: relative;
-}
-
-.guilds-wrapper .guilds .dms {
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.guilds-wrapper .guilds .dms .guild {
-  left: 0;
-}
 
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
     background-color: rgba(0, 0, 0, 0);
