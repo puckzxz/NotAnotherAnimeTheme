@@ -295,42 +295,13 @@
 	height: 54px;
 }
 
-.scroller-wrap .scroller::-webkit-scrollbar {
-    width: 1px;
-}
-
-.guilds-wrapper .guilds .guild-separator {
-    position: relative;
-    width: 100%;
-    margin-top: 10px;
-    left: -11px;
-}
-
-.guilds-wrapper .guilds .friends-online {
-    position: relative;
-    width: 100%;
-    margin: auto;
-    left: -11px;
-    margin-top: 5px;
-}
-
-.guilds-wrapper .guilds .guild:first-child {
-    position: relative;
-    left: -11px;
-    margin: auto;
-    margin-top: 11px;
-}
-
-.guilds-wrapper .guilds .dms {
-    width: 78%;
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    flex-flow: row wrap;
-}
-
-.guilds-wrapper .guilds .dms .guild {
-    left: -11px;
+.guilds-wrapper .guilds .guild.selected:before {
+    -webkit-transition: height .25s ease-in-out,margin-top .25s ease-in-out;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    height: 40px;
+    margin-top: -20px;
+    transition: height .25s ease-in-out,margin-top .25s ease-in-out;
 }
 
 .theme-dark .message-group .comment .markup pre {
