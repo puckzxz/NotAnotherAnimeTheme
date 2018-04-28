@@ -260,7 +260,8 @@
 }
 
 .guilds-wrapper {
-  width: 150px;
+  width: 148px;
+  border-right: 1px solid hsla(0,0%,100%,.1) !important;
 }
 
 .guilds-wrapper .scroller-wrap {
@@ -316,6 +317,12 @@
 
 .guilds-wrapper .guilds .dms .guild {
   left: 0;
+}
+
+.guilds-wrapper .guilds .dms .guild:first-child {
+    margin-left: 8px;
+    margin-right: 0;
+    margin-top: 8px;
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
@@ -386,7 +393,7 @@
     width: 78%;
     display: flex;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 10px;
     flex-flow: row wrap;
 }
 
