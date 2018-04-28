@@ -477,7 +477,7 @@
     background-color: hsla(0, 0%, 100%, 0.3);
     border-radius: 100px;
     height: 8px;
-    left: 4px;
+    left: -4px;
     margin-top: -4px;
     position: absolute;
     top: 50%;
