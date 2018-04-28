@@ -1,0 +1,430 @@
+/* Don't touch this */
+
+.container-2lgZY8 {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.channels-Ie2l6A {
+    -ms-flex-negative: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    flex-shrink: 0;
+    width: 240px;
+}
+
+.container-2Thooq {
+    -ms-flex-align: center;
+    -ms-flex-negative: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 14px;
+    font-weight: 400;
+    height: 52px;
+    margin-bottom: 0px;
+    padding: 0 10px;
+}
+
+.theme-dark .title-3qD0b- {
+    /* -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06); */
+    background: rgba(0, 0, 0, 0.8);
+    /* box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06); */
+}
+.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
+    background: rgba(0, 0, 0, 0);
+}
+.container-PNkimc {
+    background-color: rgba(0, 0, 0, 0);
+    contain: layout;
+    min-height: 0;
+    position: relative;
+}
+
+.theme-dark .members-1998pB {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.theme-dark .chat>.content {
+    background-color: rgba(0, 0, 0, 0);
+}
+.theme-dark .chat {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.theme-dark .friends-table, .theme-dark .messages-wrapper {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .chat form {
+    -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+}
+
+.theme-dark .members-1998pB {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark #friends {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.guilds-wrapper {
+    -ms-flex-direction: column;
+    -ms-flex-negative: 0;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    background-color: rgba(0, 0, 0, 0.8);
+    contain: layout;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+    width: 70px;
+}
+
+.theme-dark .title-3qD0b- {
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0), 0 2px 0 rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0), 0 2px 0 rgba(0, 0, 0, 0);
+}
+
+.theme-dark .inner-zqa7da {
+    background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+.contentSelectedText-3wUhMi {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.container-1UB9sr {
+    -ms-flex-align: center;
+    -ms-flex-negative: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.appMount-3VJmYg {
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    background-color: #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+}
+
+.private-channels .channel.selected a {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+}
+
+.theme-dark .message-group .mentioned .message-text {
+    background: rgba(114, 137, 218, 0.2);
+}
+
+.message-group .mentioned .message-text:after {
+    background: rgba(114, 137, 218, 0.25);
+    border-left: 4px solid rgba(114, 137, 218, 0);
+    border-radius: 2px 0 0 2px;
+    bottom: 0;
+    content: " ";
+    left: -6px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+
+.theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
+    background-color: rgba(54, 57, 62, 0);
+}
+
+.theme-dark .friends-table .messages .divider:not(.red) div, .theme-dark .messages-wrapper .messages .divider:not(.red) div {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.theme-dark .headerBar-UHpsPw {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+}
+
+.theme-dark .typing-2GQL18 {
+    background-color: rgba(54, 57, 62, 0);
+}
+
+.guilds-wrapper {
+  width: 148px;
+  border-right: 1px solid hsla(0,0%,100%,.1) !important;
+}
+
+.guilds-wrapper .scroller-wrap {
+  width: 150px;
+  left: 12px;
+}
+
+.guilds-wrapper .guilds {
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 0;
+  align-content: flex-start;
+}
+
+.guilds-wrapper .guilds .guild {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.guilds-wrapper .guilds .guild:first-child {
+  position: relative;
+  left: 0;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.guilds-wrapper .guilds .guild-separator {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.guilds-wrapper .guilds .friends-online {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.guilds-wrapper .guilds .guild.selected:before {
+  display: none;
+}
+
+.guilds-wrapper .guilds .guild {
+  position: relative;
+}
+
+.guilds-wrapper .guilds .dms {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.guilds-wrapper .guilds .dms .guild {
+  left: 0;
+}
+
+.guilds-wrapper .guilds .dms .guild:first-child {
+    margin-left: 8px;
+    margin-right: 0;
+    margin-top: 8px;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-clip: padding-box;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 7px;
+}
+
+.guilds-wrapper .guilds .guild.unread::before {
+    left: -2px;
+    top: 16px;
+    z-index: -1;
+    width: 54px;
+    height: 54px;
+}
+
+.guilds-wrapper .guilds .guild.unread:before {
+    background: rgba(255, 0, 0, 0.3);
+    border-radius: 100px;
+    height: 50px;
+    margin-top: null;
+}
+
+.guilds-wrapper .guilds .guild.selected:before, .guilds-wrapper .guilds .guild.unread:before {
+    border-radius: 1000px;
+    content: " ";
+    height: null;
+    left: -2px;
+    margin-top: -24px;
+    position: absolute;
+    top: 22px;
+    width: 54px;
+	height: 54px;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar {
+    width: 1px;
+}
+
+.guilds-wrapper .guilds .guild-separator {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    left: -11px;
+}
+
+.guilds-wrapper .guilds .friends-online {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    left: -11px;
+    margin-top: 5px;
+}
+
+.guilds-wrapper .guilds .guild:first-child {
+    position: relative;
+    left: -11px;
+    margin: auto;
+    margin-top: 11px;
+}
+
+.guilds-wrapper .guilds .dms {
+    width: 78%;
+    display: flex;
+    margin-right: auto;
+    margin-left: 10px;
+    flex-flow: row wrap;
+}
+
+.guilds-wrapper .guilds .dms .guild {
+    left: -11px;
+}
+
+.theme-dark .message-group .comment .markup pre {
+    background: rgba(0, 0, 0, 0.7);
+    border-color: #000000;
+}
+.contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+.wrapper-2NJDcI {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 2px;
+    color: #c5c5c5;
+    display: inline-block;
+    font-family: SourceCodePro,Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 4px;
+}
+
+.theme-dark .headerNormal-T_seeN {
+    background-color: #000000;
+}
+
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: #000000;
+    color: hsla(0,0%,100%,.8);
+}
+
+.theme-dark .quickMessage-1yeL4E {
+    background-color: #000000;
+    border-color: #2f3136;
+    color: hsla(0,0%,100%,.7);
+}
+
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+.guilds-wrapper .guild-separator:after {
+    background: rgba(255, 255, 255, 0.3);
+    content: " ";
+    height: 1px;
+    left: 20%;
+    position: absolute;
+    right: 20%;
+    top: 0;
+}
+
+.theme-dark .search .search-bar {
+    background-color: hsla(0, 0%, 13%, 0.21);
+}
+
+.headerSpotify-zpWxgT {
+    background: #000000;
+}
+
+.headerPlaying-j0WQBV {
+    background: #000000;
+}
+
+.unread-1Dp-OI {
+    background-color: hsla(0, 0%, 100%, 0.3);
+    border-radius: 100px;
+    height: 8px;
+    left: -4px;
+    margin-top: -4px;
+    position: absolute;
+    top: 50%;
+    width: 8px;
+}
+
+
+/* Blocked meesages color */
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+    background: rgba(240, 71, 71, 0.05);
+    color: #f04747;
+}
+
+.theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked {
+    background: rgba(52, 55, 60, 0);
+    border-color: #f04747;
+}
+
+.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
+    background: rgba(240, 71, 71, 0.1);
+    border-color: #f04747;
+}
