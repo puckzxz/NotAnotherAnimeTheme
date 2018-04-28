@@ -50,11 +50,9 @@ This theme is **NOT** minimal mode compatible.
 * Thanks to [V-X](https://github.com/ImVexed) for making the readme significantly better
 
 ## Images of variations
-#### Main Theme
-![NotAnotherAnimeTheme](https://i.imgur.com/B5N8Owl.jpg)
-
 #### Single Column Server List
 ![NotAnotherAnimeThemeSCSL](https://i.imgur.com/HStMvDg.jpg)
-
+#### Double Column Server List
+![NotAnotherAnimeTheme](https://i.imgur.com/B5N8Owl.jpg)
 #### Triple Column Server List
 ![NotAnotherAnimeThemeTCSL](https://i.imgur.com/J4CHHcV.jpg)
