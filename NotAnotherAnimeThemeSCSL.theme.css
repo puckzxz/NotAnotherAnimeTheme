@@ -385,3 +385,20 @@
     top: 50%;
     width: 8px;
 }
+
+
+/* Blocked meesages color */
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+    background: rgba(240, 71, 71, 0.05);
+    color: #f04747;
+}
+
+.theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked {
+    background: rgba(52, 55, 60, 0);
+    border-color: #f04747;
+}
+
+.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
+    background: rgba(240, 71, 71, 0.1);
+    border-color: #f04747;
+}
