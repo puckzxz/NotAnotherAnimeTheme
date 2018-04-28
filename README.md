@@ -4,9 +4,9 @@ NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDis
 ## Installation
 1. Ensure [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases/latest) is installed.
 2. Open one of the following variations of the theme in a new browser tab
-      * [Single Column](https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeSCSL.theme.css)
-      * [Double Column](https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css)
-      * [Triple Column](https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/variations/NotAnotherAnimeThemeTCSL.theme.css)
+      * [Single Column](https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeThemeSCSL.theme.css)
+      * [Double Column](https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeThemeDCSL.theme.css)
+      <!-- * [Triple Column](https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeThemeTCSL.theme.css) -->
 3. In the new tab, Right click > "Save As..." > save to the BetterDiscord Theme folder.
 4. Restart the Discord client either by right clicking the tray icon and clicking "Quit Discord" or by pressing Ctrl+R inside the client.
 5. Go to User Settings in Discord > Themes > Select `NotAnotherAnimeTheme vX.X by puckzxz#2080`
