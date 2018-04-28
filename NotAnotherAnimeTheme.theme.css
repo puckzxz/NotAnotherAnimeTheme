@@ -1,5 +1,5 @@
-//META{"name":"NotAnotherAnimeTheme","description":"Anime theme made by puckzxz#2080, make sure you're up to date at https://goo.gl/dcCBQd , Get support here https://discord.gg/FdZhbjY","author":"puckzxz#2080","version":"2.2"}*//{}
-@import url(https://rawgit.com/puckzxz/NotAnotherAnimeTheme/master/css/NotAnotherAnimeTheme.css);
+//META{"name":"NotAnotherAnimeTheme","description":"Anime theme made by puckzxz#2080, make sure you're up to date at https://goo.gl/jfR9BS , Get support here https://discord.gg/FdZhbjY","author":"puckzxz#2080","version":"1.0"}*//{}
+
 
 
 /*To make editing this theme easier I recommend using Notepad++ , you can download it for free here - https://notepad-plus-plus.org/download/ */
@@ -13,277 +13,454 @@
 
 
 
-/*To edit any colors in this theme you can use hex or rgba*/
-/*Example hex code: #43b581 - that is the default discord green*/
-/*Example rgba: rbga(255, 0, 0, 0.5) - that is red with half transparency*/
-/*rgba works like this rgba(RED, GREEN, BLUE, ALPHA) - red, green and blue should be self-explanatory.  alpha is just transparency with 0.00 being the lowest and 1.00 being the highest*/
+/* For all images I recommend using imgur to host your image */
 
 
 
 
-/*EDIT THIS TO CHANGE THE BACKGROUND, I RECOMMEND USING IMGUR TO HOST YOUR IMAGE*/
+
+/* Edit this to change your background */
 [class~=app] {
     background: url(https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/image/PTT4OKi.jpg) !important;
     background-size: cover !important;
 }
 
 
-
-/*EDIT THIS TO CHANGE THE FRIENDS ICON IMAGE, I WOULD RECOMMEND USING IMGUR TO HOST YOUR IMAGE*/
-[class~=guilds-wrapper] [class~=guilds] [class~=friends-icon] {
-    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/26/64/b5/2664b58e5882ff735aef9019d7f2bd3e.jpg)
-}
-
-
-
-/*IF YOU DON'T WANT A CUSTOM FRIENDS ICON JUST REMOVE THIS BIT OF CODE*/
-[class~=guilds-wrapper] [class~=guilds] [class~=friends-icon] {
-    display: block;
-    width: 50px;
-    height: 50px;
-    content: '';
-    background-size: 230%;    /*how zoomed in or zoomed out your image is*/
+/* Edit this to change your friends icon picture */
+.guilds-wrapper .guilds .friends-icon {
+    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/26/64/b5/2664b58e5882ff735aef9019d7f2bd3e.jpg);
+    background-position: top left;
     background-repeat: no-repeat;
-    background-position: top left;    /*the positioning of your image in the icon, for example "top left" uses the top left of the image*/
+    background-size: 230%;
+    height: 50px;
+    width: 50px;
 }
 
 
 
-/*THIS CHANGES THE COLOR OF THE UNREAD NOTIFICATION - https://i.imgur.com/ZNds6nn.png */
-.guilds-wrapper .guilds .guild.unread:not(.selected):before,
-.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
-    background: #43b581;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Don't touch this */
+
+.container-2lgZY8 {
+    background-color: rgba(0, 0, 0, 0);
 }
 
-
-
-/*THIS CHANGES THE COLOR OF SELECTED TEXT CHANNEL AND THE COLOR WHEN YOU HOVER OVER A CHANNEL - https://i.imgur.com/P7KT3hj.png */
-[class~=nameSelectedVoice-XpjYTw], .nameHoveredText-2FFqiz, [class~=nameHoveredVoice-TIoHRJ], [class~=nameSelectedText-32NDX5] {
-    color: #43b581;
+.channels-Ie2l6A {
+    -ms-flex-negative: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    flex-shrink: 0;
+    width: 240px;
 }
 
-
-
-/*THIS CHANGES THE COLOR OF THE UNREAD NOTIFICATION FOR A TEXT CHANNEL - https://i.imgur.com/49JPciq.png */
-[class~=unread-23Kvxk] {
-    background-color: #43b581;
+.container-2Thooq {
+    -ms-flex-align: center;
+    -ms-flex-negative: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 14px;
+    font-weight: 400;
+    height: 52px;
+    margin-bottom: 0px;
+    padding: 0 10px;
 }
 
-
-
-/*THIS CHANGES THE COLOR OF THE NEW MESSAGES BAR - https://i.imgur.com/ZtGJ8hy.png */
-[class~=chat] [class~=new-messages-bar] {
-    background-color: rgba(29, 101, 134, .9);
+.theme-dark .title-3qD0b- {
+    /* -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06); */
+    background: rgba(0, 0, 0, 0.8);
+    /* box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06); */
 }
-/*AND THIS CHANGES THE COLOR FOR WHEN YOU HOVER OVER IT*/
-[class~=chat] [class~=new-messages-bar]:hover {
-    background-color: rgba(29, 101, 134, 1);
+.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
+    background: rgba(0, 0, 0, 0);
 }
-
-
-
-/*THIS CHANGES THE SCROLLBAR COLOR FOR THE CHAT - https://i.imgur.com/VP1h36R.png */
-[class~=scroller-wrap] [class~=scroller]::-webkit-scrollbar-thumb {
-    background-color: rgba(67, 181, 129, .5) !important;
+.container-PNkimc {
+    background-color: rgba(0, 0, 0, 0);
+    contain: layout;
+    min-height: 0;
+    position: relative;
 }
 
-
-
-/*THIS CHANGES THE COLOR OF THE CHANNEL/VOICE CATEGORIES - https://i.imgur.com/4cURWzl.png */
-.iconCollapsed-1INdMX, .iconDefault-xzclSQ, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm {
-    color: #43b581;
-}
-/*THIS CHANGES THE COLOR FOR WHEN YOU HOVER OF THE CATEGORY*/
-.iconHovered-3PRzOR, iconHoveredCollapsed-jNYgOD, .nameHovered-1YFSWq, .nameHoveredCollapsed-2c-EHI{
-    color: #43b581;
+.theme-dark .members-1998pB {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
+.theme-dark .chat>.content {
+    background-color: rgba(0, 0, 0, 0);
+}
+.theme-dark .chat {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.theme-dark .friends-table, .theme-dark .messages-wrapper {
+    background-color: rgba(0, 0, 0, 0);
+}
 
+.theme-dark .chat form {
+    -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+}
 
-/*THIS CHANGES THE COLOR OF THE TITLE BAR - https://i.imgur.com/WHZoI2W.png */
-.appMount-14L89u {
+.theme-dark .members-1998pB {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark #friends {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.guilds-wrapper {
+    -ms-flex-direction: column;
+    -ms-flex-negative: 0;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    background-color: rgba(0, 0, 0, 0.8);
+    contain: layout;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+    width: 70px;
+}
+
+.theme-dark .title-3qD0b- {
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0), 0 2px 0 rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0), 0 2px 0 rgba(0, 0, 0, 0);
+}
+
+.theme-dark .inner-zqa7da {
+    background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+.contentSelectedText-3wUhMi {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.container-1UB9sr {
+    -ms-flex-align: center;
+    -ms-flex-negative: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.appMount-3VJmYg {
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    background-color: #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+}
+
+.private-channels .channel.selected a {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+}
+
+.theme-dark .message-group .mentioned .message-text {
+    background: rgba(114, 137, 218, 0.2);
+}
+
+.message-group .mentioned .message-text:after {
+    background: rgba(114, 137, 218, 0.25);
+    border-left: 4px solid rgba(114, 137, 218, 0);
+    border-radius: 2px 0 0 2px;
+    bottom: 0;
+    content: " ";
+    left: -6px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+
+.theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
+    background-color: rgba(54, 57, 62, 0);
+}
+
+.theme-dark .friends-table .messages .divider:not(.red) div, .theme-dark .messages-wrapper .messages .divider:not(.red) div {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.theme-dark .headerBar-UHpsPw {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06);
+}
+
+.theme-dark .typing-2GQL18 {
+    background-color: rgba(54, 57, 62, 0);
+}
+
+.guilds-wrapper {
+  width: 150px;
+}
+
+.guilds-wrapper .scroller-wrap {
+  width: 150px;
+  left: 12px;
+}
+
+.guilds-wrapper .guilds {
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 0;
+  align-content: flex-start;
+}
+
+.guilds-wrapper .guilds .guild {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.guilds-wrapper .guilds .guild:first-child {
+  position: relative;
+  left: 0;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.guilds-wrapper .guilds .guild-separator {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.guilds-wrapper .guilds .friends-online {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.guilds-wrapper .guilds .guild.selected:before {
+  display: none;
+}
+
+.guilds-wrapper .guilds .guild {
+  position: relative;
+}
+
+.guilds-wrapper .guilds .dms {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.guilds-wrapper .guilds .dms .guild {
+  left: 0;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-clip: padding-box;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 7px;
+}
+
+.guilds-wrapper .guilds .guild.unread::before {
+    left: -2px;
+    top: 16px;
+    z-index: -1;
+    width: 54px;
+    height: 54px;
+}
+
+.guilds-wrapper .guilds .guild.unread:before {
+    background: rgba(255, 0, 0, 0.3);
+    border-radius: 100px;
+    height: 50px;
+    margin-top: null;
+}
+
+.guilds-wrapper .guilds .guild.selected:before, .guilds-wrapper .guilds .guild.unread:before {
+    border-radius: 1000px;
+    content: " ";
+    height: null;
+    left: -2px;
+    margin-top: -24px;
+    position: absolute;
+    top: 22px;
+    width: 54px;
+	height: 54px;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar {
+    width: 1px;
+}
+
+.guilds-wrapper .guilds .guild-separator {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    left: -11px;
+}
+
+.guilds-wrapper .guilds .friends-online {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    left: -11px;
+    margin-top: 5px;
+}
+
+.guilds-wrapper .guilds .guild:first-child {
+    position: relative;
+    left: -11px;
+    margin: auto;
+    margin-top: 11px;
+}
+
+.guilds-wrapper .guilds .dms {
+    width: 78%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    flex-flow: row wrap;
+}
+
+.guilds-wrapper .guilds .dms .guild {
+    left: -11px;
+}
+
+.theme-dark .message-group .comment .markup pre {
+    background: rgba(0, 0, 0, 0.7);
+    border-color: #000000;
+}
+.contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+.wrapper-2NJDcI {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 2px;
+    color: #c5c5c5;
+    display: inline-block;
+    font-family: SourceCodePro,Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 4px;
+}
+
+.theme-dark .headerNormal-T_seeN {
     background-color: #000000;
 }
 
-
-
-/*THIS CHANGES THE COLOR WHEN A PERSON IS SPEAKING AND THE COLOR WHEN YOU HOVER OF THEIR NAME*/
-[class~=nameSpeaking-3ROx9q],
-[class~=nameHovered-28u_Fz] {
-    color: #43b581;
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: #000000;
+    color: hsla(0,0%,100%,.8);
 }
 
-
-
-/*THIS CHANGES THE EMBED BACKGROUND DARKNESS AND BORDER COLOR*/
-.theme-dark .embedInner-t4ag7g {
-    background-color: rgba(0, 0, 0, 0.8);
-    border-color: rgba(67, 181, 129, 0.2);
-}
-.theme-dark .embedPill-3sYS1X {
-    background-color: rgba(67, 181, 129, 0.4);
+.theme-dark .quickMessage-1yeL4E {
+    background-color: #000000;
+    border-color: #2f3136;
+    color: hsla(0,0%,100%,.7);
 }
 
-
-/*THIS CHANGES THE COLOR/TRANSPARENCY OF THE CONTAINER FOR THE SERVER LISTING*/
-[class~=guilds-wrapper] {
-    background: rgba(0, 0, 0, .8) !important;
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
 }
 
-
-
-/*THIS CHANGES THE COLOR/STRANSPARENCY OF THE CONTAINER FOR THE CHANNEL LISTING*/
-.channels-3g2vYe {
-    background-color: rgba(0, 0, 0, 0.8);
+.guilds-wrapper .guild-separator:after {
+    background: rgba(255, 255, 255, 0.3);
+    content: " ";
+    height: 1px;
+    left: 20%;
+    position: absolute;
+    right: 20%;
+    top: 0;
 }
 
-
-
-/*THIS CHANGES THE COLOR/TRANSPAENCY OF THE CONTAINER FOR THE CHANNEL INFO*/
-.theme-dark .title-qAcLxz {
-    background: rgba(0, 0, 0, 0.8);
+.theme-dark .search .search-bar {
+    background-color: hsla(0, 0%, 13%, 0.21);
 }
 
-
-
-/*THIS CHANGES THE COLOR/TRANSPARENCY OF MAIN CONTENT IN THE WINDOW*/
-[class~=content] [class~=flex-spacer] {
-    background: rgba(0, 0, 0, 0.8);
-}
-
-
-
-/*THIS CHANGES COLOR/TRANSPARENCY OF THE MEMBER LISTING*/
-[class~=channel-members], [class~=private-channels] [class~=search-bar] input {
-    background: rgba(0, 0, 0, .8) !important;
-}
-
-
-
-/*THIS CHANGES THE COLOR/TRANSPARENCY OF THE LFG TAB*/
-.theme-dark .lfg-3xoFkI {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-
-
-/*THIS CHANGES THE COLOR/TRANSPARENCY OF THE FRIENDS LIST*/
-.friends-table {
-    background: rgba(0, 0, 0, 0.8) !important;
-}
-
-
-
-/*THIS CHANGES THE COLOR/TRANSPARENCY OF THE FRIENDS HEADER*/
-.theme-dark .headerBar-cxbhPD {
-    background: rgba(0, 0, 0, 0.8);
-}
-
-
-
-/*THIS CHANGES THE COLOR WHEN YOUR HOVER OVER SOMEONE IN THE SERVER MEMBERS LISTING*/
-.theme-dark .member-2FrNV0:hover .content-3JzEqq {
-    background-color: rgba(67, 181, 129, 0.3) !important;
-}
-
-
-/*THIS CHANGES THE COLOR AND SIZE OF THE SEPARATION LINE WHEN YOU CLICK ON A USER*/
-.body-3rkFrF {
-    background-color: rgba(0,0,0,0.9);
-    padding: 20px;
-    border-bottom: 1px solid #43b581;
-}
-
-
-
-/*THIS CHANGES THE COLOR OF THE "PROTIP:" WHEN YOU CLICK ON A USER*/
-.statusGreen-1ADNRt {
-    color: #43b581;
-}
-
-
-
-/*THIS CHANGES COLOR OF THE TEXT SHOWING THE MAX VOICE CONNECTIONS FOR A VOICE CHANNEL https://i.imgur.com/sgqWPke.png */
-.wrapper-2ldvyE {
-    color: #43b581;
-}
-
-
-
-/*THIS CHANGES THE MENU WHEN CLICK THE SERVER OPTIONS DROPDOWN AND THE STATUS MENU */
-.menu-3BZuDT {
-    background: #000;
-}
-/*THIS CHANGES THE COLOR WHEN YOU HOVER OVER THE ITEMS IN THE ABOVE MENU*/
-.item-rK1j5B:hover {
-    background-color: rgb(25, 25, 25);
-}
-
-
-
-/*THESE CHANGE THE COLOR OF THE MENU WHEN YOU RIGHT CLICK ON A SERVER*/
-.theme-dark .contextMenu-uoJTbz {
+.headerSpotify-zpWxgT {
     background: #000000;
 }
-.theme-dark .itemSubMenu-3ZgIw- { /*DO NOT CHANGE THE URL HERE*/
-    background: #000000 url(/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50%;
-}
 
-
-
-/*THIS CHANGES THE MENU WHEN YOU CLICK THE 3 DOTS IN THE TOP RIGHT OF A MESSAGE*/
-.small-popout-box {
-    background: #000;
-    border: 1px solid #43b581;
-}
-/*AND THIS CHANGED THE HOVER COLOR */
-.option-popout .btn-item:hover {
-    color:#43b581;
-}
-
-
-/*THIS CHANGES THE COLOR OF THE PRIVATE CALL BACKGROUND*/
-.video-3lOWa6 {
-    background-color: rgba(0, 0, 0, 0.9);
-}
-
-
-
-/*THIS CHANGES THE TEXT SIZE IN SERVER CHAT AND DM'S*/
-.messages .markup {
-    font-size: .85em !important;
-}
-
-
-
-/*THIS CHANGES THE USERNAME SIZE IN CHAT*/
-[class~=messages] h2 [class~=user-name] {
-    font-size: .85em !important;
-    /*.85em is default*/
-}
-
-
-
-/*THIS CHANGES THE FONT COLOR*/
-.theme-dark .message-group .comment .markup {
-    color: rgba(255, 255, 255, 0.5) !important;
-    /*You can change the font weight by editing the alpha, 0.5 is default, 1.0 would be bold*/
-}
-
-
-
-/*THIS CHANGES THE TOOLTIP FOR WHEN YOU HOVER OVER A SERVER*/
-.tooltip.tooltip-black {
-    background-color: #2f3136;
-}
-
-
-
-/*THESE CHANGE THE MENTION COLOR*/
-.theme-dark .message-group .mentioned .message-text {
-    background: rgba(37, 172, 232, .2) !important;
-}
-.message-group .mentioned .message-text:after {
-    background: rgba(37, 172, 232, .2) !important;
-    border-left: 4px solid #25ace8 !important;
+.headerPlaying-j0WQBV {
+    background: #000000;
 }
