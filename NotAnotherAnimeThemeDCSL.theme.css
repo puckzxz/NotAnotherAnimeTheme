@@ -27,6 +27,7 @@
 
 
 /* Edit this to change your friends icon picture */
+/* If you don't want a custom friends icon just delete this small section of code */
 .guilds-wrapper .guilds .friends-icon {
     background-image: url(https://s-media-cache-ak0.pinimg.com/originals/26/64/b5/2664b58e5882ff735aef9019d7f2bd3e.jpg);
     background-position: top left;
