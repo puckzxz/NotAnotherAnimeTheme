@@ -338,7 +338,7 @@
 }
 
 .guilds-wrapper .guilds .dms {
-    width: 78%;
+    width: 100%;
     display: flex;
     margin-right: auto;
     margin-left: 10px;
@@ -489,6 +489,25 @@
         -ms-filter: hue-rotate(360deg);
         filter: hue-rotate(360deg);
     }
+}
+
+/* Questionable */
+.guilds-wrapper .guilds .guild .guild-inner a {
+    color: #fff;
+    display: block;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+}
+
+.guilds-wrapper .guilds .guild .guild-inner {
+    background: rgba(0, 0, 0, 0);
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 50px;
+    overflow: hidden;
+    text-align: center;
 }
 
 .guilds-wrapper .guilds .guild {
