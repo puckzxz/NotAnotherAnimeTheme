@@ -378,7 +378,7 @@
 
 .guilds-wrapper .guilds .guild.selected:hover:before,
 .guilds-wrapper .guilds .guild.unread:hover:before {
-    border-radius: 15px !important;
+    border-radius: 25px !important;
 }
 
 .guilds-wrapper .guilds .guild.unread:before {
