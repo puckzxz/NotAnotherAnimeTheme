@@ -27,6 +27,7 @@
     height: 52px;
     margin-bottom: 0px;
     padding: 0 10px;
+    border-top: 1px solid hsla(0,0%,100%,.1);
 }
 
 .theme-dark .title-3qD0b- {
@@ -255,7 +256,7 @@
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, .5);
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
@@ -263,6 +264,24 @@
     background-color: rgba(255, 255, 255, 0.15);
     border: 3px solid rgba(0, 0, 0, 0);
     border-radius: 7px;
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 .guilds-wrapper .guilds .guild.unread::before {
@@ -293,7 +312,7 @@
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar {
-    width: 1px;
+    width: 10px;
 }
 
 .guilds-wrapper .guilds .guild-separator {
@@ -380,7 +399,7 @@
 }
 
 .guilds-wrapper .guild-separator:after {
-    background: rgba(255, 255, 255, 0.3);
+    background: hsla(0,0%,100%,.1);
     content: " ";
     height: 1px;
     left: 20%;
@@ -427,4 +446,17 @@
 .theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
     background: rgba(240, 71, 71, 0.1);
     border-color: #f04747;
+}
+
+.base-3dtUhz {
+    border-radius: 0;
+}
+
+.video-1FfuMD {
+    background-color: rgba(0,0,0,.15) !important;
+}
+
+.private-channels .channel:hover a {
+    background-color: rgba(255,255,255, .15);
+    color: #fff;
 }
