@@ -338,7 +338,7 @@
 }
 
 .guilds-wrapper .guilds .dms {
-    width: 78%;
+    width: 100%;
     display: flex;
     margin-right: auto;
     margin-left: 10px;
