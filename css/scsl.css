@@ -331,14 +331,15 @@
 }
 
 .unread-1Dp-OI {
-    background-color: hsla(0, 0%, 100%, 0.3);
+    background-color: rgba(67, 181, 129, .6);
     border-radius: 100px;
     height: 8px;
-    left: 4px;
+    left: -4px;
     margin-top: -4px;
     position: absolute;
     top: 50%;
     width: 8px;
+    animation: hue-rotate 8s linear infinite;
 }
 
 
