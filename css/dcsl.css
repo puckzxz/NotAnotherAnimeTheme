@@ -543,3 +543,15 @@
     overflow: hidden;
     text-align: center;
 }
+
+.private-channels .channel.selected .status {
+    border-color: transparent;
+}
+
+.private-channels .channel:hover .status {
+    border-color: transparent;
+}
+
+.private-channels .status {
+    border: 2px solid transparent;
+}
