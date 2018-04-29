@@ -491,7 +491,6 @@
     }
 }
 
-
 /* Questionable */
 .guilds-wrapper .guilds .guild .guild-inner a {
     color: #fff;
@@ -509,4 +508,12 @@
     line-height: 50px;
     overflow: hidden;
     text-align: center;
+}
+
+.guilds-wrapper .guilds .guild {
+    transition: .3s;
+}
+
+.guilds-wrapper .guilds .guild:hover {
+   transform: scale(1.08);
 }
