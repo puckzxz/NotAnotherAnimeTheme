@@ -14,21 +14,22 @@
 
 
 /* Edit this to change your background */
+/* Change the URL to whatever image you want */
 [class~=app] {
-    background: url(https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/image/PTT4OKi.jpg) !important;
-    background-size: cover !important;
+    background: url(https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/image/PTT4OKi.jpg) !important; /* The URL of the background image you want */
+    background-size: cover !important; /* No need to edit this */
 }
 
 
 /* Edit this to change your friends icon picture */
 /* If you don't want a custom friends icon just delete this small section of code */
 .guilds-wrapper .guilds .friends-icon {
-    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/26/64/b5/2664b58e5882ff735aef9019d7f2bd3e.jpg);
+    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/26/64/b5/2664b58e5882ff735aef9019d7f2bd3e.jpg); /* The URL of the friends icon image you want */
     background-position: top left; /* This is the section of the image that you want to use, for exmaple this is using the top left of the image, you would probably want to change this to center or top center */
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /* No need to edit this */
     background-size: 230%; /* This is how zoomed in your image will be, change this back to 100% and increase or decrease as needed */
-    height: 50px;
-    width: 50px;
+    height: 50px; /* No need to edit this */
+    width: 50px; /* No need to edit this */
 }
 
 
