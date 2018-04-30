@@ -6,7 +6,7 @@ NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDis
 2. Open one of the following variations of the theme in a new browser tab
       * [Single Column](https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeThemeSCSL.theme.css)
       * [Double Column](https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeThemeDCSL.theme.css)
-      <!-- * [Triple Column](https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeThemeTCSL.theme.css) -->
+      * [Triple Column](https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeThemeTCSL.theme.css)
 3. In the new tab, Right click > "Save As..." > save to the BetterDiscord Theme folder.
 4. Restart the Discord client either by right clicking the tray icon and clicking "Quit Discord" or by pressing Ctrl+R inside the client.
 5. Go to User Settings in Discord > Themes > Select `NotAnotherAnimeTheme vX.X by puckzxz#2080`
@@ -48,7 +48,7 @@ This theme is **NOT** minimal mode compatible.
 ## Acknowledgements
 * Thanks to [appu1232](https://github.com/appu1232/) for fixing the issue with DM's
 * Thanks to [V-X](https://github.com/ImVexed) for making the readme significantly better
-
+* Thanks to [Qu4k3](https://github.com/Qu4k3) for fixing a lot and helping with the recode
 ## Images of variations
 #### Single Column Server List
 ![NotAnotherAnimeThemeSCSL](https://i.imgur.com/HStMvDg.jpg)
