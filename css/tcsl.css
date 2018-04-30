@@ -358,7 +358,7 @@
 }
 
 .theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(255, 255, 255, .15);
 }
 
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
@@ -536,4 +536,46 @@
 
 .private-channels .status {
     border: 2px solid transparent;
+}
+
+.theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
+    color: #fff;
+}
+
+.theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
+    background-color: transparent;
+}
+
+.theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
+    color: #fff;
+}
+
+.theme-dark .messages-wrapper .messages .divider span {
+    display: block;
+    width: 100% !important;
+    text-align: center;
+    border-radius: 0 !important;
+    background-color: rgba(67, 181, 129, .32);
+    padding: 2px 0;
+}
+
+.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.theme-dark .message-group .comment .markup pre code {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.theme-dark .message-group .comment .markup pre {
+    background: rgba(0, 0, 0, 0.6);
+    border-color: #000;
+}
+
+.message-group .comment .markup pre {
+    border-radius: 0 !important;
+}
+
+.iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H {
+    color: rgb(67, 181, 129);
 }
