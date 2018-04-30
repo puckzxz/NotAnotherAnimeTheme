@@ -272,7 +272,7 @@
 }
 
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, .15);
     color: #fff;
 }
 
@@ -465,7 +465,7 @@
     width: 100% !important;
     text-align: center;
     border-radius: 0 !important;
-    background-color: rgba(67, 181, 129, .32);
+    background-color: rgba(67, 181, 129, .2);
     padding: 2px 0;
 }
 
