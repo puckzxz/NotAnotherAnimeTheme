@@ -33,6 +33,22 @@
 }
 
 
+/* Edit this to change the color and weight of the text */
+.theme-dark .message-group .comment .markup {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+/* Edit this to change some features of your text */
+.message-group .comment .markup {
+    font-size: 0.9375rem; /* Font size, default is 0.9375rem, I wouldn't go below 0.8 or above 1.4 */
+    line-height: 1.1em; /* Spacing between the text, I wouldn't recommend changing this but if you do don't go above 1.4 or below 0.6 */
+    margin-top: 6px; /* This is the margin between each new message, safer to change than line-height.  6px is default. Don't go below 0 */ 
+    white-space: pre-wrap; /* No need to edit this */
+    word-wrap: break-word; /* No need to edit this */
+}
+
 /* ADD CODE BELOW TO CUSTOMIZE THE THEME */
 
 
