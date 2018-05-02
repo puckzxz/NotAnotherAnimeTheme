@@ -459,8 +459,12 @@
     width: 100% !important;
     text-align: center;
     border-radius: 0 !important;
-    background-color: rgba(67, 181, 129, .2);
+    background-color: rgba(255, 255, 255, .1);
     padding: 2px 0;
+}
+
+.theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
+    color: rgb(255, 255, 255);
 }
 
 .theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
