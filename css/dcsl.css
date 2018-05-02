@@ -557,17 +557,11 @@
     border: 2px solid transparent;
 }
 
-.theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
-    color: #fff;
-}
 
 .theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span {
     background-color: transparent;
 }
 
-.theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
-    color: #fff;
-}
 
 .theme-dark .messages-wrapper .messages .divider span {
     display: block;
