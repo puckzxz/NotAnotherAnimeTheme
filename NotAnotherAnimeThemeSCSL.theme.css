@@ -63,7 +63,10 @@
 .nameHoveredVoice-YJ1Vfd {
     color: #f6f6f7 !important;
 }
-
+/* Edit this to change the color of an unread text channel color */
+.nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI {
+    color: #dcddde;
+}
 
 
 /* ADD CODE BELOW TO CUSTOMIZE THE THEME */
