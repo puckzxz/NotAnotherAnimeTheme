@@ -487,3 +487,8 @@
 .iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H {
     color: rgb(67, 181, 129);
 }
+
+.theme-dark #friends .friends-table .friends-row:hover {
+    background: rgba(255, 255, 255, .15);
+    border-color: transparent;
+}
