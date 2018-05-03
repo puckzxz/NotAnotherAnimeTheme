@@ -49,6 +49,23 @@
     word-wrap: break-word; /* No need to edit this */
 }
 
+
+
+/* Edit this to change the color of a selected text or voice join */
+.nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {
+    color: #f6f6f7 !important;
+}
+/* Edit this to change the color when you hover over a text channel */
+.nameHoveredText-1uO31y {
+    color: #b9bbbe !important;
+}
+/* Edit this to change the color when you hover over a voice channel */
+.nameHoveredVoice-YJ1Vfd {
+    color: #f6f6f7 !important;
+}
+
+
+
 /* ADD CODE BELOW TO CUSTOMIZE THE THEME */
 
 
