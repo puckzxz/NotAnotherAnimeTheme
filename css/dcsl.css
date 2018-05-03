@@ -296,13 +296,13 @@
     background: rgba(255, 0, 0, 0.3);
     border-radius: 100px;
     height: 50px;
-    margin-top: null;
+    margin-top: 0;
 }
 
 .guilds-wrapper .guilds .guild.selected:before, .guilds-wrapper .guilds .guild.unread:before {
     border-radius: 1000px;
     content: " ";
-    height: null;
+    height: 0;
     left: -2px;
     margin-top: -24px;
     position: absolute;
@@ -480,8 +480,8 @@
 
 @keyframes color-rotate {
     0%   {background: rgba(255,255,255,.8);}
-    33,3%  {background: rgba(0,0,0,.6);}
-    66,6%  {background: rgba(255,255,255,.8);}
+    33.3%  {background: rgba(0,0,0,.6);}
+    66.6%  {background: rgba(255,255,255,.8);}
     100%  {background: rgba(0,0,0,.6);}
 }
 
