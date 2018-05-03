@@ -680,6 +680,6 @@
 
 /* end extras */
 
-.unread-mentions-indicator-bottom {
+div.unread-mentions-indicator-bottom {
     display: none !important;
 }
