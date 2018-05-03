@@ -480,8 +480,8 @@
 
 @keyframes color-rotate {
     0%   {background: rgba(255,255,255,.8);}
-    33.3%  {background: rgba(0,0,0,.6);}
-    66.6%  {background: rgba(255,255,255,.8);}
+    33%  {background: rgba(0,0,0,.6);}
+    66%  {background: rgba(255,255,255,.8);}
     100%  {background: rgba(0,0,0,.6);}
 }
 
