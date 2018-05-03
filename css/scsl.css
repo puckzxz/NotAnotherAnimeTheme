@@ -572,3 +572,7 @@
 }
 
 /* end extras */
+
+.unread-mentions-indicator-bottom {
+    display: none;
+}
