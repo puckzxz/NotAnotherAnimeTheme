@@ -410,10 +410,6 @@
    transform: scale(1.08);
 }
 
-.guilds-wrapper .guilds .dms .guild {
-    transition: .3s;
-}
-
 .guilds-wrapper .guilds .dms .guild:hover {
    transform: scale(1.08) !important;
 }
