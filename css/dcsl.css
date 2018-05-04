@@ -475,13 +475,21 @@
 .guilds-wrapper .guilds .guild.unread:before {
     background: rgba(67, 181, 129, 0.8);
     /*animation: hue-rotate 8s linear infinite;*/
-    animation: color-rotate 3s linear infinite !important;
+    /*animation: color-rotate 3s linear infinite !important;*/
+    animation: hue-rotate 2s linear infinite, color-rotate 3s linear infinite !important;
 }
 
 @keyframes color-rotate {
     0%   {background: rgba(255,255,255,.8);}
     33%  {background: rgba(0,0,0,.6);}
     66%  {background: rgba(255,255,255,.8);}
+    100%  {background: rgba(0,0,0,.6);}
+}
+
+@keyframes color-rotate-alt {
+    0%   {background: rgba(67, 181, 129, 0.8);}
+    33%  {background: rgba(0,0,0,.6);}
+    66%  {background: rgba(67, 181, 129, 0.8);}
     100%  {background: rgba(0,0,0,.6);}
 }
 
