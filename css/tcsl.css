@@ -476,7 +476,7 @@
     background: rgba(67, 181, 129, 0.8);
     /*animation: hue-rotate 8s linear infinite;*/
     /*animation: color-rotate 3s linear infinite;*/
-    animation: hue-rotate 2s linear infinite, color-rotate 3s linear infinite !important;
+    animation: hue-rotate 3s linear infinite, color-rotate-alt 4s linear infinite !important;
 }
 
 @keyframes color-rotate {
