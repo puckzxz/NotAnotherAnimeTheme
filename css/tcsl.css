@@ -561,7 +561,7 @@
     width: 100% !important;
     text-align: center;
     border-radius: 0 !important;
-    background-color: rgba(240,71,71,1);
+    background-color: rgba(255,255,255,0.1);
     padding: 2px 0;
 }
 
