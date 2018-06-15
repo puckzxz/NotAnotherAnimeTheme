@@ -689,3 +689,7 @@ div.unread-mentions-indicator-bottom {
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 .status-2s6iDp {
     border-color: rgba(0,0,0,0);
 }
+
+.message-group.compact.message-group {
+    padding: 7px 0;
+}
