@@ -69,6 +69,15 @@
 }
 
 
+
+/* Edit this to change the color of your scrollbar,  */
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+
+
 /* ADD CODE BELOW TO CUSTOMIZE THE THEME */
 
 

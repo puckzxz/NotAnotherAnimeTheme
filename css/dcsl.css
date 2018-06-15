@@ -312,7 +312,7 @@
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar {
-    width: 10px !important;
+    width: 6px !important;
 }
 
 .guilds-wrapper .guilds .guild-separator {
@@ -429,7 +429,6 @@
     position: absolute;
     top: 50%;
     width: 8px;
-    animation: hue-rotate 8s linear infinite;
 }
 
 
@@ -474,38 +473,6 @@
 
 .guilds-wrapper .guilds .guild.unread:before {
     background: rgba(67, 181, 129, 0.8);
-    /*animation: hue-rotate 8s linear infinite;*/
-    /*animation: color-rotate 3s linear infinite !important;*/
-    animation: hue-rotate 3s linear infinite, color-rotate-alt 4s linear infinite !important;
-}
-
-@keyframes color-rotate {
-    0%   {background: rgba(255,255,255,.8);}
-    33%  {background: rgba(0,0,0,.6);}
-    66%  {background: rgba(255,255,255,.8);}
-    100%  {background: rgba(0,0,0,.6);}
-}
-
-@keyframes color-rotate-alt {
-    0%   {background: rgba(67, 181, 129, 0.8);}
-    33%  {background: rgba(0,0,0,.6);}
-    66%  {background: rgba(67, 181, 129, 0.8);}
-    100%  {background: rgba(0,0,0,.6);}
-}
-
-@keyframes hue-rotate {
-    0% {
-        -webkit-filter: hue-rotate(0);
-        -moz-filter: hue-rotate(0);
-        -ms-filter: hue-rotate(0);
-        filter: hue-rotate(0);
-    }
-    100% {
-        -webkit-filter: hue-rotate(360deg);
-        -moz-filter: hue-rotate(360deg);
-        -ms-filter: hue-rotate(360deg);
-        filter: hue-rotate(360deg);
-    }
 }
 
 /* Questionable */
@@ -580,7 +547,7 @@
     width: 100% !important;
     text-align: center;
     border-radius: 0 !important;
-    background-color: rgba(240,71,71,1);
+    background-color: rgba(255,255,255,0.1);
     padding: 2px 0;
 }
 
@@ -690,4 +657,35 @@
 
 div.unread-mentions-indicator-bottom {
     display: none !important;
+}
+
+.tooltip.tooltip-black {
+    background-color: rgba(33,33,33,.68);
+}
+
+.theme-dark .status-2s6iDp {
+    border-color: rgba(0,0,0,0);
+}
+
+.container-2Thooq .status {
+    border: 2px solid rgba(0,0,0,0);
+}
+
+.actionButtons-1sUUug {
+    background-color: rgba(0,0,0,0);
+}
+
+.iconHovered-2L3-fB,
+.iconHoveredCollapsed-3caIIZ,
+.nameHovered-1gxhWH,
+.nameHoveredCollapsed-2orEWB {
+    color: rgb(67, 181, 129);
+}
+
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4 .status-2s6iDp, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 .status-2s6iDp {
+    border-color: rgba(0,0,0,0);
+}
+
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 .status-2s6iDp {
+    border-color: rgba(0,0,0,0);
 }
