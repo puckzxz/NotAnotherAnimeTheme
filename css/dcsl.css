@@ -284,70 +284,7 @@
     background-color: rgba(255, 255, 255, 0.15);
 }
 
-.guilds-wrapper .guilds .guild.unread::before {
-    left: -2px;
-    top: 16px;
-    z-index: -1;
-    width: 54px;
-    height: 54px;
-}
 
-.guilds-wrapper .guilds .guild.unread:before {
-    background: rgba(255, 0, 0, 0.3);
-    border-radius: 100px;
-    height: 50px;
-    margin-top: 0;
-}
-
-.guilds-wrapper .guilds .guild.selected:before, .guilds-wrapper .guilds .guild.unread:before {
-    border-radius: 1000px;
-    content: " ";
-    height: 0;
-    left: -2px;
-    margin-top: -24px;
-    position: absolute;
-    top: 22px;
-    width: 54px;
-    height: 54px;
-}
-
-.scroller-wrap .scroller::-webkit-scrollbar {
-    width: 6px !important;
-}
-
-.guilds-wrapper .guilds .guild-separator {
-    position: relative;
-    width: 100%;
-    margin-top: 10px;
-    left: -11px;
-}
-
-.guilds-wrapper .guilds .friends-online {
-    position: relative;
-    width: 100%;
-    margin: auto;
-    left: -11px;
-    margin-top: 5px;
-}
-
-.guilds-wrapper .guilds .guild:first-child {
-    position: relative;
-    left: -11px;
-    margin: auto;
-    margin-top: 11px;
-}
-
-.guilds-wrapper .guilds .dms {
-    width: 100%;
-    display: flex;
-    margin-right: auto;
-    margin-left: 10px;
-    flex-flow: row wrap;
-}
-
-.guilds-wrapper .guilds .dms .guild {
-    left: -11px;
-}
 
 .theme-dark .message-group .comment .markup pre {
     background: rgba(0, 0, 0, 0.7);
@@ -461,68 +398,7 @@
     color: #fff;
 }
 
-.guilds-wrapper .guilds .guild.selected:before,
-.guilds-wrapper .guilds .guild.unread:before {
-    transition: .15s ease-in-out;
-}
 
-.guilds-wrapper .guilds .guild.selected:hover:before,
-.guilds-wrapper .guilds .guild.unread:hover:before {
-    border-radius: 25px !important;
-}
-
-.guilds-wrapper .guilds .guild.unread:before {
-    background: rgba(67, 181, 129, 0.8);
-}
-
-/* Questionable */
-.guilds-wrapper .guilds .guild .guild-inner a {
-    color: #fff;
-    display: block;
-    border-radius: 100px;
-    height: 50px;
-    width: 50px;
-}
-
-.guilds-wrapper .guilds .guild .guild-inner {
-    background: rgba(0, 0, 0, 0);
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 18px;
-    line-height: 50px;
-    overflow: hidden;
-    text-align: center;
-}
-
-.guilds-wrapper .guilds .guild {
-    transition: .3s;
-}
-
-.guilds-wrapper .guilds .guild:hover {
-   transform: scale(1.08);
-}
-
-.guilds-wrapper .guilds .dms .guild:hover {
-   transform: scale(1.08) !important;
-}
-
-.guilds-wrapper .guilds .guild .guild-inner a {
-    color: #fff;
-    display: block;
-    border-radius: 100px;
-    height: 50px;
-    width: 50px;
-}
-
-.guilds-wrapper .guilds .guild .guild-inner {
-    background: rgba(0, 0, 0, 0);
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 18px;
-    line-height: 50px;
-    overflow: hidden;
-    text-align: center;
-}
 
 .private-channels .channel.selected .status {
     border-color: transparent;
@@ -688,6 +564,182 @@ div.unread-mentions-indicator-bottom {
 
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 .status-2s6iDp {
     border-color: rgba(0,0,0,0);
+}
+
+.guilds-wrapper .guilds .guild.unread:before {
+    background: rgba(67, 181, 129, 0.8);
+    animation: hue-rotate 3s linear infinite;
+}
+
+@keyframes hue-rotate {
+    0% {
+        -webkit-filter: hue-rotate(0);
+        -moz-filter: hue-rotate(0);
+        -ms-filter: hue-rotate(0);
+        filter: hue-rotate(0);
+    }
+    100% {
+        -webkit-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+
+.theme-dark .iconBadge-2dji3k {
+    border-color: rgba(0,0,0,0);
+}
+
+.iconBadge-2dji3k {
+    -webkit-box-shadow: none;
+    background-color: #f04747;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    box-shadow: none;
+    height: 4px;
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    width: 4px;
+}
+
+.video-1FfuMD {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.theme-dark .private-channel-call {
+    background-color:  rgba(0,0,0,.35) !important
+}
+
+.theme-dark .attachPopoutRow-KrE-f6:hover {
+    background-color: rgba(255,255,255,.15);
+}
+
+.theme-dark .attachPopout-1n-ZKM {
+    background-color: rgba(22,22,22,0.8);
+}
+
+
+.guilds-wrapper .guilds .guild-icon {
+    border-radius: 100% !important;
+}
+
+.guilds-wrapper .guilds .guild.selected:hover:before,
+.guilds-wrapper .guilds .guild.unread:hover:before {
+    border-radius: 25px !important;
+}
+
+.guilds-wrapper .guilds .guild.unread:before {
+    background: rgba(67, 181, 129, 0.8);
+}
+
+
+.guilds-wrapper .guilds .guild .guild-inner a {
+    color: #fff;
+    display: block;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+}
+
+.guilds-wrapper .guilds .guild .guild-inner {
+    background: rgba(0, 0, 0, 0);
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.guilds-wrapper .guilds .guild {
+    transition: .3s;
+}
+
+.guilds-wrapper .guilds .guild:hover {
+   transform: scale(1.08);
+}
+
+.guilds-wrapper .guilds .guild .guild-inner a {
+    color: #fff;
+    display: block;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+}
+
+.guilds-wrapper .guilds .guild .guild-inner {
+    background: rgba(0, 0, 0, 0);
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.guilds-wrapper .guilds .guild.unread::before {
+    left: -2px;
+    top: 16px;
+    z-index: -1;
+    width: 54px;
+    height: 54px;
+}
+
+.guilds-wrapper .guilds .guild.unread:before {
+    border-radius: 100px;
+    height: 50px;
+    margin-top: 0;
+}
+
+.guilds-wrapper .guilds .guild.selected:before, .guilds-wrapper .guilds .guild.unread:before {
+    border-radius: 1000px;
+    content: " ";
+    height: 0;
+    left: -2px;
+    margin-top: -24px;
+    position: absolute;
+    top: 22px;
+    width: 54px;
+    height: 54px;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar {
+    width: 6px !important;
+}
+
+.guilds-wrapper .guilds .guild-separator {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    left: -11px;
+}
+
+.guilds-wrapper .guilds .friends-online {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    left: -11px;
+    margin-top: 5px;
+}
+
+.guilds-wrapper .guilds .guild:first-child {
+    position: relative;
+    left: -11px;
+    margin: auto;
+    margin-top: 11px;
+}
+
+.guilds-wrapper .guilds .dms {
+    width: 100%;
+    display: flex;
+    margin-right: auto;
+    margin-left: 10px;
+    flex-flow: row wrap;
+}
+
+.guilds-wrapper .guilds .dms .guild {
+    left: -11px;
 }
 
 .message-group.compact.message-group {
