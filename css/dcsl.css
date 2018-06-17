@@ -741,3 +741,7 @@ div.unread-mentions-indicator-bottom {
 .guilds-wrapper .guilds .dms .guild {
     left: -11px;
 }
+
+.message-group.compact.message-group {
+    padding: 7px 0;
+}
