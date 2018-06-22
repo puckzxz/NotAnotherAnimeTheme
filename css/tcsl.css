@@ -461,11 +461,6 @@
     color: #fff;
 }
 
-.guilds-wrapper .guilds .guild.selected:before,
-.guilds-wrapper .guilds .guild.unread:before {
-    transition: .15s ease-in-out;
-}
-
 .guilds-wrapper .guilds .guild.selected:hover:before,
 .guilds-wrapper .guilds .guild.unread:hover:before {
     border-radius: 25px !important;
@@ -481,10 +476,6 @@
 
 .guilds-wrapper .guilds .guild:hover {
    transform: scale(1.08);
-}
-
-.guilds-wrapper .guilds .dms .guild:hover {
-   transform: scale(1.08) !important;
 }
 
 .guilds-wrapper .guilds .guild .guild-inner a {
