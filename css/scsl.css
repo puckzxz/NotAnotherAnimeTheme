@@ -371,8 +371,9 @@
     color: #fff;
 }
 
-.guilds-wrapper .guilds .guild-icon {
-    border-radius: 100% !important;
+.guilds-wrapper .guilds .guild.selected:before,
+.guilds-wrapper .guilds .guild.unread:before {
+    transition: .15s ease-in-out;
 }
 
 .guilds-wrapper .guilds .guild.selected:hover:before,
@@ -390,6 +391,10 @@
 
 .guilds-wrapper .guilds .guild:hover {
    transform: scale(1.08);
+}
+
+.guilds-wrapper .guilds .dms .guild:hover {
+   transform: scale(1.08) !important;
 }
 
 .guilds-wrapper .guilds .guild .guild-inner a {
@@ -570,69 +575,4 @@
 
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 .status-2s6iDp {
     border-color: rgba(0,0,0,0);
-}
-
-.message-group.compact.message-group {
-    padding: 7px 0;
-}
-
-.theme-dark .wrapper-29NfPK {
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.theme-dark .activityFeed-28jde9 {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-.guilds-wrapper .guilds .guild.unread:before {
-    background: rgba(67, 181, 129, 0.8);
-    animation: hue-rotate 3s linear infinite;
-}
-
-@keyframes hue-rotate {
-    0% {
-        -webkit-filter: hue-rotate(0);
-        -moz-filter: hue-rotate(0);
-        -ms-filter: hue-rotate(0);
-        filter: hue-rotate(0);
-    }
-    100% {
-        -webkit-filter: hue-rotate(360deg);
-        -moz-filter: hue-rotate(360deg);
-        -ms-filter: hue-rotate(360deg);
-        filter: hue-rotate(360deg);
-    }
-}
-
-.theme-dark .iconBadge-2dji3k {
-    border-color: rgba(0,0,0,0);
-}
-
-.iconBadge-2dji3k {
-    -webkit-box-shadow: none;
-    background-color: #f04747;
-    border: 2px solid transparent;
-    border-radius: 8px;
-    box-shadow: none;
-    height: 4px;
-    position: absolute;
-    right: 5px;
-    top: 3px;
-    width: 4px;
-}
-
-.video-1FfuMD {
-    background-color: rgba(0,0,0,0) !important;
-}
-
-.theme-dark .private-channel-call {
-    background-color:  rgba(0,0,0,.35) !important
-}
-
-.theme-dark .attachPopoutRow-KrE-f6:hover {
-    background-color: rgba(255,255,255,.15);
-}
-
-.theme-dark .attachPopout-1n-ZKM {
-    background-color: rgba(22,22,22,0.8);
 }
