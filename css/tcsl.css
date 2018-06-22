@@ -679,7 +679,7 @@ div.unread-mentions-indicator-bottom {
 
 .guilds-wrapper .guilds .guild.unread:before {
     background: rgba(67, 181, 129, 0.8);
-    animation: hue-rotate 3s linear infinite; /*, color-rotate 4s linear infinite !important*/
+    animation: hue-rotate 3s linear infinite;
 }
 
 @keyframes hue-rotate {
