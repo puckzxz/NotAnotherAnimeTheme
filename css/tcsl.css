@@ -729,3 +729,12 @@ div.unread-mentions-indicator-bottom {
 .theme-dark .attachPopout-1n-ZKM {
     background-color: rgba(22,22,22,0.8);
 }
+
+.guilds-wrapper .guilds .home-icon {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0);
+    height: 100%;
+    padding: 5px;
+    width: 100%;
+}
