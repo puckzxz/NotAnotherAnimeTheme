@@ -753,3 +753,12 @@ div.unread-mentions-indicator-bottom {
 .theme-dark .activityFeed-28jde9 {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+.guilds-wrapper .guilds .home-icon {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0);
+    height: 100%;
+    padding: 5px;
+    width: 100%;
+}
