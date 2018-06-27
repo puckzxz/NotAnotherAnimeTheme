@@ -81,6 +81,22 @@
 }
 
 
+/* Edit this to change transparency */
+.guilds-wrapper {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.channels-Ie2l6A {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.theme-dark .chat {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.theme-dark .activityFeed-28jde9 {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.theme-dark #friends {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 /* ADD CODE BELOW TO CUSTOMIZE THE THEME */
 
