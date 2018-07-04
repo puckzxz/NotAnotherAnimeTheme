@@ -54,6 +54,21 @@
 }
 
 
+/* Edit this to change the category color */
+.iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H {
+    color: rgb(67, 181, 129) !important;
+}
+/* Edit this to change the color for when you hover over a category */
+.iconHovered-2L3-fB, .iconHoveredCollapsed-3caIIZ, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB {
+    color: rgb(108, 222, 170) !important;
+}
+
+
+/* Edit this to change the color of the unread notification for a text channel */
+.unread-1Dp-OI {
+    background-color: rgba(67, 181, 129, .6) !important;
+}
+
 
 /* Edit this to change the color of a selected text or voice join */
 .nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {
