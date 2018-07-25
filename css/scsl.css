@@ -462,6 +462,19 @@
     border-radius: 0 !important;
 }
 
+/* 07-2018 update */
+.theme-dark .markup-2BOw-j pre {
+    background: rgba(0, 0, 0, 0.6);
+    border-color: #000;
+    border-radius: 0;
+}
+
+.theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* End */
+
 .iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H {
     color: rgb(67, 181, 129);
 }
