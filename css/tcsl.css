@@ -751,3 +751,12 @@ div.unread-mentions-indicator-bottom {
     padding: 5px;
     width: 100%;
 }
+
+.isMentionedCozy-3isp7y:after {
+    background: rgba(58, 113, 193, 0.15) !important;
+    border-left: 4px solid #3a71c1 !important;
+}
+
+.theme-dark .isMentioned-N-h9aa {
+    background: rgba(58, 113, 193, 0.15) !important;
+}
