@@ -10,7 +10,7 @@
 /*Usually you can just right click your image and then click "Copy image address" and that should give you the direct link to the image*/
 
 
-/* For all images I recommend using imgur to host your image */
+/* I would STRONGLY recommend hosting any images on imgur https://imgur.com/upload */
 
 
 /* Edit this to change your background */
@@ -23,16 +23,11 @@
 
 /* Edit this to change your friends icon picture */
 /* If you don't want a custom friends icon just delete this small section of code */
-.guilds-wrapper .guilds .home-icon {
-    -webkit-box-sizing: border-box; /* No need to edit this */
-    box-sizing: border-box; /* No need to edit this */
-    color: rgba(255, 255, 255, 0); /* DON'T TOUCH THIS */
-    background: url(https://s-media-cache-ak0.pinimg.com/originals/26/64/b5/2664b58e5882ff735aef9019d7f2bd3e.jpg); /* The URL of the friends icon image you want */
-    height: 100%; /* No need to edit this */
-    padding: 0px; /* No need to edit this */
+.theme-dark .homeIcon-1FoKUJ {
+    color: rgba(255, 255, 255, 0); /* DON'T TOUCH THIS OR THIS DISCORD LOGO WILL OVERLAY YOUR IMAGE */
+    background: url(https://i.imgur.com/Abrznq9.jpg); /* The URL of the friends icon image you want */
     background-position: top left; /* This is the section of the image that you want to use, for exmaple this is using the top left of the image, you would probably want to change this to center or top center */
-    background-repeat: no-repeat; /* No need to edit this */
-    width: 100%; /* No need to edit this */
+    background-repeat: no-repeat; /* You probably won't need to change this */
     background-size: 230%; /* This is how zoomed in your image will be, change this back to 100% and increase or decrease as needed */
 }
 
@@ -43,7 +38,7 @@
 }
 
 
-/* Edit this to change the color of the unread notification */
+/* Edit this to change the color of the unread notification for servers */
 .theme-dark .guild-1EfMGQ.unread-qLkInr:before {
     background: #a900ff !important;
 }
