@@ -540,3 +540,77 @@ div.unread-mentions-indicator-bottom {
 .theme-dark .isMentioned-N-h9aa {
     background: rgba(58, 113, 193, 0.15) !important;
 }
+
+.guildsWrapper-5TJh6A{width: 180px;}
+.guildsWrapper-5TJh6A .scroller-wrap{width: 200px;}
+.guildsWrapper-5TJh6A .guilds-1q_RqH {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 0;
+    align-content: flex-start;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
+	margin-left: 8px;
+    margin-top: 8px;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr::before {
+	left: -2px;
+    top: 5px;
+    z-index:9000;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child {
+    position: relative; 
+    left: 0;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#bd-pub-li {
+	position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#bd-pub-li #bd-pub-button {
+    position:absolute;
+    width: 100%;
+	text-align: center;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
+	position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM {
+	position: relative;
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
+    display: none;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
+	position: relative;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ {
+    left: 0;
+}
+
+.theme-dark .guildsWrapper-5TJh6A {
+    background-color: rgba(0, 0, 0, 0.8);
+}
