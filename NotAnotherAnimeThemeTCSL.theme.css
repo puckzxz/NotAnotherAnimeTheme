@@ -43,6 +43,11 @@
 }
 
 
+/* Edit this to change the color of the unread notification */
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
+    background: #a900ff !important;
+}
+
 
 /* Edit this to change some features of your text */
 .message-group .comment .markup {
