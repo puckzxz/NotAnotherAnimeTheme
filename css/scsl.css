@@ -696,3 +696,7 @@
 .theme-dark .guild-1EfMGQ.unread-qLkInr:before {
     background: #a900ff;
 }
+
+.theme-dark .guild-1EfMGQ.selected-ML3OIq:before {
+    background: rgba(0, 0, 0, 0);
+}
