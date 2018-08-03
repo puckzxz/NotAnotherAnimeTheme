@@ -73,22 +73,6 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.guilds-wrapper {
-    -ms-flex-direction: column;
-    -ms-flex-negative: 0;
-    -webkit-box-direction: normal;
-    -webkit-box-orient: vertical;
-    background-color: rgba(0, 0, 0, 0.8);
-    contain: layout;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 0;
-    overflow: hidden;
-    position: relative;
-    width: 70px;
-}
 
 .theme-dark .title-3qD0b- {
     -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0), 0 2px 0 rgba(0, 0, 0, 0);
@@ -189,72 +173,6 @@
     background-color: rgba(54, 57, 62, 0);
 }
 
-.guilds-wrapper {
-  width: 148px;
-  border-right: 1px solid hsla(0,0%,100%,.1) !important;
-}
-
-.guilds-wrapper .scroller-wrap {
-  width: 150px;
-  left: 12px;
-}
-
-.guilds-wrapper .guilds {
-  display: flex;
-  flex-flow: row wrap;
-  padding-left: 0;
-  align-content: flex-start;
-}
-
-.guilds-wrapper .guilds .guild {
-  margin-left: 8px;
-  margin-top: 8px;
-}
-
-.guilds-wrapper .guilds .guild:first-child {
-  position: relative;
-  left: 0;
-  margin: auto;
-  margin-top: 15px;
-}
-
-.guilds-wrapper .guilds .guild-separator {
-  position: relative;
-  width: 100%;
-  margin-top: 10px;
-}
-
-.guilds-wrapper .guilds .friends-online {
-  position: relative;
-  width: 100%;
-  margin: auto;
-  margin-top: 5px;
-}
-
-.guilds-wrapper .guilds .guild.selected:before {
-  display: none;
-}
-
-.guilds-wrapper .guilds .guild {
-  position: relative;
-}
-
-.guilds-wrapper .guilds .dms {
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.guilds-wrapper .guilds .dms .guild {
-  left: 0;
-}
-
-.guilds-wrapper .guilds .dms .guild:first-child {
-    margin-left: 8px;
-    margin-right: 0;
-    margin-top: 8px;
-}
-
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
     background-color: rgba(255, 255, 255, .5);
 }
@@ -335,15 +253,6 @@
     color: #fff;
 }
 
-.guilds-wrapper .guild-separator:after {
-    background: hsla(0,0%,100%,.1);
-    content: " ";
-    height: 1px;
-    left: 20%;
-    position: absolute;
-    right: 20%;
-    top: 0;
-}
 
 .theme-dark .search .search-bar {
     background-color: hsla(0, 0%, 13%, 0.21);
@@ -579,26 +488,6 @@ div.unread-mentions-indicator-bottom {
     border-color: rgba(0,0,0,0);
 }
 
-.guilds-wrapper .guilds .guild.unread:before {
-    background: rgba(67, 181, 129, 0.8);
-    animation: hue-rotate 3s linear infinite;
-}
-
-@keyframes hue-rotate {
-    0% {
-        -webkit-filter: hue-rotate(0);
-        -moz-filter: hue-rotate(0);
-        -ms-filter: hue-rotate(0);
-        filter: hue-rotate(0);
-    }
-    100% {
-        -webkit-filter: hue-rotate(360deg);
-        -moz-filter: hue-rotate(360deg);
-        -ms-filter: hue-rotate(360deg);
-        filter: hue-rotate(360deg);
-    }
-}
-
 .theme-dark .iconBadge-2dji3k {
     border-color: rgba(0,0,0,0);
 }
@@ -633,128 +522,6 @@ div.unread-mentions-indicator-bottom {
 }
 
 
-.guilds-wrapper .guilds .guild-icon {
-    border-radius: 100% !important;
-}
-
-.guilds-wrapper .guilds .guild.selected:hover:before,
-.guilds-wrapper .guilds .guild.unread:hover:before {
-    border-radius: 25px !important;
-}
-
-.guilds-wrapper .guilds .guild.unread:before {
-    background: rgba(67, 181, 129, 0.8);
-}
-
-
-.guilds-wrapper .guilds .guild .guild-inner a {
-    color: #fff;
-    display: block;
-    border-radius: 100px;
-    height: 50px;
-    width: 50px;
-}
-
-.guilds-wrapper .guilds .guild .guild-inner {
-    background: rgba(0, 0, 0, 0);
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 18px;
-    line-height: 50px;
-    overflow: hidden;
-    text-align: center;
-}
-
-.guilds-wrapper .guilds .guild {
-    transition: .3s;
-}
-
-.guilds-wrapper .guilds .guild:hover {
-   transform: scale(1.08);
-}
-
-.guilds-wrapper .guilds .guild .guild-inner a {
-    color: #fff;
-    display: block;
-    border-radius: 100px;
-    height: 50px;
-    width: 50px;
-}
-
-.guilds-wrapper .guilds .guild .guild-inner {
-    background: rgba(0, 0, 0, 0);
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 18px;
-    line-height: 50px;
-    overflow: hidden;
-    text-align: center;
-}
-
-.guilds-wrapper .guilds .guild.unread::before {
-    left: -2px;
-    top: 16px;
-    z-index: -1;
-    width: 54px;
-    height: 54px;
-}
-
-.guilds-wrapper .guilds .guild.unread:before {
-    border-radius: 100px;
-    height: 50px;
-    margin-top: 0;
-}
-
-.guilds-wrapper .guilds .guild.selected:before, .guilds-wrapper .guilds .guild.unread:before {
-    border-radius: 1000px;
-    content: " ";
-    height: 0;
-    left: -2px;
-    margin-top: -24px;
-    position: absolute;
-    top: 22px;
-    width: 54px;
-    height: 54px;
-}
-
-.scroller-wrap .scroller::-webkit-scrollbar {
-    width: 6px !important;
-}
-
-.guilds-wrapper .guilds .guild-separator {
-    position: relative;
-    width: 100%;
-    margin-top: 10px;
-    left: -11px;
-}
-
-.guilds-wrapper .guilds .friends-online {
-    position: relative;
-    width: 100%;
-    margin: auto;
-    left: -11px;
-    margin-top: 5px;
-}
-
-.guilds-wrapper .guilds .guild:first-child {
-    position: relative;
-    left: -11px;
-    margin: auto;
-    margin-top: 11px;
-}
-
-.guilds-wrapper .guilds .dms {
-    width: 100%;
-    display: flex;
-    margin-right: auto;
-    margin-left: 10px;
-    flex-flow: row wrap;
-}
-
-.guilds-wrapper .guilds .dms .guild {
-    left: -11px;
-}
-
 .message-group.compact.message-group {
     padding: 7px 0;
 }
@@ -767,11 +534,110 @@ div.unread-mentions-indicator-bottom {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.guilds-wrapper .guilds .home-icon {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    color: rgba(255, 255, 255, 0);
-    height: 100%;
-    padding: 5px;
+.isMentionedCozy-3isp7y:after {
+    background: rgba(58, 113, 193, 0.15) !important;
+    border-left: 4px solid #3a71c1 !important;
+}
+
+.theme-dark .isMentioned-N-h9aa {
+    background: rgba(58, 113, 193, 0.15) !important;
+}
+
+.guildsWrapper-5TJh6A{width: 125px;}
+.guildsWrapper-5TJh6A .scroller-wrap{width: 150px;}
+.guildsWrapper-5TJh6A .guilds-1q_RqH {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 0;
+    align-content: flex-start;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
+	margin-left: 8px;
+    margin-top: 8px;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr::before {
+	left: -2px;
+    top: 5px;
+    z-index:9000;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child {
+    position: relative; 
+    left: 0;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#bd-pub-li {
+	position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#bd-pub-li #bd-pub-button {
+    position:absolute;
     width: 100%;
+	text-align: center;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1 {
+	position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM {
+	position: relative;
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
+    display: none;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
+	position: relative;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ {
+    left: 0;
+}
+
+.theme-dark .guildsWrapper-5TJh6A {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.guild-1EfMGQ.selected-ML3OIq:before, .guild-1EfMGQ.unread-qLkInr:before {
+    border-radius: 50px !important;
+    content: " ";
+    height: 54px !important;
+    left: -15px !important;
+    margin-top: -20px !important;
+    position: absolute !important;
+    top: 50% !important;
+    width: 54px !important;
+}
+
+.guild-1EfMGQ.unread-qLkInr:before {
+    margin-top: 0px !important;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr::before {
+    left: -2px !important;
+    top: -2px !important;
+    z-index: -1 !important;
+}
+
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
+    background: #a900ff;
 }
