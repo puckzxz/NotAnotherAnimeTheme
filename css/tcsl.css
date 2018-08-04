@@ -639,3 +639,37 @@ div.unread-mentions-indicator-bottom {
 .theme-dark .guild-1EfMGQ.unread-qLkInr:before {
     background: #a900ff;
 }
+
+.theme-dark .chat-3bRxxu {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.theme-dark .chat-3bRxxu form {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.theme-dark .content-yTz4x3 {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.theme-dark .messagesWrapper-3lZDfY {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: rgba(47, 49, 54, 0);
+    border-color: rgba(54, 57, 63, 0);
+}
+
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-color: rgba(54, 57, 63, 0);
+}
+
+.theme-dark .divider-3gKybi:before {
+    background-color: rgba(54, 57, 63, 0);
+}
+
+.theme-dark .divider-3gKybi span {
+    background-color: rgba(54, 57, 63, 0);
+}
