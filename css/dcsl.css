@@ -693,3 +693,43 @@ div.unread-mentions-indicator-bottom {
 .guildSeparator-1X4GQ1:after {
     height: 1px;
 }
+
+[class~=app] {
+    background: var(--background-image) !important;
+    background-size: cover !important;
+}
+
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+    background: var(--friends-icon);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.theme-dark .homeIcon-1FoKUJ {
+    display: none;
+}
+
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
+    background: var(--main-color);
+    animation: var(--unread-server-animation);
+}
+
+@keyframes rainbow {
+    0% {
+        -webkit-filter: hue-rotate(0);
+        -moz-filter: hue-rotate(0);
+        -ms-filter: hue-rotate(0);
+        filter: hue-rotate(0);
+    }
+    100% {
+        -webkit-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+    background: transparent;
+}
