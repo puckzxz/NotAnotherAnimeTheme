@@ -1,5 +1,6 @@
-//META{"name":"NotAnotherAnimeThemeDCSL","description":"Anime theme made by puckzxz#2080, make sure you're up to date at https://goo.gl/jfR9BS , Get support here https://discord.gg/FdZhbjY","author":"puckzxz#2080","version":"1.0.0"}*//{}
+//META{"name":"NotAnotherAnimeThemeDCSL","description":"Anime theme made by puckzxz#2080 and Quake#1470, make sure you're up to date at https://goo.gl/jfR9BS , Get support here https://discord.gg/FdZhbjY","author":"puckzxz#2080 & Quake#1470","version":"2.0.0"}*//{}
 @import url(https://8xs4qxklp8.execute-api.us-east-2.amazonaws.com/release/gorawgit?giturl=/puckzxz/NotAnotherAnimeTheme/master/css/dcsl.css);
+
 
 /* To make editing this theme easier I recommend using Notepad++ , you can download it for free here - https://notepad-plus-plus.org/download/ */
 
@@ -7,114 +8,39 @@
 /* Any images you use MUST end with .jpg or .png or any other image extension */
 /* This is NOT a valid link, https://imgur.com/a/ycjL2 */
 /* THIS IS A VALID LINK https://i.imgur.com/rCqnrQ7.jpg */
-/* Usually you can just right click your image and then click "Copy image address" and that should give you the direct link to the image */
+
+/* If you find an image I would STRONGLY recommend rehosting the image on imgur https://imgur.com/upload */
 
 
-/* I would STRONGLY recommend hosting any images on imgur https://imgur.com/upload */
+:root {
+    /* Edit this to change your background */
+    --background-image: url("https://i.imgur.com/j1Z6HVc.jpg"); /* format is url("IMAGE URL HERE") */
+    /* Edit this to change your friends icon picture */
+    --friends-icon: url("https://i.imgur.com/63g6Em8.jpg"); /* format is url("IMAGE URL HERE") */
+    /* Change the main color */
+    --main-color: rgb(67, 181, 129); /* default: rgb(67, 181, 129); */
+    /* Chande global transparency */
+    --main-transparency: rgba(0, 0, 0, 0.8); /* default: rgba(0, 0, 0, 0.8); */ 
+    /* Change the unread server animation. Replace it with "none" in order to remove any animations */
+    --unread-server-animation: rainbow 3s linear infinite; /* Other animations available:  */
+
+    --border-lines-color: hsla(0,0%,100%,.1); /* default: hsla(0,0%,100%,.1);*/
+
+    /* --scroll-bar-color: ;*/
+
+    --font-size: 0.9375rem;
+
+    --font-weight: rgba(255, 255, 255, 0.8);
+    /* Edit this to change the color of a selected text or voice join */
+    --selected-text-voice-color: #f6f6f7 !important;
+    --text-hover-color: #b9bbbe !important;
+    --voice-hover-color: #f6f6f7 !important;
+    --unread-text-color: #dcddde !important;   
 
 
-/* Edit this to change your background */
-/* Change the URL to whatever image you want */
-[class~=app] {
-    background: url(https://raw.githubusercontent.com/WhatDaPuck/NotAnotherAnimeTheme/master/image/PTT4OKi.jpg) !important; /* The URL of the background image you want */
-    background-size: cover !important; /* No need to edit this */
 }
 
-
-/* Edit this to change your friends icon picture */
-/* If you don't want a custom friends icon just delete this small section of code */
-.theme-dark .homeIcon-1FoKUJ {
-    color: rgba(255, 255, 255, 0); /* DON'T TOUCH THIS OR THIS DISCORD LOGO WILL OVERLAY YOUR IMAGE */
-    background: url(https://i.imgur.com/Abrznq9.jpg); /* The URL of the friends icon image you want */
-    background-position: top left; /* This is the section of the image that you want to use, for exmaple this is using the top left of the image, you would probably want to change this to center or top center */
-    background-repeat: no-repeat; /* You probably won't need to change this */
-    background-size: 230%; /* This is how zoomed in your image will be, change this back to 100% and increase or decrease as needed */
-}
-
-
-/* Edit this to change the color and weight of the text */
-.theme-dark .message-group .comment .markup {
-    color: rgba(255, 255, 255, 0.8);
-}
-
-
-/* Edit this to change the color of the unread notification for servers */
-.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
-    background: #a900ff !important;
-}
-
-
-/* Edit this to change some features of your text */
-.message-group .comment .markup {
-    font-size: 0.9375rem; /* Font size, default is 0.9375rem, I wouldn't go below 0.8 or above 1.4 */
-    line-height: 1.1em; /* Spacing between the text, I wouldn't recommend changing this but if you do don't go above 1.4 or below 0.6 */
-    margin-top: 6px; /* This is the margin between each new message, safer to change than line-height.  6px is default. Don't go below 0 */ 
-    white-space: pre-wrap; /* No need to edit this */
-    word-wrap: break-word; /* No need to edit this */
-}
-
-
-/* Edit this to change the category color */
-.iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H {
-    color: rgb(67, 181, 129) !important;
-}
-/* Edit this to change the color for when you hover over a category */
-.iconHovered-2L3-fB, .iconHoveredCollapsed-3caIIZ, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB {
-    color: rgb(108, 222, 170) !important;
-}
-
-
-/* Edit this to change the color of the unread notification for a text channel */
-.unread-1Dp-OI {
-    background-color: rgba(67, 181, 129, .6) !important;
-}
-
-
-/* Edit this to change the color of a selected text or voice join */
-.nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {
-    color: #f6f6f7 !important;
-}
-/* Edit this to change the color when you hover over a text channel */
-.nameHoveredText-1uO31y {
-    color: #b9bbbe !important;
-}
-/* Edit this to change the color when you hover over a voice channel */
-.nameHoveredVoice-YJ1Vfd {
-    color: #f6f6f7 !important;
-}
-/* Edit this to change the color of an unread text channel color */
-.nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI {
-    color: #dcddde;
-}
-
-
-
-/* Edit this to change the color of your scrollbar,  */
-.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 255, 255, 0.15);
-    border-color: rgba(255, 255, 255, 0.15);
-}
-
-
-/* Edit this to change transparency */
-.guilds-wrapper {
-    background-color: rgba(0, 0, 0, 0.8) !important;
-}
-.channels-Ie2l6A {
-    background-color: rgba(0, 0, 0, 0.8) !important;
-}
-.theme-dark .chat {
-    background-color: rgba(0, 0, 0, 0.8) !important;
-}
-.theme-dark .activityFeed-28jde9 {
-    background-color: rgba(0, 0, 0, 0.8) !important;
-}
-.theme-dark #friends {
-    background-color: rgba(0, 0, 0, 0.8) !important;
-}
 
 /* ADD CODE BELOW TO CUSTOMIZE THE THEME */
-
-
 
 
