@@ -552,7 +552,7 @@ div.unread-mentions-indicator-bottom {
     align-content: flex-start;
 }
 
-.dms-rcsEnV.da-dms .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
 	margin-left: 8px !important;
     margin-top: 8px !important;
 }
@@ -561,6 +561,11 @@ div.unread-mentions-indicator-bottom {
 	left: -2px;
     top: 5px;
     z-index:9000;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child {
+    position: relative;
+    margin: auto;
 }
 
 .dms-rcsEnV.da-dms .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child {
