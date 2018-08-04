@@ -563,9 +563,7 @@ div.unread-mentions-indicator-bottom {
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child {
     position: relative; 
-    left: 0;
     margin: auto;
-    margin-top: 15px;
 }
 
 #bd-pub-li {
@@ -672,4 +670,20 @@ div.unread-mentions-indicator-bottom {
 
 .theme-dark .divider-3gKybi span {
     background-color: rgba(54, 57, 63, 0);
+}
+
+.guildsWrapper-5TJh6A .scroller-wrap {
+    width: 136px;
+}
+
+.channels-Ie2l6A {
+    border-left: 1px solid hsla(0,0%,100%,.1);
+}
+
+.theme-dark .guildSeparator-1X4GQ1:after {
+    background: hsla(0,0%,100%,.1);
+}
+
+.guildSeparator-1X4GQ1:after {
+    height: 1px;
 }
