@@ -732,6 +732,7 @@ div.unread-mentions-indicator-bottom {
 
 .theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
     background: transparent;
+    border-radius: 25px !important;
 }
 
 .guilds-1q_RqH > .guild-1EfMGQ > .guildInner-3DSoA4 {
