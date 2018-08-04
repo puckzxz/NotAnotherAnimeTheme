@@ -553,8 +553,8 @@ div.unread-mentions-indicator-bottom {
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
-	margin-left: 8px !important;
-    margin-top: 8px !important;
+	margin-left: 8px;
+    margin-top: 8px;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr::before {
@@ -563,13 +563,13 @@ div.unread-mentions-indicator-bottom {
     z-index:9000;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child {
-    position: relative;
+.guilds-1q_RqH > .guild-1EfMGQ,
+.guilds-1q_RqH > .guild-1EfMGQ:first-child {
     margin: auto;
 }
 
-.dms-rcsEnV.da-dms .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child {
-    position: relative; 
+.dms-rcsEnV > .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child {
+    margin: none !important;
 }
 
 #bd-pub-li {
