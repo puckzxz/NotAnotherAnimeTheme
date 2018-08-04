@@ -27,7 +27,7 @@
     height: 52px;
     margin-bottom: 0px;
     padding: 0 10px;
-    border-top: 1px solid hsla(0,0%,100%,.1);
+    border-top: 1px solid var(--border-lines-color);
 }
 
 .theme-dark .title-3qD0b- {
@@ -683,11 +683,11 @@ div.unread-mentions-indicator-bottom {
 }
 
 .channels-Ie2l6A {
-    border-left: 1px solid hsla(0,0%,100%,.1);
+    border-left: 1px solid var(--border-lines-color);
 }
 
 .theme-dark .guildSeparator-1X4GQ1:after {
-    background: hsla(0,0%,100%,.1);
+    background: var(--border-lines-color);
 }
 
 .guildSeparator-1X4GQ1:after {
@@ -697,13 +697,6 @@ div.unread-mentions-indicator-bottom {
 [class~=app] {
     background: var(--background-image) !important;
     background-size: cover !important;
-}
-
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
-    background: var(--friends-icon) !important;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 .theme-dark .homeIcon-1FoKUJ {
@@ -735,9 +728,10 @@ div.unread-mentions-indicator-bottom {
     border-radius: 25px !important;
 }
 
+/*
 .guilds-1q_RqH > .guild-1EfMGQ > .guildInner-3DSoA4 {
     background: var(--friends-icon) !important;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 100% !important;
-}
+}*/
