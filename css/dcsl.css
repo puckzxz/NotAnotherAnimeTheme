@@ -773,13 +773,13 @@ div.unread-mentions-indicator-bottom {
 }
 
 .theme-dark .ui-standard-sidebar-view .sidebar-region {
-    background: var(--options-transparency) !important;
+    background: var(--options-transparency);
 }
 
 .theme-dark .ui-standard-sidebar-view .content-region {
-    background: var(--options-transparency) !important;
+    background: var(--options-transparency);
 }
 
 .theme-dark .ui-standard-sidebar-view {
-    background: var(--main-transparency) !important;
+    background: var(--main-transparency);
 }
