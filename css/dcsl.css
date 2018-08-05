@@ -457,7 +457,7 @@ div.unread-mentions-indicator-bottom {
     display: none !important;
 }
 
-.tooltip.tooltip-black {
+.tooltip.tooltip-black * {
     background-color: rgba(33,33,33,.68);
 }
 
@@ -761,4 +761,25 @@ div.unread-mentions-indicator-bottom {
 
 .article-FleDq5 {
     background-color: rgba(0,0,0,.3);
+}
+
+.tooltip.tooltip-black {
+    background-color: rgba(33,33,33,.68) !important;
+}
+
+.tooltip.tooltip-black:before,
+.tooltip.tooltip-black:after {
+    border-color: transparent !important;
+}
+
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
+    background: var(--options-transparency) !important;
+}
+
+.theme-dark .ui-standard-sidebar-view .content-region {
+    background: var(--options-transparency) !important;
+}
+
+.theme-dark .ui-standard-sidebar-view {
+    background: var(--main-transparency) !important;
 }
