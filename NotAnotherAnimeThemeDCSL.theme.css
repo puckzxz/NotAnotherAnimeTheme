@@ -21,23 +21,27 @@
     --main-color: rgb(67, 181, 129); /* default: rgb(67, 181, 129); */
     /* Chande global transparency */
     --main-transparency: rgba(0, 0, 0, 0.8); /* default: rgba(0, 0, 0, 0.8); */ 
+
     /* Change the unread server animation. Replace it with "none" in order to remove any animations */
-    --unread-server-animation: rainbow 3s linear infinite; /* Other animations available:  */
-
+    --unread-server-animation: rainbow;
+    /* Change background color when you hover members or friends */
+    --hover-list-bg-color: rgba(255,255,255, .15); /* default: rgba(255,255,255, .15) */
+    /* Change the tiny border lines color */
     --border-lines-color: hsla(0,0%,100%,.1); /* default: hsla(0,0%,100%,.1);*/
+    /* Change the scroll bar color appearence */
+    --scroll-bar-color: rgba(255,255,255, .15);
 
-    /* --scroll-bar-color: ;*/
-
-    --font-size: 0.9375rem;
-
-    --font-weight: rgba(255, 255, 255, 0.8);
+    /* Change chat messages font size, you can use any unit: px, em, rem, %, etc. */
+    --font-size: 0.9375rem; /* default: 0.9375rem */
+    --font-weight: ;
     /* Edit this to change the color of a selected text or voice join */
-    --selected-text-voice-color: #f6f6f7 !important;
-    --text-hover-color: #b9bbbe !important;
-    --voice-hover-color: #f6f6f7 !important;
-    --unread-text-color: #dcddde !important;   
-
-
+    --selected-text-voice-color: #f6f6f7;
+    /* Edit this to change the color when you hover over a text channel */
+    --text-hover-color: #b9bbbe;
+    /* Edit this to change the color when you hover over a voice channel */
+    --voice-hover-color: #f6f6f7;
+    /* Edit this to change the color of an unread text channel color */
+    --unread-text-color: #dcddde;   
 }
 
 
