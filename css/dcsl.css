@@ -1,5 +1,9 @@
 /* Don't touch this */
 
+html {
+    font-size: var(--font-size);
+}
+
 .container-2lgZY8 {
     background-color: rgba(0, 0, 0, 0);
 }
@@ -543,7 +547,7 @@ div.unread-mentions-indicator-bottom {
     background: rgba(58, 113, 193, 0.15) !important;
 }
 
-.guildsWrapper-5TJh6A{width: 125px;}
+.guildsWrapper-5TJh6A{width: 126px;}
 .guildsWrapper-5TJh6A .scroller-wrap{width: 150px;}
 .guildsWrapper-5TJh6A .guilds-1q_RqH {
     display: flex;
@@ -782,4 +786,12 @@ div.unread-mentions-indicator-bottom {
 
 .theme-dark .ui-standard-sidebar-view {
     background: var(--main-transparency);
+}
+
+.unreadMentionsIndicatorBottom-BXS58x {
+    display: none;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar {
+    width: 12px !important;
 }
