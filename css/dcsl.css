@@ -872,3 +872,11 @@ div.unread-mentions-indicator-bottom {
 .uploadModal-2ifh8j .footer-3mqk7D .button-primary {
     color: #222;
 }
+
+.theme-dark .modal-3HD5ck {
+    background-color: rgba(0,0,0,.8);
+}
+
+.theme-dark .footer-2yfCgX {
+    background-color: rgba(0,0,0,.4);
+}
