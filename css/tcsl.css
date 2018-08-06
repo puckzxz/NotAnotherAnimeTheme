@@ -638,12 +638,8 @@ div.unread-mentions-indicator-bottom {
     z-index: -1 !important;
 }
 
-.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
-    background: #a900ff;
-}
-
 .theme-dark .chat-3bRxxu {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--main-transparency);
 }
 
 .theme-dark .chat-3bRxxu form {
@@ -664,7 +660,7 @@ div.unread-mentions-indicator-bottom {
 }
 
 .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: var(--scroll-bar-color);
     border-color: rgba(54, 57, 63, 0);
 }
 
@@ -681,13 +677,128 @@ div.unread-mentions-indicator-bottom {
 }
 
 .channels-Ie2l6A {
-    border-left: 1px solid hsla(0,0%,100%,.1);
+    border-left: 1px solid var(--border-lines-color);
 }
 
 .theme-dark .guildSeparator-1X4GQ1:after {
-    background: hsla(0,0%,100%,.1);
+    background: var(--border-lines-color);
 }
 
 .guildSeparator-1X4GQ1:after {
     height: 1px;
+}
+
+[class~=app] {
+    background: var(--background-image) !important;
+    background-size: cover !important;
+}
+
+.theme-dark .homeIcon-1FoKUJ {
+    display: none;
+}
+
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
+    background: var(--main-color);
+    animation: var(--unread-server-animation) 3s linear infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        -webkit-filter: hue-rotate(0);
+        -moz-filter: hue-rotate(0);
+        -ms-filter: hue-rotate(0);
+        filter: hue-rotate(0);
+    }
+    100% {
+        -webkit-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+    background: transparent;
+    border-radius: 25px !important;
+}
+
+.guild-1EfMGQ {
+    transition: .3s;
+}
+
+.guild-1EfMGQ:hover {
+    transform: scale(1.08);
+}
+
+.guild-1EfMGQ .guildIcon-CT-ZDq {
+    border-radius: 25px;
+}
+
+.guilds-1q_RqH > .guild-1EfMGQ > .guildInner-3DSoA4 {
+    background: var(--friends-icon) !important;
+    background-position: var(--friends-icon-position) !important;
+    background-repeat: no-repeat;
+    background-size: var(--friends-icon-zoom) !important;
+}
+
+.theme-dark .body-SKIE6r {
+    background-color: rgba(0,0,0,.3);
+}
+
+.theme-dark .card-7JP0BX {
+    background-color: rgba(0,0,0,.3);
+}
+
+.theme-dark .header-1RC2Wb {
+    background-color: rgba(255,255,255,.1);
+}
+
+.article-FleDq5 {
+    background-color: rgba(0,0,0,.3);
+}
+
+.tooltip.tooltip-black {
+    background-color: rgba(33,33,33,.68) !important;
+}
+
+.tooltip.tooltip-black:before,
+.tooltip.tooltip-black:after {
+    border-color: transparent !important;
+}
+
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
+    background: var(--options-transparency);
+}
+
+.theme-dark .ui-standard-sidebar-view .content-region {
+    background: var(--options-transparency);
+}
+
+.theme-dark .ui-standard-sidebar-view {
+    background: var(--main-transparency);
+}
+
+.unreadMentionsIndicatorBottom-BXS58x {
+    display: none;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar {
+    width: 12px !important;
+}
+
+/* Edit this to change the color of a selected text or voice join */
+.nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {
+    color: var(--selected-text-voice-color);
+}
+/* Edit this to change the color when you hover over a text channel */
+.nameHoveredText-1uO31y {
+    color: var(--text-hover-color);
+}
+/* Edit this to change the color when you hover over a voice channel */
+.nameHoveredVoice-YJ1Vfd {
+    color: var(--voice-hover-color);
+}
+/* Edit this to change the color of an unread text channel color */
+.nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI {
+    color: var(--unread-text-color);
 }
