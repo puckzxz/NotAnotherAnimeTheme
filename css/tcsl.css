@@ -1,7 +1,7 @@
 /* Don't touch this */
 
 html {
-    font-size: var(--font-size);
+    font-size: var(--font-size) !important;
 }
 
 .container-2lgZY8 {
@@ -874,7 +874,7 @@ div.unread-mentions-indicator-bottom {
 }
 
 .theme-dark .modal-3HD5ck {
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(33,33,33,.8);
 }
 
 .theme-dark .footer-2yfCgX {
