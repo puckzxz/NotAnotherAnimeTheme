@@ -546,9 +546,9 @@ div.unread-mentions-indicator-bottom {
 .theme-dark .isMentioned-N-h9aa {
     background: rgba(58, 113, 193, 0.15) !important;
 }
-/*
+
 .guildsWrapper-5TJh6A{width: 126px;}
-.guildsWrapper-5TJh6A .scroller-wrap{width: 150px;}*/
+.guildsWrapper-5TJh6A .scroller-wrap{width: 150px;}
 .guildsWrapper-5TJh6A .guilds-1q_RqH {
     display: flex;
     flex-flow: row wrap;
@@ -677,10 +677,10 @@ div.unread-mentions-indicator-bottom {
 .theme-dark .divider-3gKybi span {
     background-color: rgba(54, 57, 63, 0);
 }
-/*
+
 .guildsWrapper-5TJh6A .scroller-wrap {
     width: 136px;
-}*/
+}
 
 .channels-Ie2l6A {
     border-left: 1px solid var(--border-lines-color);
@@ -782,6 +782,10 @@ div.unread-mentions-indicator-bottom {
 
 .theme-dark .ui-standard-sidebar-view {
     background: var(--main-transparency);
+}
+
+.unreadMentionsIndicatorBottom-BXS58x {
+    display: none;
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar {
