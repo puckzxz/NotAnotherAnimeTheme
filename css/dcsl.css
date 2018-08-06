@@ -600,6 +600,7 @@ div.unread-mentions-indicator-bottom {
     width: 100%;
     margin: auto;
     margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
@@ -741,10 +742,10 @@ div.unread-mentions-indicator-bottom {
     border-radius: 25px;
 }
 
-.guilds-1q_RqH > .guild-1EfMGQ > .guildInner-3DSoA4 {
+.guilds-1q_RqH > .guild-1EfMGQ:first-child > .guildInner-3DSoA4 {
     background: var(--friends-icon) !important;
     background-position: var(--friends-icon-position) !important;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
     background-size: var(--friends-icon-zoom) !important;
 }
 
@@ -808,4 +809,14 @@ div.unread-mentions-indicator-bottom {
 /* Edit this to change the color of an unread text channel color */
 .nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI {
     color: var(--unread-text-color);
+}
+
+#bd-pub-li #bd-pub-button {
+    border-radius: 25px !important;
+    background: #2f3136 !important;
+}
+
+.dms-rcsEnV {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
