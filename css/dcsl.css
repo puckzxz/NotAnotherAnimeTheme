@@ -855,3 +855,20 @@ div.unread-mentions-indicator-bottom {
     background: rgba(36,36,36,.8);
     box-shadow: inset 9px 0 0px -7px var(--main-color);
 }
+
+.uploadModal-2ifh8j {
+    background-color: rgba(33,33,33,.8);
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D {
+    background-color: rgba(0,0,0,.4);
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D .button:first-child {
+    background-color: #5b6dae;
+    margin-right: 20px;
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D .button-primary {
+    color: #222;
+}
