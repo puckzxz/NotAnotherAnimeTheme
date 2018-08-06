@@ -271,7 +271,7 @@ html {
 }
 
 .unread-1Dp-OI {
-    background-color: var(--main-color);
+    background-color: rgb(67, 181, 129);
     opacity: .6;
     border-radius: 100px;
     height: 8px;
@@ -838,8 +838,8 @@ div.unread-mentions-indicator-bottom {
 }
 
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
-    background-color: rgba(0,0,0,.8) !important;
-    border-color: rgba(0,0,0,.8) !important;
+    background-color: rgba(0,0,0,0) !important;
+    border-color: rgba(0,0,0,0) !important;
 }
 
 .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
