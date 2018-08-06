@@ -14,9 +14,9 @@
 
 :root {
     /* Edit this to change your background */
-    --background-image: url(https://i.imgur.com/j1Z6HVc.jpg); /* format is url("IMAGE URL HERE") */
+    --background-image: url(https://i.imgur.com/j1Z6HVc.jpg); /* format is url(IMAGE URL HERE) */
     /* Edit this to change your friends icon picture, picture  */
-    --friends-icon: url(https://i.imgur.com/63g6Em8.jpg); /* format is url("IMAGE URL HERE") */
+    --friends-icon: url(https://i.imgur.com/63g6Em8.jpg); /* format is url(IMAGE URL HERE) */
     /* Edit this to change your friends icon picture, position  */
     --friends-icon-position: center center; /* default: center center */
     /* Edit this to change your friends icon picture, zoom  */
@@ -38,21 +38,16 @@
     /* Change chat messages font size, you can use any unit: px, em, rem, %, etc. */
     --font-size: 16px; /* default: 16px */
     /* Edit this to change the color of a selected text or voice join */
-    --selected-text-voice-color: #f6f6f7;
+    --selected-text-voice-color: #f6f6f7; /* default: #f6f6f7 */
     /* Edit this to change the color when you hover over a text channel */
-    --text-hover-color: #b9bbbe;
+    --text-hover-color: #b9bbbe; /* default: #b9bbbe */
     /* Edit this to change the color when you hover over a voice channel */
-    --voice-hover-color: #f6f6f7;
+    --voice-hover-color: #f6f6f7; /* default: #f6f6f7 */
     /* Edit this to change the color of an unread text channel color */
-    --unread-text-color: #dcddde;       
+    --unread-text-color: #dcddde; /* default: #dcddde */
     
     /* Write "transparent" in order to make the options sections with the same look as the theme  */
     --options-transparency: transparent; /* default: #2f3136 */
 }
 
-
 /* ADD CODE BELOW TO CUSTOMIZE THE THEME */
-
-
-
-
