@@ -271,7 +271,8 @@ html {
 }
 
 .unread-1Dp-OI {
-    background-color: rgba(67, 181, 129, .6);
+    background-color: var(--main-color);
+    opacity: .6;
     border-radius: 100px;
     height: 8px;
     left: -4px;
