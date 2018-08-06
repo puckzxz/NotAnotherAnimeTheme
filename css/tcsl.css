@@ -600,6 +600,7 @@ div.unread-mentions-indicator-bottom {
     width: 100%;
     margin: auto;
     margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
@@ -813,4 +814,9 @@ div.unread-mentions-indicator-bottom {
 #bd-pub-li #bd-pub-button {
     border-radius: 25px !important;
     background: #2f3136 !important;
+}
+
+.dms-rcsEnV {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
