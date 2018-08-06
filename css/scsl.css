@@ -481,7 +481,7 @@ div.unread-mentions-indicator-bottom {
 .iconHoveredCollapsed-3caIIZ,
 .nameHovered-1gxhWH,
 .nameHoveredCollapsed-2orEWB {
-    color: rgb(67, 181, 129);
+    color: var(--main-color);
 }
 
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4 .status-2s6iDp, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 .status-2s6iDp {
