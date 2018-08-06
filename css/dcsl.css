@@ -10,7 +10,7 @@ html {
 
 .channels-Ie2l6A {
     -ms-flex-negative: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--main-transparency);
     flex-shrink: 0;
     width: 240px;
 }
@@ -36,7 +36,7 @@ html {
 
 .theme-dark .title-3qD0b- {
     /* -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06); */
-    background: rgba(0, 0, 0, 0.8);
+    background: var(--main-transparency);
     /* box-shadow: 0 1px 0 rgba(0,0,0,.2), 0 2px 0 rgba(0,0,0,.06); */
 }
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
@@ -50,14 +50,14 @@ html {
 }
 
 .theme-dark .members-1998pB {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--main-transparency);
 }
 
 .theme-dark .chat>.content {
     background-color: rgba(0, 0, 0, 0);
 }
 .theme-dark .chat {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--main-transparency);
 }
 .theme-dark .friends-table, .theme-dark .messages-wrapper {
     background-color: rgba(0, 0, 0, 0);
@@ -74,7 +74,7 @@ html {
 }
 
 .theme-dark #friends {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--main-transparency);
 }
 
 
@@ -535,7 +535,7 @@ div.unread-mentions-indicator-bottom {
 }
 
 .theme-dark .activityFeed-28jde9 {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--main-transparency);
 }
 
 .isMentionedCozy-3isp7y:after {
@@ -620,7 +620,7 @@ div.unread-mentions-indicator-bottom {
 }
 
 .theme-dark .guildsWrapper-5TJh6A {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--main-transparency);
 }
 
 .guild-1EfMGQ.selected-ML3OIq:before, .guild-1EfMGQ.unread-qLkInr:before {
@@ -644,12 +644,8 @@ div.unread-mentions-indicator-bottom {
     z-index: -1 !important;
 }
 
-.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
-    background: #a900ff;
-}
-
 .theme-dark .chat-3bRxxu {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--main-transparency);
 }
 
 .theme-dark .chat-3bRxxu form {
@@ -746,9 +742,9 @@ div.unread-mentions-indicator-bottom {
 
 .guilds-1q_RqH > .guild-1EfMGQ > .guildInner-3DSoA4 {
     background: var(--friends-icon) !important;
-    background-position: 50% 50%;
+    background-position: var(--friends-icon-position) !important;
     background-repeat: no-repeat;
-    background-size: 100% !important;
+    background-size: var(--friends-icon-zoom) !important;
 }
 
 .theme-dark .body-SKIE6r {
@@ -794,4 +790,21 @@ div.unread-mentions-indicator-bottom {
 
 .scroller-wrap .scroller::-webkit-scrollbar {
     width: 12px !important;
+}
+
+/* Edit this to change the color of a selected text or voice join */
+.nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {
+    color: var(--selected-text-voice-color);
+}
+/* Edit this to change the color when you hover over a text channel */
+.nameHoveredText-1uO31y {
+    color: var(--text-hover-color);
+}
+/* Edit this to change the color when you hover over a voice channel */
+.nameHoveredVoice-YJ1Vfd {
+    color: var(--voice-hover-color);
+}
+/* Edit this to change the color of an unread text channel color */
+.nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI {
+    color: var(--unread-text-color);
 }

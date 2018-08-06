@@ -15,8 +15,12 @@
 :root {
     /* Edit this to change your background */
     --background-image: url("https://i.imgur.com/j1Z6HVc.jpg"); /* format is url("IMAGE URL HERE") */
-    /* Edit this to change your friends icon picture */
+    /* Edit this to change your friends icon picture, picture  */
     --friends-icon: url("https://i.imgur.com/63g6Em8.jpg"); /* format is url("IMAGE URL HERE") */
+    /* Edit this to change your friends icon picture, position  */
+    --friends-icon-position: center center; /* default: center center */
+    /* Edit this to change your friends icon picture, zoom  */
+    --friends-icon-zoom: 100%; /* default: 100% */
     /* Change the main color */
     --main-color: rgb(67, 181, 129); /* default: rgb(67, 181, 129); */
     /* Chande global transparency */
@@ -29,11 +33,10 @@
     /* Change the tiny border lines color */
     --border-lines-color: hsla(0,0%,100%,.1); /* default: hsla(0,0%,100%,.1);*/
     /* Change the scroll bar color appearence */
-    --scroll-bar-color: rgba(255,255,255, .15);
+    --scroll-bar-color: rgba(255,255,255, .15); /* default: rgba(255,255,255, .15);*/
 
     /* Change chat messages font size, you can use any unit: px, em, rem, %, etc. */
-    --font-size: 0.9375rem; /* default: 0.9375rem */
-    --font-weight: ;
+    --font-size: 16px; /* default: 16px */
     /* Edit this to change the color of a selected text or voice join */
     --selected-text-voice-color: #f6f6f7;
     /* Edit this to change the color when you hover over a text channel */
@@ -41,10 +44,15 @@
     /* Edit this to change the color when you hover over a voice channel */
     --voice-hover-color: #f6f6f7;
     /* Edit this to change the color of an unread text channel color */
-    --unread-text-color: #dcddde;   
+    --unread-text-color: #dcddde;       
+    
+    /* Write "transparent" in order to make the options sections with the same look as the theme  */
+    --options-transparency: transparent; /* default: #2f3136 */
 }
 
 
 /* ADD CODE BELOW TO CUSTOMIZE THE THEME */
+
+
 
 
