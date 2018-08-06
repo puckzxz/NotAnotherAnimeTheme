@@ -1,5 +1,5 @@
 //META{"name":"NotAnotherAnimeThemeDCSL","description":"Anime theme made by puckzxz#2080 and Quake#1470, make sure you're up to date at https://goo.gl/jfR9BS , Get support here https://discord.gg/FdZhbjY","author":"puckzxz#2080 & Quake#1470","version":"2.0"}*//{}
-@import url(https://8xs4qxklp8.execute-api.us-east-2.amazonaws.com/release/gorawgit?giturl=/puckzxz/NotAnotherAnimeTheme/master/css/dcsl.css);
+@import url(https://8xs4qxklp8.execute-api.us-east-2.amazonaws.com/release/gorawgit?giturl=/puckzxz/NotAnotherAnimeTheme/dev/css/dcsl.css);
 
 
 /* To make editing this theme easier I recommend using Notepad++ , you can download it for free here - https://notepad-plus-plus.org/download/ */
@@ -14,9 +14,9 @@
 
 :root {
     /* Edit this to change your background */
-    --background-image: url("https://i.imgur.com/j1Z6HVc.jpg"); /* format is url("IMAGE URL HERE") */
+    --background-image: url(https://i.imgur.com/j1Z6HVc.jpg); /* format is url("IMAGE URL HERE") */
     /* Edit this to change your friends icon picture, picture  */
-    --friends-icon: url("https://i.imgur.com/63g6Em8.jpg"); /* format is url("IMAGE URL HERE") */
+    --friends-icon: url(https://i.imgur.com/63g6Em8.jpg); /* format is url("IMAGE URL HERE") */
     /* Edit this to change your friends icon picture, position  */
     --friends-icon-position: center center; /* default: center center */
     /* Edit this to change your friends icon picture, zoom  */
