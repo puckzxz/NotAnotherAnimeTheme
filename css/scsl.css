@@ -706,7 +706,7 @@ div.unread-mentions-indicator-bottom {
 }
 
 .theme-dark .guild-1EfMGQ.unread-qLkInr:before {
-    background: rgb(67, 181, 129);
+    background: var(--main-color);
     animation: var(--unread-server-animation) 3s linear infinite;
 }
 
