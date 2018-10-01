@@ -882,7 +882,7 @@ div.unread-mentions-indicator-bottom {
 }
 
 .theme-dark .gameLibrary-TTDw4Y {
-    background-color: rgba(--main-transparency);
+    background-color: var(--main-transparency);
 }
 
 .theme-dark .header-39GIC8 {
@@ -890,5 +890,5 @@ div.unread-mentions-indicator-bottom {
 }
 
 .theme-dark .applicationStore-1pNvnv {
-    background-color: rgba(--main-transparency);
+    background-color: var(--main-transparency);
 }
