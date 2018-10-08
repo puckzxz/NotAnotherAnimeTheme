@@ -880,3 +880,15 @@ div.unread-mentions-indicator-bottom {
 .theme-dark .footer-2yfCgX {
     background-color: rgba(0,0,0,.4);
 }
+
+.theme-dark .gameLibrary-TTDw4Y {
+    background-color: var(--main-transparency);
+}
+
+.theme-dark .header-39GIC8 {
+    background-color: transparent;
+}
+
+.theme-dark .applicationStore-1pNvnv {
+    background-color: var(--main-transparency);
+}
