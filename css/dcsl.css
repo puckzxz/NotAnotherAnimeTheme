@@ -1017,3 +1017,17 @@ div.unread-mentions-indicator-bottom {
 .theme-dark .contentRegion-3nDuYy {
     background: transparent;
 }
+
+.theme-dark .tileWrapper-2khh-w {
+    background-color: rgba(0,0,0,.7);
+}
+
+.theme-dark .mediaDescription-31GsyQ {
+    background: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(45%,rgba(0,0,0,.75)),to(rgba(0,0,0,.75)));
+    background: linear-gradient(180deg,transparent,rgba(0,0,0,.75) 45%,rgba(0,0,0,.75));
+}
+
+.theme-dark .itemBackground-1jfD8p:before {
+    background: radial-gradient(ellipse at top,rgba(0,0,0,0),rgba(0,0,0,.75)),-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.75)),color-stop(40%,rgba(0,0,0,0)),color-stop(60%,rgba(0,0,0,0)),to(rgba(0,0,0,.75))),-webkit-gradient(linear,left bottom,left top,color-stop(10%,rgba(0,0,0,.75)),color-stop(70%,rgba(0,0,0,0))) !important;
+    background: radial-gradient(ellipse at top,rgba(0,0,0,0),rgba(0,0,0,.75)),linear-gradient(90deg,rgba(0,0,0,.75) 0,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 60%,rgba(0,0,0,.75)),linear-gradient(0deg,rgba(0,0,0,.75) 10%,rgba(0,0,0,0) 70%) !important;
+}
