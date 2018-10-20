@@ -1000,3 +1000,20 @@ div.unread-mentions-indicator-bottom {
 .topSectionPlaying-1J5E4n {
     background: rgba(33, 33, 33, 0.6);
 }
+
+.theme-dark .hasMore-3e72_v button {
+    background: rgba(0,0,0,.4);
+    border: 1px solid #2f3136;
+}
+
+.theme-dark .sidebarRegion-VFTUkN {
+    background: transparent;
+}
+
+.theme-dark .standardSidebarView-3F1I7i {
+    background: rgba(0,0,0,.8);
+}
+
+.theme-dark .contentRegion-3nDuYy {
+    background: transparent;
+}
