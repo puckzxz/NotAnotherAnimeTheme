@@ -389,7 +389,7 @@ html {
 }
 
 .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
-    background-color: rgba(255,255,255,.15);
+    background-color: var(--hover-list-bg-color);
 }
 
 /* extras optional */
@@ -453,7 +453,7 @@ html {
 }
 
 .theme-dark .item-1GzJrl:hover {
-    background-color: rgba(255,255,255,.15);
+    background-color: var(--hover-list-bg-color);
 }
 
 /* end extras */
@@ -519,7 +519,7 @@ div.unread-mentions-indicator-bottom {
 }
 
 .theme-dark .attachPopoutRow-KrE-f6:hover {
-    background-color: rgba(255,255,255,.15);
+    background-color: var(--hover-list-bg-color);
 }
 
 .theme-dark .attachPopout-1n-ZKM {
@@ -972,7 +972,7 @@ div.unread-mentions-indicator-bottom {
 }
 
 .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a {
-    background-color: rgba(255,255,255,.14);
+    background-color: var(--hover-list-bg-color);
     color: #fff;
 }
 
@@ -1034,4 +1034,35 @@ div.unread-mentions-indicator-bottom {
 
 .theme-dark .container-2Thooq, .theme-light .container-2Thooq {
     background: transparent;
+}
+
+.theme-dark .card-FDVird:before {
+    background-color: rgba(255,255,255,.15);
+    border-color: rgba(255,255,255,.05);
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D .button {
+    background-color: #a8a8a8;
+    height: 36px;
+    min-width: 84px;
+    margin-right: 20px;
+    padding: 0!important;
+}
+
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover {
+    background: transparent;
+}
+
+.theme-dark .messageGroupBlocked-3wrQQX {
+    background: rgba(0,0,0,.5);
+    border-color: transparent;
+}
+
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
+    background: transparent;
+}
+
+.theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf {
+    background: rgba(0,0,0,.5);
+    border-color: transparent;
 }
