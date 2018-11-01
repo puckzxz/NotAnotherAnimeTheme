@@ -730,10 +730,6 @@ div.unread-mentions-indicator-bottom {
     border-radius: 25px !important;
 }
 
-.guild-1EfMGQ {
-    transition: .3s;
-}
-
 .guild-1EfMGQ:hover {
     transform: scale(1.08);
 }
