@@ -1066,3 +1066,23 @@ div.unread-mentions-indicator-bottom {
     background: rgba(0,0,0,.5);
     border-color: transparent;
 }
+
+.emojiPicker-3m1S-j {
+    background-color: rgba(0,0,0,.7);
+}
+
+.search-bar.search-bar-light {
+    background-color: rgba(0,0,0,0);
+}
+
+.theme-dark .message-2qRu38 {
+    background-color: rgba(0,0,0,.5);
+}
+
+.theme-dark .markup-2BOw-j code.inline {
+    background: rgba(255, 255, 255, 0.14);
+}
+
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+    background-color: rgba(255,255,255,.14) !important;
+}
