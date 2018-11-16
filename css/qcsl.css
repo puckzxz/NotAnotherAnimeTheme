@@ -550,6 +550,10 @@ div.unread-mentions-indicator-bottom {
 
 .guildsWrapper-5TJh6A{width: 242px;}
 
+.guilds-1q_RqH > .guild-1EfMGQ:nth-last-child(2) {
+    margin-right: 1.7px;
+}
+
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH {
     display: flex;
