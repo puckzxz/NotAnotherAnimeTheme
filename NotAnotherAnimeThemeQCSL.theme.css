@@ -1,0 +1,53 @@
+//META{"name":"NotAnotherAnimeThemeTCSL","description":"Anime theme made by puckzxz#2080 and Quake#1470, make sure you're up to date at https://goo.gl/jfR9BS , Get support here https://discord.gg/FdZhbjY","author":"puckzxz#2080 & Quake#1470","version":"2.0"}*//{}
+@import url(https://8xs4qxklp8.execute-api.us-east-2.amazonaws.com/release/gorawgit?giturl=/puckzxz/NotAnotherAnimeTheme/master/css/tcsl.css);
+
+
+/* To make editing this theme easier I recommend using Notepad++ , you can download it for free here - https://notepad-plus-plus.org/download/ */
+
+
+/* Any images you use MUST end with .jpg or .png or any other image extension */
+/* This is NOT a valid link, https://imgur.com/a/ycjL2 */
+/* THIS IS A VALID LINK https://i.imgur.com/rCqnrQ7.jpg */
+
+/* If you find an image I would STRONGLY recommend rehosting the image on imgur https://imgur.com/upload */
+
+
+:root {
+    /* Edit this to change your background */
+    --background-image: url(https://i.imgur.com/j1Z6HVc.jpg); /* format is url(IMAGE URL HERE) */
+    /* Edit this to change your friends icon picture, picture  */
+    --friends-icon: url(https://i.imgur.com/63g6Em8.jpg); /* format is url(IMAGE URL HERE) */
+    /* Edit this to change your friends icon picture, position  */
+    --friends-icon-position: center center; /* default: center center */
+    /* Edit this to change your friends icon picture, zoom  */
+    --friends-icon-zoom: 100%; /* default: 100% */
+    /* Change the main color */
+    --main-color: rgb(67, 181, 129); /* default: rgb(67, 181, 129); */
+    /* Chande global transparency */
+    --main-transparency: rgba(0, 0, 0, 0.8); /* default: rgba(0, 0, 0, 0.8); */ 
+
+    /* Change the unread server animation. Replace it with "none" in order to remove any animations */
+    --unread-server-animation: rainbow;
+    /* Change background color when you hover members or friends */
+    --hover-list-bg-color: rgba(255,255,255, .15); /* default: rgba(255,255,255, .15) */
+    /* Change the tiny border lines color */
+    --border-lines-color: hsla(0,0%,100%,.1); /* default: hsla(0,0%,100%,.1);*/
+    /* Change the scroll bar color appearence */
+    --scroll-bar-color: rgba(255,255,255, .15); /* default: rgba(255,255,255, .15);*/
+
+    /* Change chat messages font size, you can use any unit: px, em, rem, %, etc. */
+    --font-size: 16px; /* default: 16px */
+    /* Edit this to change the color of a selected text or voice join */
+    --selected-text-voice-color: #f6f6f7; /* default: #f6f6f7 */
+    /* Edit this to change the color when you hover over a text channel */
+    --text-hover-color: #b9bbbe; /* default: #b9bbbe */
+    /* Edit this to change the color when you hover over a voice channel */
+    --voice-hover-color: #f6f6f7; /* default: #f6f6f7 */
+    /* Edit this to change the color of an unread text channel color */
+    --unread-text-color: #dcddde; /* default: #dcddde */
+    
+    /* Write "transparent" in order to make the options sections with the same look as the theme  */
+    --options-transparency: transparent; /* default: #2f3136 */
+}
+
+/* ADD CODE BELOW TO CUSTOMIZE THE THEME */
