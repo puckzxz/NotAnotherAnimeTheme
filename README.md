@@ -51,10 +51,10 @@ This theme is **NOT** minimal mode compatible.
 * Thanks to [Qu4k3](https://github.com/Qu4k3) for helping with countless issues
 ## Images of variations
 #### Single Column Server List
-![NotAnotherAnimeThemeSCSL](https://i.imgur.com/WWUZieG.jpg)
+![NotAnotherAnimeThemeSCSL](https://i.imgur.com/UxFoW03.jpg)
 #### Double Column Server List
-![NotAnotherAnimeTheme](https://i.imgur.com/UDMunk5.jpg)
+![NotAnotherAnimeTheme](https://i.imgur.com/mw6SCPt.jpg)
 #### Triple Column Server List
-![NotAnotherAnimeThemeTCSL](https://i.imgur.com/izKDuQv.jpg)
+![NotAnotherAnimeThemeTCSL](https://i.imgur.com/a5sdC2C.jpg)
 #### Quadruple Column Server List
-![NotAnotherAnimeThemeQCSL](https://i.imgur.com/OXDkL2x.jpg)
+![NotAnotherAnimeThemeQCSL](https://i.imgur.com/EwgpmhY.jpg)
