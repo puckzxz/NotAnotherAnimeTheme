@@ -47,13 +47,14 @@ In the appearance settings make sure **Dark** is selected.
 This theme is **NOT** minimal mode compatible.
 
 ## Acknowledgements
-* Thanks to [appu1232](https://github.com/appu1232/) for fixing the issue with DM's
-* Thanks to [V-X](https://github.com/ImVexed) for making the readme significantly better
-* Thanks to [Qu4k3](https://github.com/Qu4k3) for fixing a lot and helping with the recode
+* Thanks to [V-X](https://github.com/ImVexed) for creating and hosting the CDN that NotAnotherAnimeTheme uses
+* Thanks to [Qu4k3](https://github.com/Qu4k3) for helping with countless issues
 ## Images of variations
 #### Single Column Server List
-![NotAnotherAnimeThemeSCSL](https://i.imgur.com/HStMvDg.jpg)
+![NotAnotherAnimeThemeSCSL](https://i.imgur.com/WWUZieG.jpg)
 #### Double Column Server List
-![NotAnotherAnimeTheme](https://i.imgur.com/B5N8Owl.jpg)
+![NotAnotherAnimeTheme](https://i.imgur.com/UDMunk5.jpg)
 #### Triple Column Server List
-![NotAnotherAnimeThemeTCSL](https://i.imgur.com/J4CHHcV.jpg)
+![NotAnotherAnimeThemeTCSL](https://i.imgur.com/izKDuQv.jpg)
+#### Quadruple Column Server List
+![NotAnotherAnimeThemeQCSL](https://i.imgur.com/OXDkL2x.jpg)
