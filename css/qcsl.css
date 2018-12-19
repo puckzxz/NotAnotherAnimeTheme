@@ -1087,3 +1087,7 @@ div.unread-mentions-indicator-bottom {
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
     background-color: rgba(255,255,255,.14) !important;
 }
+
+.theme-dark .root-1BQpZw {
+    background-color: var(--main-transparency);
+}
