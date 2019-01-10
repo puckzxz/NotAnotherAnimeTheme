@@ -1096,3 +1096,18 @@ div.unread-mentions-indicator-bottom {
 .theme-dark .applicationTile-1Goy1W {
     background-color: transparent;
 }
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 7px;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.scrollerWrap-1IAIlv {
+    width: 189px !important;
+}
