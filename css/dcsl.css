@@ -1109,5 +1109,9 @@ div.unread-mentions-indicator-bottom {
 }
 
 .scrollerWrap-1IAIlv {
-    width: 126px;
+    width: 132px;
+}
+
+.theme-dark .container-3gCOGc {
+    background-color: var(--main-transparency);
 }

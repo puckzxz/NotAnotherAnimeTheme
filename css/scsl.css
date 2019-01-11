@@ -1111,3 +1111,7 @@ div.unread-mentions-indicator-bottom {
 .scrollerWrap-1IAIlv {
     width: 88px;
 }
+
+.theme-dark .container-3gCOGc {
+    background-color: var(--main-transparency);
+}
