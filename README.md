@@ -40,7 +40,6 @@ Any issues can be expressed by:
 ## Notes
 While the theme is Free and Open Source, it takes time to keep the theme up to date. If you enjoy the theme please consider supporting the Author to continue maintenance and development of it.
 * [Donate with PayPal](https://www.paypal.me/ChrisBock)
-* [Become a Patron with Patreon](https://www.patreon.com/ChrisBock)
 
 In the appearance settings make sure **Dark** is selected.
 
