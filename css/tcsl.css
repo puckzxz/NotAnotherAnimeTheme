@@ -548,7 +548,7 @@ div.unread-mentions-indicator-bottom {
     background: rgba(58, 113, 193, 0.15) !important;
 }
 
-.guildsWrapper-5TJh6A{width: 182px;}
+.guildsWrapper-5TJh6A{width: 184px;}
 .guildsWrapper-5TJh6A .scroller-wrap{width: 150px;}
 .guildsWrapper-5TJh6A .guilds-1q_RqH {
     display: flex;
@@ -1109,7 +1109,7 @@ div.unread-mentions-indicator-bottom {
 }
 
 .scrollerWrap-1IAIlv {
-    width: 184px;
+    width: 190px;
 }
 
 .theme-dark .container-3gCOGc {
@@ -1208,4 +1208,22 @@ border-radius: 3px;
 
 .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
     background-color: rgba(255,255,255,.15);
+}
+
+.theme-dark .guildsAdd-21_IdK {
+    background: rgba(0,0,0,.4);
+    border-color: rgba(255,255,255,.3);
+    color: rgba(255,255,255,.15);
+}
+
+.scrollerThemed-2oenus.themeGhost-28MSn0 .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,0.15);
+    border-color: transparent;
+}
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,0.15);
+    border-color: transparent;
+}
+.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track {
+    background-color: rgba(255,255,255,0.15);
 }
