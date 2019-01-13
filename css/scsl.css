@@ -854,14 +854,6 @@ div.unread-mentions-indicator-bottom {
     background-color: rgba(0,0,0,.4);
 }
 
-.uploadModal-2ifh8j .footer-3mqk7D .button:first-child {
-    background-color: rgba(220,53,69,.35);
-    line-height: 16px;
-    padding: 2px 16px !important;
-    color: #fff;
-    border-radius: 3px;
-}
-
 .uploadModal-2ifh8j .footer-3mqk7D .button-primary {
     color: #222;
 }
@@ -897,11 +889,6 @@ div.unread-mentions-indicator-bottom {
 
 .search-bar {
     background-color: rgba(79,84,92,.5);
-}
-
-.uploadModal-2ifh8j .footer-3mqk7D .button:first-child {
-    background-color: #a8a8a8;
-    margin-right: 20px;
 }
 
 .uploadModal-2ifh8j .footer-3mqk7D .button-primary {
@@ -1131,12 +1118,12 @@ div.unread-mentions-indicator-bottom {
     background-color: rgba(255,255,255,.25);
 }
 
-/* replace */
 .uploadModal-2ifh8j .footer-3mqk7D .button:first-child {
-    background-color: rgba(240,71,71,.35);
+    border: 2px solid rgba(240,71,71,.35);
+    background-color: transparent;
     line-height: 16px;
     padding: 2px 16px !important;
-    color: #fff;
+    color: #f04747;
     border-radius: 3px;
 }
 
