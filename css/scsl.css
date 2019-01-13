@@ -548,7 +548,7 @@ div.unread-mentions-indicator-bottom {
     background: rgba(58, 113, 193, 0.15) !important;
 }
 
-.guildsWrapper-5TJh6A{width: 65x;}
+.guildsWrapper-5TJh6A{width: 65px;}
 .guildsWrapper-5TJh6A .scroller-wrap{width: 150px;}
 .guildsWrapper-5TJh6A .guilds-1q_RqH {
     display: flex;
@@ -829,7 +829,7 @@ div.unread-mentions-indicator-bottom {
 }
 
 .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
-    background: rgba(55,55,55,.6);
+    background: transparent;
 }
 
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
@@ -844,11 +844,6 @@ div.unread-mentions-indicator-bottom {
 .emojiPicker-3m1S-j .category-2U57w6 {
     color: var(--text-hover-color);
     padding-left: 8px;
-}
-
-.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
-    background: rgba(36,36,36,.6);
-    box-shadow: inset 9px 0 0px -7px var(--main-color);
 }
 
 .uploadModal-2ifh8j {
@@ -1196,7 +1191,7 @@ padding: 0 !important;
 .emojiPicker-3m1S-j .category-2U57w6 {
     color: var(--text-hover-color);
     padding-left: 8px;
-margin-to:8px;
+margin-top:8px;
     margin-bottom: 8px;
 border-radius: 3px;
     background: rgba(36,36,36,.6);
