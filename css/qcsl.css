@@ -706,6 +706,29 @@ div.unread-mentions-indicator-bottom {
     background-size: cover !important;
 }
 
+.appMount-3lHmkl {
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+    background: var(--background-image) !important;
+    background-size: cover !important;
+}
+
+.typeWindows-1za-n7 {
+    height: 18px;
+    margin-top: 0px;
+    background: black;
+}
+
 .theme-dark .homeIcon-1FoKUJ {
     display: none;
 }
