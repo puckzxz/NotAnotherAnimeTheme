@@ -558,6 +558,7 @@ div.unread-mentions-indicator-bottom {
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
+    margin-left: 8px;
     margin-top: 8px;
 }
 
@@ -698,6 +699,29 @@ div.unread-mentions-indicator-bottom {
 [class~=app] {
     background: var(--background-image) !important;
     background-size: cover !important;
+}
+
+.appMount-3lHmkl {
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+    background: var(--background-image) !important;
+    background-size: cover !important;
+}
+
+.typeWindows-1za-n7 {
+    height: 18px;
+    margin-top: 0px;
+    background: black;
 }
 
 .theme-dark .homeIcon-1FoKUJ {
@@ -1209,4 +1233,7 @@ border-radius: 3px;
 }
 .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track {
     background-color: rgba(255,255,255,0.15);
+}
+.tooltips-FhwIyl.da-tooltips * {
+    background-color: rgba(0,0,0,.75) !important;
 }
