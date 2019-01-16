@@ -1191,7 +1191,6 @@ padding: 0 !important;
     border-radius: 3px!important;
     margin-left: 8px;
     margin-top: 8px;
-    margin-bottom: 8px;
 }
 
 .searchBar-2_Yu-C.searchBarLight-1NxoDG {
@@ -1255,4 +1254,7 @@ padding: 0 !important;
 
 .uploadModal-2ifh8j .footer-3mqk7D .button {
     margin-right: 0;
+}
+.aka-1mqp34 {
+    background: rgba(255,255,255,.3);
 }
