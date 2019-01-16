@@ -1241,3 +1241,19 @@ padding: 0 !important;
 .tooltips-FhwIyl.da-tooltips * {
     background-color: rgba(0,0,0,.75) !important;
 }
+
+.channel-2QD9_O.selected-1HYmZZ .status-1ibiUI {
+    border-color: transparent;
+}
+
+.channel-2QD9_O .status-1ibiUI {
+    border: 2px solid transparent;
+}
+
+.channel-2QD9_O:hover .status-1ibiUI {
+    border-color: transparent;
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D .button {
+    margin-right: 0;
+}
