@@ -1213,7 +1213,6 @@ padding: 0 !important;
     border-radius: 3px!important;
     margin-left: 8px;
     margin-top: 8px;
-    margin-bottom: 8px;
 }
 
 .searchBar-2_Yu-C.searchBarLight-1NxoDG {
@@ -1261,4 +1260,35 @@ padding: 0 !important;
 }
 .tooltips-FhwIyl.da-tooltips * {
     background-color: rgba(0,0,0,.75) !important;
+}
+.channel-2QD9_O.selected-1HYmZZ .status-1ibiUI {
+    border-color: transparent;
+}
+
+.channel-2QD9_O .status-1ibiUI {
+    border: 2px solid transparent;
+}
+
+.channel-2QD9_O:hover .status-1ibiUI {
+    border-color: transparent;
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D .button {
+    margin-right: 0;
+}
+.aka-1mqp34 {
+    background: rgba(255,255,255,.3);
+}
+.theme-dark .status-2kJpnA, .theme-light .status-2kJpnA {
+    border: 2px solid transparent;
+}
+.themeDefault-24hCdX {
+    background-color: rgba(255,255,255,.15);
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    background-color: rgba(255,255,255,.15);
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    background-color: rgba(255,255,255,.3);
 }
