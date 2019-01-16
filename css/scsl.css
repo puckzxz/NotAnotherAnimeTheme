@@ -719,9 +719,13 @@ div.unread-mentions-indicator-bottom {
 }
 
 .typeWindows-1za-n7 {
-    height: 18px;
+    height: 23px;
     margin-top: 0px;
-    background: black;
+    background: var(--main-transparency);
+}
+
+.winButton-iRh8-Z {
+    top: 0px !important;
 }
 
 .theme-dark .homeIcon-1FoKUJ {
@@ -1202,9 +1206,9 @@ padding: 0 !important;
 .emojiPicker-3m1S-j .category-2U57w6 {
     color: var(--text-hover-color);
     padding-left: 8px;
-margin-top:8px;
+    margin-top:8px;
     margin-bottom: 8px;
-border-radius: 3px;
+    border-radius: 3px;
     background: rgba(36,36,36,.6);
     box-shadow: inset 9px 0 0px -7px var(--main-color);
 }
