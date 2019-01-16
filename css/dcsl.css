@@ -1258,3 +1258,16 @@ padding: 0 !important;
 .aka-1mqp34 {
     background: rgba(255,255,255,.3);
 }
+.theme-dark .status-2kJpnA, .theme-light .status-2kJpnA {
+    border: 2px solid transparent;
+}
+.themeDefault-24hCdX {
+    background-color: rgba(255,255,255,.15);
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    background-color: rgba(255,255,255,.15);
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    background-color: rgba(255,255,255,.3);
+}
