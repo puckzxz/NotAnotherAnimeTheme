@@ -1271,3 +1271,26 @@ padding: 0 !important;
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
     background-color: rgba(255,255,255,.3);
 }
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+    background-color: rgba(255,255,255,.1);
+}
+.theme-dark .input-cIJ7To:hover {
+    border-color: rgba(255,255,255,.05);
+}
+.theme-dark .input-cIJ7To:focus {
+    border-color: var(--main-color);
+}
+
+.theme-dark .accountBtnInner-sj5jLs {
+    background-color: rgba(255,255,255,.15);
+    border-color: rgba(255,255,255,.3);
+}
+
+.theme-dark .accountBtnInner-sj5jLs:hover {
+    background-color: rgba(255,255,255,.3);
+    border-color: rgba(255,255,255,.3);
+}
+
+.guilds-1q_RqH > .guild-1EfMGQ:nth-last-child(2) {
+    margin-right: 0 !important;
+}
