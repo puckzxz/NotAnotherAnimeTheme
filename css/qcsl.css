@@ -1288,3 +1288,10 @@ padding: 0 !important;
 .guilds-1q_RqH > .guild-1EfMGQ:nth-last-child(2) {
     margin-right: 0 !important;
 }
+.theme-dark .gameUpdates-2GPqBU {
+    background-color: rgba(0,0,0,.4);
+}
+
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+    background: rgba(0,0,0,.8);
+}
