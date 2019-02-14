@@ -1274,3 +1274,7 @@ padding: 0 !important;
 .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
     background: rgba(0,0,0,.8);
 }
+
+.theme-dark .pageWrapper-1PgVDX {
+    background-color: var(--main-transparency);
+}
