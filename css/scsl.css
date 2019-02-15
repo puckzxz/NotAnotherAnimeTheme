@@ -1141,7 +1141,7 @@ div.unread-mentions-indicator-bottom {
 
 
 .theme-dark .autocomplete-1vrmpx {
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,.9);
 }
 
 .theme-dark .header-1TOWci {
@@ -1279,4 +1279,20 @@ padding: 0 !important;
 
 .theme-dark .pageWrapper-1PgVDX {
     background-color: var(--main-transparency);
+}
+
+.theme-dark .selectorSelected-1_M1WV {
+    background-color: rgba(255,255,255,.25);
+}
+
+.theme-dark .container-3ayLPN {
+    background-color: rgba(0,0,0,.9);
+}
+
+.theme-dark .option-96V44q:after {
+    background: none;
+}
+
+.theme-dark .option-96V44q.selected-rZcOL- {
+    background-color: rgba(255,255,255,.15);
 }
