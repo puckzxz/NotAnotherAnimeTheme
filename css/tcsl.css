@@ -1138,9 +1138,8 @@ div.unread-mentions-indicator-bottom {
     border-radius: 3px;
 }
 
-
 .theme-dark .autocomplete-1vrmpx {
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,.9);
 }
 
 .theme-dark .header-1TOWci {
@@ -1278,4 +1277,44 @@ padding: 0 !important;
 
 .theme-dark .pageWrapper-1PgVDX {
     background-color: var(--main-transparency);
+}
+
+.theme-dark .selectorSelected-1_M1WV {
+    background-color: rgba(255,255,255,.25);
+}
+
+.theme-dark .container-3ayLPN {
+    background-color: rgba(0,0,0,.9);
+}
+
+.theme-dark .option-96V44q:after {
+    background: none;
+}
+
+.theme-dark .option-96V44q.selected-rZcOL- {
+    background-color: rgba(255,255,255,.15);
+}
+
+.theme-dark .searchResult-3pzFAB .hit-NLlWXA {
+    box-shadow: none;
+}
+
+.theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {
+    border: 2px solid rgba(255,255,255,.15);
+}
+
+.theme-dark .jumpButton-Ia2hRJ {
+    background-color: rgba(255,255,255,.15);
+}
+
+.theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
+    background-color: rgba(255,255,255,.15);
+}
+
+.searchAnswer-3Dz2-q, .searchFilter-2ESiM3 {
+    margin-right: 4px;
+}
+
+.resultsWrapper-hoiXCY {
+    background-color: rgba(0,0,0,.2);
 }
