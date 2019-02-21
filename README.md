@@ -1,4 +1,6 @@
-# NotAnotherAnimeTheme
+<p align="center">
+<img src = "https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/image/header.jpg">
+</p>
 
 <p align="center">
     <a href="https://discord.gg/FdZhbjY" alt="Get Support">
