@@ -1,7 +1,11 @@
 # NotAnotherAnimeTheme
 
-![Discord](https://img.shields.io/discord/412794678791110664.svg?label=Support&logo=discord&style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/puckzxz/NotAnotherAnimeTheme.svg?logo=GitHub&style=flat-square)
+<p align="center">
+    <a href="https://discord.gg/FdZhbjY" alt="Get Support">
+        <img src="https://img.shields.io/discord/412794678791110664.svg?label=Support&logo=discord&style=flat-square&logoColor=%23ffffff&colorB=%237289DA" /></a>
+    <a href="https://github.com/puckzxz/NotAnotherAnimeTheme/commits/master" alt="Latest Commit">
+        <img src="https://img.shields.io/github/last-commit/puckzxz/NotAnotherAnimeTheme.svg?logo=GitHub&style=flat-square" /></a>
+</p>
 
 NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases/latest)) allowing for a revitalized and fresh take on the Discord UI. Every part of the theme is customizable, from the background image to the scroll bar colors. The user has full control over the default configuration. Preview pictures can be found [here.](https://github.com/puckzxz/NotAnotherAnimeTheme#images-of-variations)
 
