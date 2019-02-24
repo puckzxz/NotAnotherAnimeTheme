@@ -1347,3 +1347,7 @@ box-shadow-none !important;
 .searchHeader-1l-wpR {
     background: rgba(0,0,1,.0) !important;
 }
+
+.theme-dark .rowWrapperDim-2Y1SDG .nameBodyCell-3JOlnK, .theme-dark .rowWrapperDim-2Y1SDG .settingIcon-1nXguX, .theme-dark .rowWrapperDim-2Y1SDG .textCell-1aBIUP {
+    opacity: 0.6;
+}
