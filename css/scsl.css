@@ -1320,3 +1320,30 @@ padding: 0 !important;
 .resultsWrapper-hoiXCY {
     background-color: rgba(0,0,0,.2);
 }
+
+.searchResultsWrap-2DKFzt {
+    background: rgba(0,0,1,.0) !important;
+}
+
+.searchResult-3pzFAB:before {
+    background: rgba(0,0,1,.0) !important;
+box-shadow-none !important;
+}
+.searchResult-3pzFAB:after {
+    background: rgba(0,0,1,.0) !important;
+box-shadow-none !important;
+}
+
+.channelName-1QajIf {
+    background: rgba(0,0,1,.0) !important;
+}
+
+.searchResultMessage-2VxO12 {
+    background: rgba(0,0,1,.0) !important;
+}
+.hit-NLlWXA {
+    background: rgba(0,0,1,.0) !important;
+}
+.searchHeader-1l-wpR {
+    background: rgba(0,0,1,.0) !important;
+}
