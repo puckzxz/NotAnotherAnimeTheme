@@ -691,6 +691,7 @@ div.unread-mentions-indicator-bottom {
 
 .channels-Ie2l6A {
     border-left: 1px solid var(--border-lines-color);
+    border-right: 1px solid var(--border-lines-color);
 }
 
 .theme-dark .guildSeparator-1X4GQ1:after {
