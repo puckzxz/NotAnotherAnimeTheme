@@ -1350,3 +1350,7 @@ box-shadow-none !important;
 .theme-dark .rowWrapperDim-2Y1SDG .nameBodyCell-3JOlnK, .theme-dark .rowWrapperDim-2Y1SDG .settingIcon-1nXguX, .theme-dark .rowWrapperDim-2Y1SDG .textCell-1aBIUP {
     opacity: 0.6;
 }
+
+.theme-dark .activityFeed-1C0EmJ {
+    background-color: var(--main-transparency);
+}
