@@ -1375,3 +1375,7 @@ box-shadow-none !important;
 .theme-dark .activityFeed-1C0EmJ {
     background-color: var(--main-transparency);
 }
+
+.theme-dark.contextMenu-HLZMGh {
+    background: rgba(0,0,0,.8);
+}
