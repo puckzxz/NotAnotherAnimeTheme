@@ -1378,6 +1378,7 @@ box-shadow-none !important;
 
 .theme-dark .unread-2OHH1w:before {
     background: var(--main-color) !important;
+    animation: var(--unread-server-animation) 3s linear infinite;
 }
 
 .selected-nT-gM3:before, .unread-2OHH1w:before {
