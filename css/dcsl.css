@@ -1377,7 +1377,7 @@ box-shadow-none !important;
 }
 
 .theme-dark .unread-2OHH1w:before {
-    background: var(--main-color);
+    background: var(--main-color) !important;
 }
 
 .selected-nT-gM3:before, .unread-2OHH1w:before {
