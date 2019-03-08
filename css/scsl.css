@@ -1353,6 +1353,7 @@ box-shadow-none !important;
 
 .theme-dark .activityFeed-1C0EmJ {
     background-color: var(--main-transparency);
+<<<<<<< HEAD
 }
 
 .theme-dark.contextMenu-HLZMGh {
@@ -1403,4 +1404,6 @@ box-shadow-none !important;
 
 .theme-dark .selected-nT-gM3:before {
     background: transparent;
+=======
+>>>>>>> parent of 0db29ba... right click popup transparency
 }
