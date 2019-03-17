@@ -1428,7 +1428,6 @@ box-shadow-none !important;
 .userPopout-3XzG_A {
     box-shadow: none;
     background: var(--main-transparency);
-    background: var(--user-popup-background) !important;
 }
 
 .bodyTitle-Y0qMQz {
@@ -1445,4 +1444,10 @@ box-shadow-none !important;
 
 .theme-dark .headerNormal-T_seeN {
     background-color: transparent;
+}
+
+.theme-dark .quickMessage-1yeL4E {
+    background-color: rgba(0,0,0,.2);
+    border-color: rgba(255,255,255,.15);
+    color: hsla(0,0%,100%,.7);
 }
