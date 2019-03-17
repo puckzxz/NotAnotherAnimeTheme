@@ -45,6 +45,8 @@
     --voice-hover-color: #f6f6f7; /* default: #f6f6f7 */
     /* Edit this to change the color of an unread text channel color */
     --unread-text-color: #dcddde; /* default: #dcddde */
+
+    --user-popup-background: rgba(0, 0, 0, 0.8); /* default: rgba(0, 0, 0, 0.8); */ 
     
     /* Write "transparent" in order to make the options sections with the same look as the theme  */
     --options-transparency: transparent; /* default: #2f3136 */
