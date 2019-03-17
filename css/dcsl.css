@@ -1410,3 +1410,39 @@ box-shadow-none !important;
 .theme-dark .wrapper-2lTRaf {
     background: transparent;
 }
+
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: transparent;
+    color: hsla(0,0%,100%,.8);
+}
+
+.headerPlaying-j0WQBV {
+    background: transparent;
+}
+
+.theme-dark .footer-1fjuF6 {
+    border-color: transparent;
+}
+
+
+.userPopout-3XzG_A {
+    box-shadow: none;
+    background: var(--main-transparency);
+    background: var(--user-popup-background) !important;
+}
+
+.bodyTitle-Y0qMQz {
+    color: #fff;
+}
+
+.theme-dark .note-3kmerW textarea {
+    color: #dcddde;
+}
+
+.headerSpotify-zpWxgT {
+    background: transparent;
+}
+
+.theme-dark .headerNormal-T_seeN {
+    background-color: transparent;
+}
