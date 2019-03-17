@@ -1410,3 +1410,48 @@ box-shadow-none !important;
 .theme-dark .wrapper-2lTRaf {
     background: transparent;
 }
+
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: transparent;
+    color: hsla(0,0%,100%,.8);
+}
+
+.headerPlaying-j0WQBV {
+    background: transparent;
+}
+
+.theme-dark .footer-1fjuF6 {
+    border-color: transparent;
+}
+
+
+.userPopout-3XzG_A {
+    box-shadow: none;
+    background: var(--main-transparency);
+}
+
+.bodyTitle-Y0qMQz {
+    color: #fff;
+}
+
+.theme-dark .note-3kmerW textarea {
+    color: #dcddde;
+}
+
+.headerSpotify-zpWxgT {
+    background: transparent;
+}
+
+.theme-dark .headerNormal-T_seeN {
+    background-color: transparent;
+}
+
+.theme-dark .quickMessage-1yeL4E {
+    background-color: rgba(0,0,0,.2);
+    border-color: rgba(255,255,255,.15);
+    color: hsla(0,0%,100%,.7);
+}
+
+.theme-dark .note-3kmerW textarea:focus {
+    background-color: rgba(255,255,255,0.05);
+}

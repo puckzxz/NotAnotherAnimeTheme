@@ -1451,3 +1451,7 @@ box-shadow-none !important;
     border-color: rgba(255,255,255,.15);
     color: hsla(0,0%,100%,.7);
 }
+
+.theme-dark .note-3kmerW textarea:focus {
+    background-color: rgba(255,255,255,0.05);
+}
