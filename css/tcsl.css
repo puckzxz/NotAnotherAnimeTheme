@@ -1371,7 +1371,7 @@ box-shadow-none !important;
   margin-left: 8px;
 }
 
-.scroller-2TZvBN > div:last-child {
+.scroller-2TZvBN > div:nth-last-child(-n+2) {
   margin-right: 2px;
   margin-left: 8px;
 }
