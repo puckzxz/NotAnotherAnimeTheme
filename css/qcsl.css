@@ -1455,3 +1455,31 @@ box-shadow-none !important;
 .theme-dark .note-3kmerW textarea:focus {
     background-color: rgba(255,255,255,0.05);
 }
+
+.theme-dark .audio-3sNR7M:after, .theme-dark .video-3I9W8t:after {
+    background-color: rgba(255,255,255,.15);
+}
+
+.theme-dark .outer-2IVh5n {
+    background-color: rgba(0,0,0,.5);
+}
+
+.theme-dark .unwrapped-37iUtM.clickable-nnkAZy:hover, .theme-dark .wrapped-15rg6t {
+    background-color: rgba(255,255,255,.15);
+}
+
+.theme-dark .wrapped-15rg6t.clickable-nnkAZy:hover {
+    background-color: rgba(255,255,255,.3);
+}
+
+.theme-dark .wrapper-3UweLa {
+    background-color: transparent
+}
+
+.theme-dark .recentlyPlayedContainer-2F3MqS {
+    background-color: transparent;
+}
+
+.theme-dark .container-3cGP6G {
+    background: rgba(0,0,0,.7);
+}
