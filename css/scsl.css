@@ -1579,7 +1579,15 @@ box-shadow-none !important;
     margin-left: 8px;
 }
 
+.wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh) .item-2hkk8m {
+    opacity: 0 !important;
+}
+
 .wrapper-1Rf91z .scroller-2TZvBN > div.listItem-2P_4kh:nth-child(1),
 .wrapper-1Rf91z .scroller-2TZvBN > div.listItem-2P_4kh:nth-child(2) {
     width: 100% !important;
+}
+
+.wrapper-1Rf91z .scroller-2TZvBN > div.listItem-2P_4kh:nth-child(1) .pill-2uzAFe {
+    opacity: 0;
 }
