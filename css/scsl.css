@@ -1501,7 +1501,7 @@ box-shadow-none !important;
 .theme-dark .children-19S4PO:after {
     background: -webkit-gradient(linear,left top,right top,from(rgba(54,57,63,0)),to(#36393f));
     background: transparent;
-    border-right: 1px solid rgba(255,255,255,.15);
+    border-right: transparent;
 }
 
 .theme-dark .searchBar-3dMhjb {
@@ -1552,6 +1552,23 @@ box-shadow-none !important;
 }
 
 .theme-dark .searchBox-3Y2Vi7 {
+    background-color: rgba(255,255,255,.15);
+}
+
+.darkTheme-3uETC4.container-2XeR5Z {
+    background-color: rgba(255,255,255 ,.15);
+}
+
+.theme-dark .akaBadge-1M-1Gw {
+    background-color: rgba(255,255,255 ,.15);
+    border-radius: 4px;
+}
+
+.theme-dark .container-1r6BKw {
+    background: rgba(255,255,255,0);
+}
+
+.theme-dark .container-cMG81i {
     background-color: rgba(255,255,255,.15);
 }
 
