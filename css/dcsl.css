@@ -1495,7 +1495,7 @@ box-shadow-none !important;
 
 .guildSeparator-3s64Iy {
     background: hsla(0,0%,100%,.1);
-    height: 1px;
+    height: 0.5px;
 }
 
 .theme-dark .children-19S4PO:after {
@@ -1602,20 +1602,23 @@ box-shadow-none !important;
 }
 
 .wrapper-sa6paO {
-    height: 17px;
-    width: 17px;
+    height: 8px;
+    width: 54px;
 }
 
 .item-2hkk8m {
-    background-color: var(--main-color);
     animation: var(--unread-server-animation) 3s linear infinite;
+    background-color: var(--main-color);
+    border-radius: inherit;
     border-radius: 100%;
     display: block;
-    margin-left: 2px;
-    margin-top: 2px;
+    margin-left: 0;
+    margin-top: 0;
     position: absolute;
-    width: 13px;
-    height: 13px !important;
+    top: 0;
+    right: 2px;
+    width: 8px;
+    height: 8px !important;
     z-index: 10;
 }
 
