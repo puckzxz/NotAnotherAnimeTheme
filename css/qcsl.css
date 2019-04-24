@@ -1495,7 +1495,7 @@ box-shadow-none !important;
 
 .guildSeparator-3s64Iy {
     background: hsla(0,0%,100%,.1);
-    height: 1px;
+    height: 0.5px;
 }
 
 .theme-dark .children-19S4PO:after {
@@ -1519,6 +1519,7 @@ box-shadow-none !important;
 
 .theme-dark .unread-3zKkbm, .theme-light .unread-3zKkbm {
     background-color: var(--main-color);
+    opacity: .7;
 }
 
 .theme-dark .wrapper-1ucjTd:active .content-3at_AU, .theme-light .wrapper-1ucjTd:active .content-3at_AU {
@@ -1570,4 +1571,74 @@ box-shadow-none !important;
 
 .theme-dark .container-cMG81i {
     background-color: rgba(255,255,255,.15);
+}
+
+.unread-1xRYoj {
+    background-color: rgba(255,255,255,.35);
+}
+
+/* Guild listing styles */
+
+.wrapper-1Rf91z .scroller-2TZvBN > div.listItem-2P_4kh:nth-child(1) {
+    width: 100% !important;
+    margin-bottom: 20px;    
+}
+
+.wrapper-1Rf91z .scroller-2TZvBN > div.listItem-2P_4kh:nth-child(1) .item-2hkk8m {
+    opacity: 0 !important;
+}
+
+.wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh) > div {
+    width: 50px;
+    margin-left: 7px;
+}
+
+.wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh) > div .item-2hkk8m {
+    opacity: 0 !important;
+}
+
+.wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh) > div .wrapper-sa6paO {
+    display: none !important;
+}
+
+.listItem-2P_4kh {
+    width: auto;
+    margin-left: 9px;
+}
+
+.wrapper-sa6paO {
+    height: 8px;
+    width: 54px;
+}
+
+.item-2hkk8m {
+    animation: var(--unread-server-animation) 3s linear infinite;
+    background-color: var(--main-color);
+    border-radius: inherit;
+    border-radius: 100%;
+    display: block;
+    margin-left: 0;
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    right: 1px;
+    width: 8px;
+    height: 8px !important;
+    z-index: 10;
+}
+
+.pill-31IEus {
+    left: 0;
+    position: absolute;
+    top: -4px;
+}
+
+.wrapper-1Rf91z .scroller-2TZvBN .guildSeparator-3s64Iy {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    width: 193px;
+    display: block;
+    margin: 10px auto 5px;
+    margin-left: 10px;
 }
