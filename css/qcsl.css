@@ -1607,7 +1607,7 @@ box-shadow-none !important;
 }
 
 .wrapper-sa6paO {
-    height: 8px;
+    height: 10px;
     width: 54px;
 }
 
@@ -1620,8 +1620,8 @@ box-shadow-none !important;
     margin-left: 0;
     margin-top: 0;
     position: absolute;
-    top: 0;
-    right: 1px;
+    top: 1px;
+    right: 2px;
     width: 8px;
     height: 8px !important;
     z-index: 10;
