@@ -1581,6 +1581,7 @@ box-shadow-none !important;
 
 .wrapper-1Rf91z .scroller-2TZvBN > div.listItem-2P_4kh:nth-child(1) {
     width: 100% !important;
+    margin-bottom: 20px;
 }
 
 .wrapper-1Rf91z .scroller-2TZvBN > div.listItem-2P_4kh:nth-child(1) .item-2hkk8m {
@@ -1636,7 +1637,7 @@ box-shadow-none !important;
     position: relative;
     width: 100%;
     margin-top: 10px;
-    width: 80px;
+    width: 134px;
     display: block;
     margin: 10px auto 5px;
     margin-left: 12px;
