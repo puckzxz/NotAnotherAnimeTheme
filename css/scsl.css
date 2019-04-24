@@ -1577,6 +1577,22 @@ box-shadow-none !important;
     background-color: rgba(255,255,255,.35);
 }
 
+.wrapper-CU3qI5:hover {
+    color: var(--main-color);
+}
+
+.theme-dark .name-3_Dsmg, .theme-light .name-3_Dsmg {
+    color: var(--unread-text-color);
+}
+
+.theme-dark .wrapper-1ucjTd.modeMuted-3osy7j:hover .name-3_Dsmg, .theme-dark .wrapper-1ucjTd:hover .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeMuted-3osy7j:hover .name-3_Dsmg, .theme-light .wrapper-1ucjTd:hover .name-3_Dsmg {
+    color: var(--text-hover-color);
+}
+
+.theme-dark .wrapper-1ucjTd.modeConnected-2IEL4z .name-3_Dsmg, .theme-dark .wrapper-1ucjTd.modeConnected-2IEL4z:hover .name-3_Dsmg, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .name-3_Dsmg, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .name-3_Dsmg, .theme-dark .wrapper-1ucjTd.modeUnread-1zpFdA .name-3_Dsmg, .theme-dark .wrapper-1ucjTd.modeUnread-1zpFdA:hover .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeConnected-2IEL4z .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeConnected-2IEL4z:hover .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeUnread-1zpFdA .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeUnread-1zpFdA:hover .name-3_Dsmg {
+    color: var(--selected-text-voice-color);
+}
+
 /* Guild listing styles */
 
 /* .wrapper-1Rf91z .scroller-2TZvBN > div.listItem-2P_4kh:nth-child(1) {
