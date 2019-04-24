@@ -1622,7 +1622,7 @@ box-shadow-none !important;
     position: absolute;
     top: 1px;
     right: 2px;
-    width: 8px;
+    /* width: 8px; */
     height: 8px !important;
     z-index: 10;
 }
@@ -1641,4 +1641,8 @@ box-shadow-none !important;
     display: block;
     margin: 10px auto 5px;
     margin-left: 10px;
+}
+
+.item-2hkk8m:not([style *= "height: 8px"]) {
+    background: transparent;
 }
