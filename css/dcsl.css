@@ -592,7 +592,7 @@ div.unread-mentions-indicator-bottom {
 .wrapper-1Rf91z .scroller-2TZvBN .guildSeparator-3s64Iy {
 	position: relative;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .wrapper-1Rf91z .scroller-2TZvBN .friendsOnline-2JkivW {
@@ -1573,6 +1573,11 @@ box-shadow-none !important;
     background-color: rgba(255,255,255,.15);
 }
 
+.unread-1xRYoj {
+    background-color: rgba(255,255,255,.35);
+}
+
+
 /* Guild listing styles */
 
 .wrapper-1Rf91z .scroller-2TZvBN > div.listItem-2P_4kh:nth-child(1) {
@@ -1616,10 +1621,16 @@ box-shadow-none !important;
     margin-top: 0;
     position: absolute;
     top: 0;
-    right: 2px;
+    right: 1px;
     width: 8px;
     height: 8px !important;
     z-index: 10;
+}
+
+.pill-31IEus {
+    left: 0;
+    position: absolute;
+    top: -4px;
 }
 
 .wrapper-1Rf91z .scroller-2TZvBN .guildSeparator-3s64Iy {
