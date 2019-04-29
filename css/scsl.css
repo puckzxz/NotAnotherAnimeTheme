@@ -1659,8 +1659,3 @@ box-shadow-none !important;
     margin: 10px auto 5px;
     margin-left: 10px;
 } */
-
-.item-2hkk8m {
-    animation: var(--unread-server-animation) 3s linear infinite;
-    background-color: var(--main-color);
-}
