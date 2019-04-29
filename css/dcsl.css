@@ -1644,8 +1644,6 @@ box-shadow-none !important;
     height: 48px !important;
     /* remove the left to right display transformation */
     transform: none !important;
-
-    transition: .2s !important;
 }
 
 .pill-31IEus {
@@ -1671,5 +1669,5 @@ box-shadow-none !important;
 .listItem-2P_4kh.da-listItem:hover .item-2hkk8m {
     border-radius: 18px;
     border: none;
-    transition: none;
+    transition: .2s ease !important;
 }
