@@ -1610,25 +1610,20 @@ box-shadow-none !important;
     width: 50px;
     margin-left: 7px;
 }
-
 .wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh) > div .item-2hkk8m {
     opacity: 0 !important;
 }
-
 .wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh) > div .wrapper-sa6paO {
     display: none !important;
 }
-
 .listItem-2P_4kh {
     width: auto;
     margin-left: 9px;
 }
-
 .wrapper-sa6paO {
     height: 52px;
     width: 52px;
 }
-
 .item-2hkk8m {
     animation: var(--unread-server-animation) 3s linear infinite;
     border: 2px solid var(--main-color);
@@ -1645,13 +1640,11 @@ box-shadow-none !important;
     /* remove the left to right display transformation */
     transform: none !important;
 }
-
 .pill-31IEus {
     left: -2px;
     position: absolute;
     top: -2px;
 }
-
 .wrapper-1Rf91z .scroller-2TZvBN .guildSeparator-3s64Iy {
     position: relative;
     width: 100%;
@@ -1661,13 +1654,14 @@ box-shadow-none !important;
     margin: 10px auto 5px;
     margin-left: 12px;
 }
-
-.item-2hkk8m:not([style *= "height: 8px"]) {
-    background: transparent;
-}
-
 .listItem-2P_4kh.da-listItem:hover .item-2hkk8m {
     border-radius: 18px;
     border: none;
-    transition: .2s ease !important;
+    transition: none !important;
+}
+.item-2hkk8m:not([style *= "height: 8px"]) {
+    border-color: transparent;
+}
+.item-2hkk8m:not([style *= "opacity: 0.7"]) {
+    border-color: transparent;
 }
