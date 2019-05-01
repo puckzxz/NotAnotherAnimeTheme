@@ -1621,8 +1621,8 @@ box-shadow-none !important;
     margin-left: 9px;
 }
 .wrapper-sa6paO {
-    height: 52px;
-    width: 52px;
+    height: 54px;
+    width: 54px;
 }
 .item-2hkk8m {
     animation: var(--unread-server-animation) 3s linear infinite;
@@ -1634,7 +1634,7 @@ box-shadow-none !important;
     margin-top: 0;
     position: absolute;
     top: 0;
-    right: 0 !important;
+    right: 2px !important;
     width: 48px;
     height: 48px !important;
     /* remove the left to right display transformation */
@@ -1661,6 +1661,7 @@ box-shadow-none !important;
 }
 .item-2hkk8m:not([style *= "height: 8px"]) {
     border-color: transparent;
+    background-color: transparent;
 }
 .item-2hkk8m:not([style *= "opacity: 0.7"]) {
     border-color: transparent;
