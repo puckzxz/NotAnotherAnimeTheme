@@ -1621,8 +1621,8 @@ box-shadow-none !important;
     margin-left: 9px;
 }
 .wrapper-sa6paO {
-    height: 52px;
-    width: 52px;
+    height: 54px;
+    width: 54px;
 }
 .item-2hkk8m {
     animation: var(--unread-server-animation) 3s linear infinite;
@@ -1633,8 +1633,8 @@ box-shadow-none !important;
     margin-left: 0;
     margin-top: 0;
     position: absolute;
-    top: 0;
-    right: 0 !important;
+    top: 2px;
+    right: 2px !important;
     width: 48px;
     height: 48px !important;
     /* remove the left to right display transformation */
