@@ -1669,3 +1669,7 @@ box-shadow-none !important;
 .item-2hkk8m:not([style *= "opacity: 0.7"]) {
     border-color: transparent;
 }
+
+.typeMacOS-3EmCyP {
+    background: var(--main-transparency);
+}

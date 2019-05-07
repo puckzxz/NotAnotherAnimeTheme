@@ -1659,3 +1659,7 @@ box-shadow-none !important;
     margin: 10px auto 5px;
     margin-left: 10px;
 } */
+
+.typeMacOS-3EmCyP {
+    background: var(--main-transparency);
+}
