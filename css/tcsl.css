@@ -1673,3 +1673,8 @@ box-shadow-none !important;
 .typeMacOS-3EmCyP {
     background: var(--main-transparency);
 }
+
+body>div:last-of-type {
+    background: var(--background-image) !important;
+    background-size: cover !important;
+}
