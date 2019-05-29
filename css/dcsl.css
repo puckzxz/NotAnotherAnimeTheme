@@ -1593,6 +1593,41 @@ box-shadow-none !important;
     color: var(--selected-text-voice-color);
 }
 
+.theme-dark .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh {
+    background-color: rgba(255,255,255,.15);
+}
+
+.theme-dark .listDefault-2y5Z9D .clickable-23RaYz:active .content-3xS9Lh {
+    background-color: rgba(255,255,255,.25);
+}
+
+.theme-dark .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh {
+    background-color: rgba(255,255,255,.15);
+}
+
+.status-2s6iDp {
+    bottom: -2px;
+}
+
+.theme-dark .iconBadge-2wi9r4 {
+    background-color: rgba(255,255,255,.15);
+}
+
+.theme-light .wrapper-2ZbzR9 {
+    background-color: rgba(33,33,33,.4);
+}
+.theme-dark .wrapper-2ZbzR9 {
+    background-color: rgba(33,33,33,.4);
+}
+
+.theme-dark .modal-3HD5ck {
+    background-color: transparent;
+}
+
+.theme-dark .actionBody-1qj65C, .theme-light .actionBody-1qj65C {
+    color: #333;
+}
+
 
 /* Guild listing styles */
 
