@@ -1628,6 +1628,19 @@ box-shadow-none !important;
     color: #333;
 }
 
+.channelNotices-41mJbj .channelNotice-1-XFjC.premiumGuildSubscription-3oKecP {
+    background: rgba(255,255,255,.15) url(/assets/c88e15a….svg) no-repeat center 23px;
+    padding: 116px 20px 20px;
+}
+
+.channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u:active {
+    background-color: rgba(255,255,255,.25);
+}
+
+.theme-dark .tierNoneContainer-3hhK3h {
+    background-color: rgba(255,255,255,.15);
+}
+
 /* Guild listing styles */
 
 .wrapper-1Rf91z .scroller-2TZvBN > div.listItem-2P_4kh:nth-child(1) {
