@@ -23,7 +23,7 @@
     --friends-icon-zoom: 100%; /* default: 100% */
     /* Change the main color */
     --main-color: rgb(67, 181, 129); /* default: rgb(67, 181, 129); */
-    /* Chande global transparency */
+    /* Change global transparency */
     --main-transparency: rgba(0, 0, 0, 0.8); /* default: rgba(0, 0, 0, 0.8); */ 
 
     /* Change the unread server animation. Replace it with "none" in order to remove any animations */
