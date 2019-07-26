@@ -1326,11 +1326,11 @@ padding: 0 !important;
 
 .searchResult-3pzFAB:before {
     background: rgba(0,0,1,.0) !important;
-box-shadow-none !important;
+    box-shadow: none !important;
 }
 .searchResult-3pzFAB:after {
     background: rgba(0,0,1,.0) !important;
-box-shadow-none !important;
+    box-shadow: none !important;
 }
 
 .channelName-1QajIf {
@@ -1719,4 +1719,9 @@ box-shadow-none !important;
 body>div:last-of-type {
     background: var(--background-image) !important;
     background-size: cover !important;
+}
+
+.wrapper-21YSNc {
+    position: relative;
+    width: auto;
 }
