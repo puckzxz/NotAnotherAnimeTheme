@@ -1735,3 +1735,8 @@ body>div:last-of-type {
     position: relative;
     width: auto;
 }
+
+.theme-dark .member-3W1lQa:hover {
+    background-color: rgba(79,84,92,0.4);
+    color: #fff;
+}
