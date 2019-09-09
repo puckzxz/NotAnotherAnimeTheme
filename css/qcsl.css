@@ -1719,9 +1719,6 @@ padding: 0 !important;
     border-color: transparent;
     background-color: transparent;
 }
-.item-2hkk8m:not([style *= "opacity: 0.7"]) {
-    border-color: transparent;
-}
 
 .typeMacOS-3EmCyP {
     background: var(--main-transparency);
@@ -1773,4 +1770,8 @@ body>div:last-of-type {
 
 .sidebar-2K8pFh {
     border-radius: 0;
+}
+
+.item-2hkk8m:not([style *= "opacity: 0.7"]) {
+    border-color: transparent;
 }
