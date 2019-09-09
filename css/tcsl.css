@@ -1770,3 +1770,7 @@ body>div:last-of-type {
 .sidebar-2K8pFh {
     border-radius: 0;
 }
+
+.sidebar-2K8pFh {
+    border-radius: 0 !important;
+}
