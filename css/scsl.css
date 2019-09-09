@@ -729,9 +729,9 @@ div.unread-mentions-indicator-bottom {
     top: 0px !important;
 }
 
-.theme-dark .homeIcon-tEMBK1 {
+/* .theme-dark .homeIcon-tEMBK1 {
     display: none;
-}
+} */
 
 .theme-dark .container-1ETFDs.unread-2OHH1w:before {
     background: var(--main-color);
