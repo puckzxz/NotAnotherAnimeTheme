@@ -1740,3 +1740,36 @@ body>div:last-of-type {
     background-color: rgba(79,84,92,0.4);
     color: #fff;
 }
+
+.base-3dtUhz {
+    margin-left: 112px;
+}
+
+.app-2rEoOp {
+    background-color: var(--background-image);
+}
+
+.platform-win .sidebar-2K8pFh {
+    background-color: var(--main-transparency);
+}
+
+.privateChannels-1nO12o {
+    background-color: rgba(0,0,0,0);
+}
+
+.panels-j1Uci_ {
+    background-color: rgba(0,0,0,0);
+}
+
+.name-IbjUBS {
+    color: var(--main-color);
+}
+
+.wrapper-CU3qI5.muted-1NRuDm:hover .icon-WnO6o2, .wrapper-CU3qI5.muted-1NRuDm:hover .name-IbjUBS, .wrapper-CU3qI5:hover .icon-WnO6o2, .wrapper-CU3qI5:hover .name-IbjUBS {
+    color: var(--main-color);
+    filter: brightness(150%);
+}
+
+.sidebar-2K8pFh {
+    border-radius: 0;
+}
