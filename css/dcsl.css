@@ -1762,3 +1762,7 @@ body>div:last-of-type {
     color: var(--main-color);
     filter: brightness(150%);
 }
+
+.sidebar-2K8pFh {
+    border-radius: 0;
+}
