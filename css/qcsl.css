@@ -1778,4 +1778,11 @@ body>div:last-of-type {
 
 .sidebar-2K8pFh {
     border-radius: 0 !important;
+    background-color: var(--main-transparency);
+}
+
+.typeMacOS-3EmCyP {
+    position: absolute;
+    width: 72px;
+    padding-right: 170px;
 }
