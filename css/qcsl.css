@@ -766,7 +766,7 @@ div.unread-mentions-indicator-bottom {
     border-radius: 25px;
 }
 
-.listItemWrapper-3X98Pc > .wrapper-25eVIn {
+.scroller-2FKFPG > .listItem-2P_4kh:first-child > .listItemWrapper-3X98Pc > .wrapper-25eVIn {
     background: var(--friends-icon) !important;
     background-position: var(--friends-icon-position) !important;
     background-repeat: no-repeat !important;
@@ -1788,6 +1788,6 @@ body>div:last-of-type {
     padding-right: 170px;
 }
 
-.listItemWrapper-3X98Pc > .wrapper-25eVIn > svg {
+.scroller-2FKFPG > .listItem-2P_4kh:first-child > .listItemWrapper-3X98Pc > .wrapper-25eVIn > svg {
     opacity: 0;
 }
