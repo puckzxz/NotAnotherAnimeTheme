@@ -771,6 +771,7 @@ div.unread-mentions-indicator-bottom {
     background-position: var(--friends-icon-position) !important;
     background-repeat: no-repeat !important;
     background-size: var(--friends-icon-zoom) !important;
+    border-radius: 100%;
 }
 
 .theme-dark .body-SKIE6r {
