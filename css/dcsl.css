@@ -766,7 +766,7 @@ div.unread-mentions-indicator-bottom {
     border-radius: 25px;
 }
 
-.theme-dark .button-OhfaWu, .theme-light .button-OhfaWu {
+.listItemWrapper-3X98Pc > .wrapper-25eVIn {
     background: var(--friends-icon) !important;
     background-position: var(--friends-icon-position) !important;
     background-repeat: no-repeat !important;
@@ -1772,4 +1772,8 @@ body>div:last-of-type {
     position: absolute;
     width: 72px;
     padding-right: 54px;
+}
+
+.listItemWrapper-3X98Pc > .wrapper-25eVIn > svg {
+    opacity: 0;
 }
