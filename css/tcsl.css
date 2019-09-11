@@ -1783,6 +1783,6 @@ body>div:last-of-type {
     padding-right: 112px;
 }
 
-.listItemWrapper-3X98Pc > .wrapper-25eVIn > svg {
+.scroller-2FKFPG > .listItem-2P_4kh:not(:first-child) > .listItemWrapper-3X98Pc > .wrapper-25eVIn > svg {
     opacity: 0;
 }
