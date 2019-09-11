@@ -558,12 +558,12 @@ div.unread-mentions-indicator-bottom {
 }
 
 .wrapper-1Rf91z .scroller-2TZvBN .container-1ETFDs {
-	margin-left: 8px;
+    margin-left: 8px;
     margin-top: 8px;
 }
 
 .wrapper-1Rf91z .scroller-2TZvBN .container-1ETFDs.unread-2OHH1w::before {
-	left: -2px;
+    left: -2px;
     top: 5px;
     z-index:9000;
 }
@@ -578,7 +578,7 @@ div.unread-mentions-indicator-bottom {
 }
 
 #bd-pub-li {
-	position: absolute;
+    position: absolute;
     top: 0px;
     left: 0px;
 }
@@ -586,17 +586,17 @@ div.unread-mentions-indicator-bottom {
 #bd-pub-li #bd-pub-button {
     position:absolute;
     width: 100%;
-	text-align: center;
+    text-align: center;
 }
 
 .wrapper-1Rf91z .scroller-2TZvBN .guildSeparator-3s64Iy {
-	position: relative;
+    position: relative;
     width: 100%;
     margin-top: 12px;
 }
 
 .wrapper-1Rf91z .scroller-2TZvBN .friendsOnline-2JkivW {
-	position: relative;
+    position: relative;
     width: 100%;
     margin: auto;
     margin-top: 5px;
@@ -608,7 +608,7 @@ div.unread-mentions-indicator-bottom {
 }
 
 .wrapper-1Rf91z .scroller-2TZvBN .container-1ETFDs {
-	position: relative;
+    position: relative;
 }
 
 .wrapper-1Rf91z .scroller-2TZvBN .dms-rcsEnV {
