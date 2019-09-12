@@ -1773,10 +1773,6 @@ body>div:last-of-type {
     border-radius: 0;
 }
 
-.item-2hkk8m:not([style *= "opacity: 0.7"]) {
-    border-color: transparent;
-}
-
 .sidebar-2K8pFh {
     border-radius: 0 !important;
     background-color: var(--main-transparency);
