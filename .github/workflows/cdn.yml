@@ -33,8 +33,8 @@ jobs:
         B2_SECRET: ${{ secrets.B2_SECRET }}
       run: |
         b2 authorize_account $B2_ID $B2_SECRET
-        b2 upload_file notanotheranimetheme min/scsl.css scsl.css
-        b2 upload_file notanotheranimetheme min/dcsl.css dcsl.css
-        b2 upload_file notanotheranimetheme min/tcsl.css tcsl.css
-        b2 upload_file notanotheranimetheme min/qcsl.css qcsl.css
+        b2 upload_file notanotheranimetheme min/scsl.css dev/scsl.css
+        b2 upload_file notanotheranimetheme min/dcsl.css dev/dcsl.css
+        b2 upload_file notanotheranimetheme min/tcsl.css dev/tcsl.css
+        b2 upload_file notanotheranimetheme min/qcsl.css dev/qcsl.css
         curl -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE/purge_cache" -H "X-Auth-Email: $CF_EMAIL" -H "X-Auth-Key: $CF_SECRET" -H "Content-Type: application/json" --data '{"files":["https://cdn.discordthemes.net/file/notanotheranimetheme/dev/scsl.css", "https://cdn.discordthemes.net/file/notanotheranimetheme/dev/dcsl.css", "https://cdn.discordthemes.net/file/notanotheranimetheme/dev/tcsl.css", "https://cdn.discordthemes.net/file/notanotheranimetheme/dev/qcsl.css"]}'
