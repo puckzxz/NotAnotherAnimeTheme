@@ -1,0 +1,40 @@
+name: "[Master] NAAT CDN"
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python 3.5
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.5
+    - name: Install Dependencies
+      run: |
+        pip install b2
+        sudo apt update && sudo apt install -y curl
+    - name: Minify CSS
+      run: |
+        wget https://github.com/tdewolff/minify/releases/download/v2.5.2/minify_2.5.2_linux_amd64.tar.gz -O ./min.tar.gz
+        tar -xzf min.tar.gz
+        mkdir min
+        ./minify -r -o min/ css
+    - name: Upload Files
+      env:
+        CF_EMAIL: ${{ secrets.CF_EMAIL }}
+        CF_SECRET: ${{ secrets.CF_SECRET }}
+        CF_ZONE: ${{ secrets.CF_ZONE }}
+        B2_ID: ${{ secrets.B2_ID }}
+        B2_SECRET: ${{ secrets.B2_SECRET }}
+      run: |
+        b2 authorize_account $B2_ID $B2_SECRET
+        b2 upload_file notanotheranimetheme min/scsl.css scsl.css
+        b2 upload_file notanotheranimetheme min/dcsl.css dcsl.css
+        b2 upload_file notanotheranimetheme min/tcsl.css tcsl.css
+        b2 upload_file notanotheranimetheme min/qcsl.css qcsl.css
+        curl -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE/purge_cache" -H "X-Auth-Email: $CF_EMAIL" -H "X-Auth-Key: $CF_SECRET" -H "Content-Type: application/json" --data '{"files":["https://cdn.discordthemes.net/file/notanotheranimetheme/scsl.css", "https://cdn.discordthemes.net/file/notanotheranimetheme/dcsl.css", "https://cdn.discordthemes.net/file/notanotheranimetheme/tcsl.css", "https://cdn.discordthemes.net/file/notanotheranimetheme/qcsl.css"]}'
