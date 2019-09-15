@@ -1,6 +1,9 @@
-name: NAAT CDN
+name: "[Dev] NAAT CDN"
 
-on: [push]
+on:
+  push:
+    branches:
+      - dev
 
 jobs:
   build:
@@ -34,4 +37,4 @@ jobs:
         b2 upload_file notanotheranimetheme min/dcsl.css dcsl.css
         b2 upload_file notanotheranimetheme min/tcsl.css tcsl.css
         b2 upload_file notanotheranimetheme min/qcsl.css qcsl.css
-        curl -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE/purge_cache" -H "X-Auth-Email: $CF_EMAIL" -H "X-Auth-Key: $CF_SECRET" -H "Content-Type: application/json" --data '{"files":["https://cdn.discordthemes.net/file/notanotheranimetheme/scsl.css", "https://cdn.discordthemes.net/file/notanotheranimetheme/dcsl.css", "https://cdn.discordthemes.net/file/notanotheranimetheme/tcsl.css", "https://cdn.discordthemes.net/file/notanotheranimetheme/qcsl.css"]}'
+        curl -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE/purge_cache" -H "X-Auth-Email: $CF_EMAIL" -H "X-Auth-Key: $CF_SECRET" -H "Content-Type: application/json" --data '{"files":["https://cdn.discordthemes.net/file/notanotheranimetheme/dev/scsl.css", "https://cdn.discordthemes.net/file/notanotheranimetheme/dev/dcsl.css", "https://cdn.discordthemes.net/file/notanotheranimetheme/dev/tcsl.css", "https://cdn.discordthemes.net/file/notanotheranimetheme/dev/qcsl.css"]}'
