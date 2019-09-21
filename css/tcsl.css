@@ -1814,3 +1814,7 @@ body>div:last-of-type {
 .contentRegionScroller-26nc1e {
     background-color: transparent;
 }
+
+.theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {
+    background-color: transparent;
+}
