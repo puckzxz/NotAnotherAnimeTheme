@@ -1838,3 +1838,8 @@ body>div:last-of-type {
 .pill-1m5BUr {
     display: none;
 }
+
+.item-2hkk8m:not([style *= "height: 8px"]) {
+    border-color: transparent;
+    background-color: transparent;
+}
