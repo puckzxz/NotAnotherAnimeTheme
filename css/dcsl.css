@@ -1707,10 +1707,6 @@ padding: 0 !important;
     border: none;
     transition: none !important;
 }
-.item-2hkk8m:not([style *= "height: 8px"]) {
-    border-color: transparent;
-    background-color: transparent;
-}
 
 .typeMacOS-3EmCyP {
     background: var(--main-transparency);
