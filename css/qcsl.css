@@ -1663,14 +1663,6 @@ padding: 0 !important;
     margin-left: 7px;
 }
 
-.wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh) > div .item-2hkk8m {
-    opacity: 0 !important;
-}
-
-.wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh) > div .wrapper-sa6paO {
-    display: none !important;
-}
-
 .listItem-2P_4kh {
     width: auto;
     margin-left: 9px;
@@ -1715,10 +1707,6 @@ padding: 0 !important;
     border-radius: 18px;
     border: none;
     transition: none !important;
-}
-.item-2hkk8m:not([style *= "height: 8px"]) {
-    border-color: transparent;
-    background-color: transparent;
 }
 
 .typeMacOS-3EmCyP {
