@@ -1101,7 +1101,7 @@ div.unread-mentions-indicator-bottom {
 }
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: var(--scroll-bar-color);
     border-color: rgba(0, 0, 0, 0);
 }
 
@@ -1428,7 +1428,7 @@ padding: 0 !important;
 
 .userPopout-3XzG_A {
     box-shadow: none;
-    background: var(--main-transparency);
+    background: var(--user-popup-background);
 }
 
 .bodyTitle-Y0qMQz {
@@ -1808,4 +1808,16 @@ body>div:last-of-type {
 
 .bg-h5JY_x {
     background-color: transparent;
+}
+
+.clickable-1JJAn8.container-2Pjhx-:hover {
+    background-color: var(--hover-list-bg-color);
+}
+
+.dividerEnabled-2TTlcf {
+    border-bottom-color: var(--border-lines-color);
+}
+
+.modeMuted-3osy7j:hover .name-3_Dsmg, .wrapper-1ucjTd:hover .name-3_Dsmg {
+    color: var(--channel-hover-text-color);
 }
