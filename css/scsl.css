@@ -1587,7 +1587,7 @@ padding: 0 !important;
 }
 
 .theme-dark .wrapper-1ucjTd.modeUnread-1zpFdA:hover .name-3_Dsmg {
-    color: var(--text-hover-color);
+    color: var(--unread-text-color);
 }
 
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .name-3_Dsmg {
