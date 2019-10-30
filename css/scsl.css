@@ -1819,5 +1819,5 @@ body>div:last-of-type {
 }
 
 .modeMuted-3osy7j:hover .name-3_Dsmg, .wrapper-1ucjTd:hover .name-3_Dsmg {
-    color: var(--channel-hover-text-color);
+    color: var(--channel-hover-text-color, var(--text-hover-color));
 }
