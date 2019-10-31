@@ -291,3 +291,10 @@ border-radius: 8px ;
 }
 
 
+
+/*move server add/create in line*/
+.scroller-2TZvBN>div:nth-last-child(-n+2) {
+	margin-left: 0px ;
+}
+
+
