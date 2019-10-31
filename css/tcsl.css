@@ -1428,7 +1428,7 @@ padding: 0 !important;
 
 .userPopout-3XzG_A {
     box-shadow: none;
-    background: var(--user-popup-background);
+    background: var(--user-popup-background, var(--main-transparency));
 }
 
 .bodyTitle-Y0qMQz {
