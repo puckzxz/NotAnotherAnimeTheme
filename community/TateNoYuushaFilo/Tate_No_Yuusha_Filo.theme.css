@@ -11,6 +11,7 @@
 /* THIS IS A VALID LINK https://i.imgur.com/rCqnrQ7.jpg */
 
 /* If you find an image I would STRONGLY recommend rehosting the image on imgur https://imgur.com/upload */
+/*https://i.imgur.com/kIaTpVL.jpg BEST IMG*/ 
 
 :root {
     /*
@@ -107,6 +108,11 @@
     */
     --user-popup-background: rgba(0, 33, 106, 0.6);
 }
+
+
+
+
+
 
 /* ADD ANY CUSTOM CODE BELOW */
 
@@ -226,6 +232,29 @@
 
 
 
+/*Emoji Picker Top Corners & transparency & stuff*/
+
+.bda-dark .emojiPicker-3m1S-j,.bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
+background-color: rgba(0,0,0,0.4);
+border-radius: 5px 5px 5px 5px;
+}
+
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+background-color: rgba(0,0,0,0.3);
+}
+
+
+
+/*gif picker*/
+.theme-dark .autocomplete-1vrmpx, .header-1TOWci {
+background-color: rgba(0,0,0,0.7);
+}
+
+
+
+
+
+
 /*message background shadow*/
 .containerCozyBounded-1rKFAn {
     background: rgba(0, 0, 0, 0.2); /* message background color/transparency */
@@ -255,20 +284,10 @@
 
 }	
 
-
-
-
-.layers-3iHuyZ {
-	color: rgba(0,0,0,0.5) ;
-	background-color: rgba(0,0,0,1);
+/*server name borders*/
+.content-3at_AU {
+background-color: rgba(0,0,0,0.3);
+border-radius: 8px ;
 }
 
-/*.layers-3q14ss {
-	color: rgba(0,0,0,1) ;
-	background-color: rgba(0,0,0,1);
-}
-
-/*.app-2rEoOp {
-	color: rgba(0,0,0,1);
-	background-color: rgba(0,0,0,0.5);
 
