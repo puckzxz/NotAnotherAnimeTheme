@@ -1841,3 +1841,11 @@ body>div:last-of-type {
 .theme-dark .footer-3mqk7D {
     box-shadow: inset 0 1px 0 var(--main-color);
 }
+
+.theme-dark .inner-zqa7da {
+    background-color: transparent;
+}
+
+.scrollableContainer-38zsVD {
+    background-color: rgba(0,0,0,0.6);
+}
