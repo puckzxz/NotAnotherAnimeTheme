@@ -1882,3 +1882,7 @@ body>div:last-of-type {
 .scrollableContainer-2NUZem {
     background-color: rgba(0,0,0,0.6);
 }
+
+.container-3Mxszk {
+	background-color: var(--main-transparency);
+}
