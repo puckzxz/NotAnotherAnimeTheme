@@ -1892,3 +1892,31 @@ body>div:last-of-type {
 .container-3Mxszk {
 	background-color: var(--main-transparency);
 }
+
+.theme-dark .container-1D34oG {
+    background-color: var(--main-transparency);
+}
+
+.peopleList-3c4jOR {
+    background-color: transparent;
+}
+
+.nowPlayingColumn-2sl4cE {
+    background: transparent;
+}
+
+.actionButton-uPB8Fs {
+    background-color: rgba(0,0,0,0.0);
+}
+
+.wrapper-3D2qGf {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.theme-dark .inset-3sAvek {
+    background-color: transparent;
+}
+
+.scroller-9moviB {
+    background-color: transparent;
+}
