@@ -1944,3 +1944,19 @@ body>div:last-of-type {
 .content-1o0f9g {
 	background: none;
 }
+
+.embedFull-2tM8-- {
+    border-left: 4px solid var(--main-color);
+    background: rgba(0,0,0,0.4);
+}
+.theme-dark .markup-2BOw-j code.inline {
+	background: rgba(0,0,0,0.4);
+}
+
+.theme-dark .markup-2BOw-j code {
+    background: rgba(0,0,0,0.5);
+}
+
+.markup-2BOw-j code {
+	border:none;
+}
