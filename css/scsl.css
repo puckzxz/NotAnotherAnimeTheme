@@ -1925,3 +1925,9 @@ body>div:last-of-type {
 .markup-2BOw-j code {
 	border:none;
 }
+
+.wrapper-1Rf91z .scroller-2TZvBN > div[aria-label="Servers"] {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
