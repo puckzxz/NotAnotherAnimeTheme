@@ -1,5 +1,14 @@
-//META{"name":"NotAnotherAnimeThemeTCSL","description":"Anime theme made by puckzxz#2080 and Quake#1470, make sure you're up to date at https://goo.gl/jfR9BS , Get support here https://discord.gg/FdZhbjY","author":"puckzxz#2080 & Quake#1470","version":"2.1"}*//{}
-@import url(https://cdn.discordthemes.net/file/notanotheranimetheme/tcsl.css);
+/**
+* @name NotAnotherAnimeThemeTCSL
+* @author puckzxz#2080
+* @version 2.2
+* @description An easily customizable and automatically updating theme
+* @invite FdZhbjY
+* @source https://github.com/puckzxz/NotAnotherAnimeTheme
+*/
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/css/tcsl.css);
+
+
 /* Import any custom fonts here */
 
 
