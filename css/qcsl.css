@@ -1660,12 +1660,12 @@ padding: 0 !important;
 
 .wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh) > div {
     width: 50px;
-    margin-left: 7px;
+    margin-left: 9px;
 }
 
 .listItem-2P_4kh {
     width: auto;
-    margin-left: 9px;
+    margin-left: 0px;
 }
 
 .wrapper-sa6paO {
@@ -1700,7 +1700,7 @@ padding: 0 !important;
     width: 193px;
     display: block;
     margin: 10px auto 5px;
-    margin-left: 12px;
+    margin-left: 22px;
 }
 
 .listItem-2P_4kh.da-listItem:hover .item-2hkk8m {
@@ -1983,4 +1983,12 @@ body>div:last-of-type {
 
 .tutorialContainer-1v44GL .listItem-2P_4kh .listItemWrapper-3X98Pc .wrapper-25eVIn svg {
     opacity: 0;
+}
+
+.expandedFolderBackground-2sPsd- {
+    left: 0px;
+}
+
+.tutorialContainer-1v44GL .listItem-2P_4kh {
+    right: 6px;
 }
