@@ -1991,3 +1991,9 @@ body>div:last-of-type {
 .tutorialContainer-1v44GL .listItem-2P_4kh {
     right: 3px;
 }
+
+.wrapper-1Rf91z .scroller-2TZvBN > div[role="tree"] {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
