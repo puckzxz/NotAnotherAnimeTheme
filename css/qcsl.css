@@ -1682,7 +1682,7 @@ padding: 0 !important;
     margin-top: 0;
     position: absolute;
     top: 0;
-    right: 2px !important;
+    right: 1px !important;
     width: 48px;
     height: 48px !important;
     /* remove the left to right display transformation */
