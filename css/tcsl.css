@@ -1966,3 +1966,21 @@ body>div:last-of-type {
     flex-direction: column;
     flex-flow: row wrap;
 }
+
+.tutorialContainer-1v44GL {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tutorialContainer-1v44GL .listItem-2P_4kh .listItemWrapper-3X98Pc .wrapper-25eVIn {
+    background: var(--friends-icon) !important;
+    background-position: var(--friends-icon-position) !important;
+    background-repeat: no-repeat !important;
+    background-size: var(--friends-icon-zoom) !important;
+    border-radius: 100%;
+}
+
+.tutorialContainer-1v44GL .listItem-2P_4kh .listItemWrapper-3X98Pc .wrapper-25eVIn svg {
+    visibility: hidden;
+}
