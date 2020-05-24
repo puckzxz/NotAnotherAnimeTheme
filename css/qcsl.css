@@ -2014,3 +2014,62 @@ body>div:last-of-type {
 .styleFixed-sX-yHV {
     background: rgba(6, 6, 6, 0.9);
 }
+
+.searchResultsWrap-3-pOjs {
+    background-color: transparent;
+}
+
+.channelName-wvgELL {
+    background: transparent;
+}
+
+.searchResult-2N9RV4:before {
+    background-image: none;
+}
+
+.searchResultMessage-30QnSN.hit-1CXhXT {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: rgba(0,0,0,0.4);
+    border: none;
+}
+
+.searchResult-2N9RV4:after {
+    background-image: none;
+}
+
+.contentWrapper-2txmjs {
+    background-color: rgba(0,0,0,0.6);
+}
+
+.navButtonActive-3RPAJy {
+    background-color: transparent;
+}
+
+.wrapper-2N7X54 {
+    background-color: transparent;
+}
+
+.unicodeShortcut-15J8Ck {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.inspector-sdLnLS {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.categoryWrapper-UZ5YNj {
+    background-color: rgba(0,0,0,0.9);
+}
+
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV {
+    background-color: rgba(25, 25, 25, 0.75);
+}
+
+.categoryItemDefaultCategorySelected-_HCKoz, .categoryItemDefaultCategorySelected-_HCKoz:hover {
+    background-color: rgba(25, 25, 25, 0.75);
+}
+
+.container-2XeR5Z {
+    background-color: rgba(20,20,20,0.8);
+}
