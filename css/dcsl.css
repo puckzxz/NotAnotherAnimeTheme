@@ -1373,8 +1373,8 @@ padding: 0 !important;
 }
 
 .scroller-2TZvBN > div:nth-last-child(-n+2) {
-  margin-right: 2px;
-  margin-left: 8px;
+  margin-right: 8px;
+  margin-left: 0px;
 }
 
 .theme-dark .unread-2OHH1w:before {
