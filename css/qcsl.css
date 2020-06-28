@@ -2111,3 +2111,7 @@ body>div:last-of-type {
 .emojiPicker-3PwZFl {
     background-color: rgba(0,0,0,0.6);
 }
+
+.folder-21wGz3, .folderIconWrapper-226oVY {
+    border-radius: 100%;
+}
