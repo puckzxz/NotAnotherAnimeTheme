@@ -2115,3 +2115,7 @@ body>div:last-of-type {
 .folder-21wGz3, .folderIconWrapper-226oVY {
     border-radius: 100%;
 }
+
+.members-1998pB, .members-1998pB>div {
+    background-color: transparent;
+}
