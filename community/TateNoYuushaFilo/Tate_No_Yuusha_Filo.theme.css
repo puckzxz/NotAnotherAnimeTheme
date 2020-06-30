@@ -1,5 +1,14 @@
-//META{"name":"Tate No Yuusha - Filo","description":"Anime theme made by puckzxz#2080 and Quake#1470, customized by The0ne.ZoMBi#1966, make sure you're up to date at https://goo.gl/jfR9BS , Get support here https://discord.gg/FdZhbjY","author":"puckzxz#2080 & Quake#1470","version":"2.1"}*//{}
-@import url(https://cdn.discordthemes.net/file/notanotheranimetheme/scsl.css);
+/**
+* @name "Tate No Yuusha - Filo" from "NotAnotherAnimeTheme"
+* @author puckzxz#2080
+* @version 2.2
+* @description An easily customizable and automatically updating theme
+* @Invite FdZhbjY
+* @source https://github.com/puckzxz/NotAnotherAnimeTheme
+*/
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/css/scsl.css);
+
+
 /* Import any custom fonts here */
 
 
@@ -11,6 +20,7 @@
 /* THIS IS A VALID LINK https://i.imgur.com/rCqnrQ7.jpg */
 
 /* If you find an image I would STRONGLY recommend rehosting the image on imgur https://imgur.com/upload */
+/*https://i.imgur.com/kIaTpVL.jpg BEST IMG*/ 											 
 
 :root {
     /*
@@ -85,13 +95,13 @@
     Change the text color of a selected text channel or joined voice channel
     Default: #f6f6f7
     */
-    --selected-text-voice-color: #fae9cf;
+    --selected-text-voice-color: rgb(0, 33, 106);
 
     /*
     Change the text color of a hovered text or voice channel
     Default: rgba(255, 255, 255, 0.75)
     */
-    --channel-hover-text-color: rgba(100, 212, 232, 0.75);
+    --channel-hover-text-color: rgba(100, 212, 232,0.75);
 
 
     /*
@@ -108,19 +118,32 @@
     --user-popup-background: rgba(0, 33, 106, 0.6);
 }
 
+
+
 /* ADD ANY CUSTOM CODE BELOW */
 
 		/*on friend click from RHS*/
-/* Role and Note */
+/* Role and Note and playing */
 .bodyTitle-Y0qMQz {
     color: rgb(250, 233, 207);
 }
-
+.theme-dark .activityUserPopout-2yItg2 .headerText-1HLrL7 {
+	color: rgb(250, 233, 207);
+}
 /* Protip */
 .statusGreen-168O6Q {
     color: rgb(250, 233, 207);
 }
-
+/*name and no and status*/
+.headerName-fajvi9 {
+	color: rgb(250, 233, 207) ;
+}
+.nameTag-m8r81H .username-2b1r56 {
+	color:rgba(250, 233, 207,0.8);
+}
+.headerTag-2pZJzA {
+	color:rgba(250, 233, 207,0.5);
+}
 
 
 
@@ -132,7 +155,7 @@
 
 /*mod tabs on right bar*/
 .container-2ax-kl {
-    color: rgba(250, 233, 207, 0.7);
+    color: rgba(250, 233, 207, 0.8);
 }
 
 
@@ -164,6 +187,11 @@
 .expandedFolderBackground-2sPsd- {
     background-color: rgba(131,193,204,0.2);
 }
+	
+/*folder colour hover colour*/
+.folder-21wGz3.hover-2ji_A7 {
+    background-color:rgba(0, 33, 106, 0.6);
+}	
 	
 
 /*custom status on friends view*/
@@ -226,12 +254,35 @@
 
 
 
+/*Emoji Picker Top Corners & transparency & stuff*/
+
+.bda-dark .emojiPicker-3m1S-j,.bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
+background-color: rgba(0,0,0,0.4);
+border-radius: 5px 5px 5px 5px;
+}
+
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+background-color: rgba(0,0,0,0.3);
+}
+
+
+
+/*gif picker*/
+.theme-dark .autocomplete-1vrmpx, .header-1TOWci {
+background-color: rgba(0,0,0,0.7);
+}
+
+
+
 /*message background shadow*/
 .containerCozyBounded-1rKFAn {
     background: rgba(0, 0, 0, 0.2); /* message background color/transparency */
     margin: 5px 20px; /* space between each message */
     border-radius: 5px; /* message roundness */
 }
+
+
+
 /*bg image is the discord shadow at beginning of conversation, color is line at beginning of conversation*/
 .theme-dark .base-34jWEe {
 	color: rgba(0,0,0,0) ;
@@ -255,20 +306,34 @@
 
 }	
 
-
-
-
-.layers-3iHuyZ {
-	color: rgba(0,0,0,0.5) ;
-	background-color: rgba(0,0,0,1);
+/*server name borders*/
+.content-3at_AU {
+background-color: rgba(0,0,0,0.3);
+border-radius: 8px ;
 }
 
-/*.layers-3q14ss {
-	color: rgba(0,0,0,1) ;
-	background-color: rgba(0,0,0,1);
+
+/*move server add/create in line*/
+.scroller-2TZvBN>div:nth-last-child(-n+2) {
+	margin-left: 0px ;
 }
 
-/*.app-2rEoOp {
-	color: rgba(0,0,0,1);
-	background-color: rgba(0,0,0,0.5);
+/*server online list name outline*/ 
+.layout-2DM8Md {
+	background-color: rgba(0,0,0,0.1);
+}
+
+
+/* SO MUCH MORE*/
+
+/* DM BG*/
+.flex-1xMQg5 flex-1O1GKY da-flex da-flex horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyCenter-3D2jYp alignCenter-1dQNNs noWrap-3jynv6 videoGridWrapper-2BDlMX da-videoGridWrapper minLayout-tDGzv- da-minLayout {
+	color: rgba(0,0,255,0.9);
+}
+
+.members-1998pB>div {
+	background-color: transparent;
+}
+
+
 
