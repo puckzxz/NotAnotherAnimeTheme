@@ -1,5 +1,14 @@
-//META{"name":"Tate No Yuusha - Filo","description":"Anime theme made by puckzxz#2080 and Quake#1470, customized by The0ne.ZoMBi#1966, make sure you're up to date at https://goo.gl/jfR9BS , Get support here https://discord.gg/FdZhbjY","author":"puckzxz#2080 & Quake#1470","version":"2.1"}*//{}
-@import url(https://cdn.discordthemes.net/file/notanotheranimetheme/scsl.css);
+/**
+* @name "Tate No Yuusha - Filo" from "NotAnotherAnimeTheme"
+* @author puckzxz#2080
+* @version 2.2
+* @description An easily customizable and automatically updating theme
+* @Invite FdZhbjY
+* @source https://github.com/puckzxz/NotAnotherAnimeTheme
+*/
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/css/scsl.css);
+
+
 /* Import any custom fonts here */
 
 
@@ -11,7 +20,7 @@
 /* THIS IS A VALID LINK https://i.imgur.com/rCqnrQ7.jpg */
 
 /* If you find an image I would STRONGLY recommend rehosting the image on imgur https://imgur.com/upload */
-/*https://i.imgur.com/kIaTpVL.jpg BEST IMG*/ 
+/*https://i.imgur.com/kIaTpVL.jpg BEST IMG*/ 											 
 
 :root {
     /*
@@ -92,7 +101,7 @@
     Change the text color of a hovered text or voice channel
     Default: rgba(255, 255, 255, 0.75)
     */
-    --channel-hover-text-color: rgba(100, 212, 232, 0.75);
+    --channel-hover-text-color: rgba(100, 212, 232,0.75);
 
 
     /*
@@ -108,9 +117,6 @@
     */
     --user-popup-background: rgba(0, 33, 106, 0.6);
 }
-
-
-
 
 
 
@@ -313,6 +319,23 @@ border-radius: 8px ;
 }
 
 /*server online list name outline*/ 
+.layout-2DM8Md {
+	background-color: rgba(0,0,0,0.1);
+}
+
+
+/* SO MUCH MORE*/
+
+/* DM BG*/
+.flex-1xMQg5 flex-1O1GKY da-flex da-flex horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyCenter-3D2jYp alignCenter-1dQNNs noWrap-3jynv6 videoGridWrapper-2BDlMX da-videoGridWrapper minLayout-tDGzv- da-minLayout {
+	color: rgba(0,0,255,0.9);
+}
+
+.members-1998pB>div {
+	background-color: transparent;
+}
+
+
 
 .layout-2DM8Md {
 	background-color: rgba(0,0,0,0.3);
