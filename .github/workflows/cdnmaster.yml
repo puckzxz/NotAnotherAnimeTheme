@@ -22,7 +22,7 @@ jobs:
         sudo apt update && sudo apt install -y curl
     - name: Minify CSS
       run: |
-        wget https://github.com/tdewolff/minify/releases/download/v2.5.2/minify_2.5.2_linux_amd64.tar.gz -O ./min.tar.gz
+        wget https://github.com/tdewolff/minify/releases/download/v2.7.6/minify_2.7.6_linux_amd64.tar.gz -O ./min.tar.gz
         tar -xzf min.tar.gz
         mkdir min
         ./minify -r -o min/ css
