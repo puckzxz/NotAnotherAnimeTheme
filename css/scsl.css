@@ -2092,3 +2092,21 @@ body>div:last-of-type {
 .tutorialContainer-1v44GL {
     margin-left: 6px;
 }
+
+.searchResultMessage-1fxgXh.hit-1fVM9e {
+    box-shadow: none;
+    background-color: transparent;
+    border: none;
+}
+
+.searchResult-9tQ1uo:before {
+    background-image: none;
+}
+
+.searchResult-9tQ1uo:after {
+    background-image: none;
+}
+
+.channelName-1JRO3C {
+    background: transparent;
+}
