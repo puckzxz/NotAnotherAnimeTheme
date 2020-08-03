@@ -2133,3 +2133,8 @@ padding: 0 !important;
 .channelName-1JRO3C {
     background: transparent;
 }
+
+.theme-dark .wrapperAudio-1jDe0Q {
+    border: none;
+    background-color: rgba(0,0,0,.4);
+}
