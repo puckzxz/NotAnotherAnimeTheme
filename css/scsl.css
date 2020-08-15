@@ -2118,3 +2118,11 @@ padding: 0 !important;
 .wrapper-1F5TKx {
     background-color: transparent;
 }
+
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-bar-color);
+}
+
+.auto-Ge5KZx::-webkit-scrollbar-track {
+    background-color: transparent;
+}
