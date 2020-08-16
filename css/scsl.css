@@ -2126,3 +2126,7 @@ padding: 0 !important;
 .auto-Ge5KZx::-webkit-scrollbar-track {
     background-color: transparent;
 }
+
+.textarea-2r0oV8:focus {
+    background-color: transparent;
+}
