@@ -1956,6 +1956,12 @@ padding: 0 !important;
     flex-flow: row wrap;
 }
 
+.wrapper-1Rf91z .scroller-2TZvBN > div {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
+
 .tutorialContainer-1v44GL {
     display: flex;
     justify-content: center;
