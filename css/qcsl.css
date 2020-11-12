@@ -2188,3 +2188,7 @@ padding: 0 !important;
 .modeSelected-346R90 .name-23GUGE, .modeConnected-3IsKId .name-23GUGE {
     color: var(--selected-text-voice-color);
 }
+
+.modeMuted-onO3r-:hover .name-23GUGE, .wrapper-2jXpOf:hover .name-23GUGE {
+    color: var(--channel-hover-text-color);
+}
