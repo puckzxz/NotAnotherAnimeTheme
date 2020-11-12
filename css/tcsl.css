@@ -2189,3 +2189,11 @@ padding: 0 !important;
 .modeMuted-onO3r-:hover .name-23GUGE, .wrapper-2jXpOf:hover .name-23GUGE {
     color: var(--channel-hover-text-color);
 }
+
+.modeUnread-1qO3K1 .name-23GUGE {
+    color: var(--unread-text-color);
+}
+
+.unread-2lAfLh {
+    background-color: var(--unread-text-color);
+}
