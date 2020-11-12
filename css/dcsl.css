@@ -2177,3 +2177,7 @@ padding: 0 !important;
 .name-3l27Hl.container-2ax-kl {
     color: var(--main-color);
 }
+
+.modeSelected-346R90 .name-23GUGE, .modeConnected-3IsKId .name-23GUGE {
+    color: var(--selected-text-voice-color);
+}
