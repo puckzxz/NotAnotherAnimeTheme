@@ -2190,7 +2190,7 @@ padding: 0 !important;
 }
 
 .modeMuted-onO3r-:hover .name-23GUGE, .wrapper-2jXpOf:hover .name-23GUGE {
-    color: var(--channel-hover-text-color);
+    color: var(--channel-hover-text-color, var(--text-hover-color));
 }
 
 .modeUnread-1qO3K1 .name-23GUGE {
