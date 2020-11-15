@@ -2205,3 +2205,7 @@ padding: 0 !important;
 .lookFilled-1Gx00P.colorGrey-2DXtkV {
     background-color: rgba(255, 255, 255, 0.1);
 }
+
+.wrapper-PY0fhH.muted-2JBAyG:hover .icon-2yIBmh, .wrapper-PY0fhH.muted-2JBAyG:hover .name-3l27Hl, .wrapper-PY0fhH:hover .icon-2yIBmh, .wrapper-PY0fhH:hover .name-3l27Hl {
+    color: var(--main-color);
+}
