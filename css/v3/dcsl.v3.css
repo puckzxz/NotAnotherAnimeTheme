@@ -91,10 +91,10 @@
 
 /* CHAT INPUT */
 .channelTextArea-rNsIhG {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: transparent;
 }
 .scrollableContainer-2NUZem {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .theme-dark .form-2fGMdU:before {
   background: transparent;
