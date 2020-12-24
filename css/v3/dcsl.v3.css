@@ -457,3 +457,9 @@
 .item-26Dhrx[aria-checked="true"] {
   background-color: rgba(200, 200, 200, 0.1);
 }
+
+/* Uploaded file in chat */
+.attachment-33OFj0 {
+  border-color: transparent;
+  background-color: rgba(0, 0, 0, 0.6);
+}
