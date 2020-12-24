@@ -463,3 +463,16 @@
   border-color: transparent;
   background-color: rgba(0, 0, 0, 0.6);
 }
+
+/* Mentions */
+.mentioned-xhSam7:before {
+  background-color: var(--mention-sider);
+}
+.mentioned-xhSam7 {
+  position: relative;
+  background-color: var(--mention-color);
+}
+.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z,
+.mouse-mode.full-motion .mentioned-xhSam7:hover {
+  background-color: var(--mention-hover-color);
+}
