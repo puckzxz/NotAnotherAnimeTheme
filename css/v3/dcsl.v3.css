@@ -476,3 +476,11 @@
 .mouse-mode.full-motion .mentioned-xhSam7:hover {
   background-color: var(--mention-hover-color);
 }
+
+/* Code Markup */
+.markup-2BOw-j code {
+  /* TODO: Variable for color */
+  background: rgba(0, 0, 0, 0.6);
+  /* TODO: Variable for border */
+  border: 1px solid transparent;
+}
