@@ -364,6 +364,9 @@
 .mainContent-2h-GEV .container-2ax-kl {
   color: var(--main-theme-color);
 }
+.wrapper-PY0fhH.muted-2JBAyG:hover .icon-2yIBmh, .wrapper-PY0fhH.muted-2JBAyG:hover .name-3l27Hl, .wrapper-PY0fhH:hover .icon-2yIBmh, .wrapper-PY0fhH:hover .name-3l27Hl {
+  color: var(--category-hover-color);
+}
 
 /* Member Role title color */
 /*  TODO Var */
