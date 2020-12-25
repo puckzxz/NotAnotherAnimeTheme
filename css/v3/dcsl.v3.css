@@ -139,11 +139,6 @@
   background: rgba(0, 0, 0, 0.6);
 }
 
-/* DAY DIVIDER */
-.divider-JfaTT5 {
-  /* border-top: thin solid pink; */
-  border-color: transparent;
-}
 /* DAY CONTAINER */
 .content-1o0f9g {
   color: var(--main-theme-color);
@@ -353,8 +348,12 @@
 
 /* Info Modal */
 .theme-dark .root-1gCeng {
-  background-color: rgba(20, 20, 20, 0.6);
-  box-shadow: 0 0 0 1px var(--main-theme-color);
+  background-color: rgba(20, 20, 20, 0.8);
+  box-shadow: none;
+}
+.theme-dark .footer-2gL1pp {
+  background-color: transparent;
+  box-shadow: none;
 }
 
 /* Channel category color */
@@ -487,3 +486,5 @@
   /* TODO: Variable for border */
   border: 1px solid transparent;
 }
+
+/* TODO: New message line color */
