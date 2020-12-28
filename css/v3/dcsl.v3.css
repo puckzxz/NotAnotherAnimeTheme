@@ -3,6 +3,7 @@
   background-size: cover;
 }
 
+/* TODO: Fix image positioning */
 .tutorialContainer-1v44GL
   .listItem-2P_4kh
   .listItemWrapper-3X98Pc
@@ -289,6 +290,9 @@
   background-color: rgba(200, 200, 200, 0.2);
   color: white;
 }
+.button-1YfofB.buttonColor-7qQbGO:hover, .button-1YfofB .buttonColor-7qQbGO:hover {
+  background-color: rgba(200, 200, 200, 0.4);
+}
 
 /* FRIEND ACTIVITY */
 .wrapper-3D2qGf {
@@ -436,6 +440,9 @@
 .body-3ND3kc {
   background-color: rgba(0, 0, 0, 0.6);
 }
+.topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
+  border-top-color: transparent;
+}
 
 /* Upload Dialog */
 .theme-dark .uploadModal-2ifh8j {
@@ -488,3 +495,30 @@
 }
 
 /* TODO: New message line color */
+
+/* quote */
+.blockquoteDivider-2hH8H6 {
+  background-color: var(--main-theme-color);
+}
+
+
+/* Library page */
+.scroller-1IIF0A {
+  background-color: transparent;
+}
+.header-39GIC8 {
+  background-color: transparent;
+  border-bottom: none;
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+  color: #f6f6f7;
+  background-color: rgba(200, 200, 200, 0.2);
+}
+
+/* Nitro page */
+.scroller-9moviB {
+  background-color: transparent;
+}
+.applicationStore-1pNvnv {
+  background-color: transparent;
+}
