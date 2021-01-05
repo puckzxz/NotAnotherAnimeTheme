@@ -1,1 +1,0 @@
-Start-Process -Wait -FilePath ".\minify.exe" -ArgumentList "-o ..\build\", "-r ..\css\"
