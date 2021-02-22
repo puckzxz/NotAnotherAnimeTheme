@@ -178,7 +178,7 @@
   
   .wrapper-1Rf91z .scroller-2TZvBN > div:not(.listItem-2P_4kh) > div {
     width: 50px;
-    margin-left: 9px;
+    margin-left: 10px;
   }
   
   .listItem-2P_4kh {
@@ -210,6 +210,7 @@
     display: block;
     margin: 10px auto 5px;
     margin-left: 24px;
+    background-color: transparent;
   }
   
   .wrapper-21YSNc {
@@ -281,7 +282,7 @@
   }
   
   .tutorialContainer-1v44GL .listItem-2P_4kh {
-    right: 3px;
+    right: 5px;
   }
   
   /* #endregion */
