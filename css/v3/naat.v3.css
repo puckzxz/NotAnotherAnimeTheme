@@ -583,10 +583,9 @@
   background-color: var(--emoji-menu-search-bar-background-color);
 }
 
-/*TODO: Vars*/
 /* Search */
 .theme-dark .container-3ayLPN {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: var(--message-search-menu-background-color);
 }
 
 .theme-dark .elevationBorderHigh-2WYJ09 {
@@ -601,7 +600,7 @@
 }
 
 .searchResultsWrap-3-pOjs {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: var(--message-search-container-background-color);
 }
 
 .searchHeader-2XoQg7 {
@@ -613,5 +612,5 @@
 }
 
 .searchResult-9tQ1uo {
-  background-color: rgba(200, 200, 200, 0.05);
+  background-color: var(--message-search-result-background-color);
 }
