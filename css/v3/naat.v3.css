@@ -559,29 +559,28 @@
   color: var(--new-messages-bar-font-color);
 }
 
-/*TODO: Vars*/
 /* Emoji Menu */
 .contentWrapper-SvZHNd {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: var(--emoji-menu-background-color);
 }
 
 .wrapper-2Gsate {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: var(--emoji-menu-sider-background-color);
 }
 .unicodeShortcut-15J8Ck {
-  background-color: black;
+  background-color: var(--emoji-menu-bottom-bar-background-color);
 }
 
 .inspector-S2gM3e {
-  background-color: black;
+  background-color: var(--emoji-menu-bottom-bar-background-color);
 }
 
 .wrapper-1-Fsb8 {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: var(--emoji-menu-server-header-background-color);
 }
 
 .container-2XeR5Z {
-  background-color: rgba(200, 200, 200, 0.1);
+  background-color: var(--emoji-menu-search-bar-background-color);
 }
 
 /*TODO: Vars*/
