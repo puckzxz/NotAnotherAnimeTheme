@@ -5,8 +5,8 @@
 
 .tutorialContainer-2sGCg9
   .listItem-GuPuDH
-  .listItemWrapper-3X98Pc
-  .wrapper-25eVIn {
+  .listItemWrapper-KhRmzM
+  .wrapper-1BJsBx {
   background: var(--home-icon-image) !important;
   background-position: var(--home-icon-image-position) !important;
   background-repeat: no-repeat !important;
@@ -16,14 +16,22 @@
 
 .tutorialContainer-2sGCg9
   .listItem-GuPuDH
-  .listItemWrapper-3X98Pc
-  .wrapper-25eVIn
+  .listItemWrapper-KhRmzM
+  .wrapper-1BJsBx
   .childWrapper-anI2G9 {
   background-color: transparent;
 }
 
 .homeIcon-tEMBK1 {
   visibility: hidden;
+}
+
+.tutorialContainer-2sGCg9
+  .listItem-GuPuDH
+  .listItemWrapper-KhRmzM
+  .wrapper-1BJsBx
+  svg {
+  opacity: 0;
 }
 
 .titleBar-AC4pGV {
@@ -242,8 +250,8 @@
   margin-left: 0;
   margin-top: 0;
   position: absolute;
-  top: 0;
-  right: 1px !important;
+  top: -2px;
+  right: 3px !important;
   width: 48px;
   height: 48px !important;
   transform: none !important;
