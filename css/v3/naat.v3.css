@@ -639,3 +639,24 @@
 .tree-2wKJdG:focus {
   outline: none;
 }
+
+/* unread text channel color */
+.modeUnread-1qO3K1 .name-23GUGE {
+  color: var(--unread-text-channel-color);
+}
+
+/* Unread text channel bubble */
+.unread-2lAfLh {
+  background-color: var(--unread-text-channel-bubble-color);
+}
+
+/* channel hover */
+.modeMuted-onO3r-:hover .name-23GUGE,
+.wrapper-2jXpOf:hover .name-23GUGE {
+  color: var(--text-voice-channel-hover-color);
+}
+
+/* Channel color */
+.name-23GUGE {
+  color: var(--text-voice-channel-color);
+}
