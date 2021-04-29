@@ -660,3 +660,12 @@
 .name-23GUGE {
   color: var(--text-voice-channel-color);
 }
+
+/* Folder colors */
+.expandedFolderBackground-1cujaW {
+  background-color: var(--expanded-folder-background-color);
+}
+
+.folder-1hbNCn {
+  background-color: var(--folder-background-color);
+}
