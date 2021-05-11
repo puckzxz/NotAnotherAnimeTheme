@@ -2221,3 +2221,12 @@ padding: 0 !important;
 .folder-1hbNCn {
     background-color: transparent;
 }
+
+.reaction-1hd86g {
+    background: rgba(0,0,0,0);
+}
+
+.reaction-1hd86g:hover {
+    background-color: rgba(255,255,255,0.1);
+    border-color: hsla(0,0%,100%,.2);
+}
