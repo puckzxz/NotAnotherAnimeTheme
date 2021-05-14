@@ -669,3 +669,17 @@
 .folder-1hbNCn {
   background-color: var(--folder-background-color);
 }
+
+/* Friend activity */
+.container-lRFx4q {
+  background-color: transparent;
+}
+
+.section-2gLsgF {
+  background-color: transparent;
+}
+
+/* TODO: var */
+.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
+  background-color: rgba(0,0,0,0.8);
+}

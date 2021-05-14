@@ -2268,3 +2268,7 @@ padding: 0 !important;
 .section-2gLsgF {
     background-color: transparent;
 }
+
+.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
+    background-color: rgba(0,0,0,0.8);
+}
