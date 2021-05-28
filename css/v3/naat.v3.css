@@ -683,3 +683,12 @@
 .theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
   background-color: rgba(0,0,0,0.8);
 }
+
+.reaction-1hd86g {
+  background: var(--reaction-emoji-background-color);
+}
+
+.reaction-1hd86g:hover {
+  background-color: var(--reaction-emoji-hover-background-color);
+  border-color: var(--reaction-emoji-hover-border-color);
+}
