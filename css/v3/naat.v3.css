@@ -81,6 +81,28 @@
   background: transparent;
 }
 
+.headerNormal-1l1Znk {
+  background-color: var(--small-user-popout-background-transparency);
+}
+
+.headerTop-2y3V6H {
+  background-color: transparent;
+  border-bottom: none;
+}
+
+.avatar-22FtUu {
+  border: none;
+  background-color: transparent;
+}
+
+.profileBanner-33-uE1 {
+  background-color: transparent !important;
+}
+
+.input-2_SIlA {
+  background-color: transparent;
+}
+
 /* CHAT SIDER */
 .container-3w7J-x {
   background-color: transparent;
@@ -679,9 +701,9 @@
   background-color: transparent;
 }
 
-/* TODO: var */
-.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
-  background-color: rgba(0,0,0,0.8);
+.theme-dark .outer-1AjyKL.active-1xchHY,
+.theme-dark .outer-1AjyKL.interactive-3B9GmY:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .reaction-1hd86g {
