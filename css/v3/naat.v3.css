@@ -74,9 +74,11 @@
 .theme-dark .container-1D34oG {
   background-color: transparent;
 }
+
 .container-1r6BKw.themed-ANHk51 {
   background: transparent;
 }
+
 .nowPlayingColumn-2sl4cE {
   background: transparent;
 }
@@ -101,6 +103,11 @@
 
 .input-2_SIlA {
   background-color: transparent;
+}
+
+.avatarHint-1E3LMl {
+  top: 0px !important;
+  left: 0px !important;
 }
 
 /* CHAT SIDER */
