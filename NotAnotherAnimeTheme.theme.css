@@ -1,7 +1,7 @@
 /**
 * @name NotAnotherAnimeTheme
 * @author puckzxz#2080
-* @version 3.0
+* @version 3.1
 * @description An easily customizable and automatically updating theme
 * @invite FdZhbjY
 * @source https://github.com/puckzxz/NotAnotherAnimeTheme
@@ -179,6 +179,7 @@
   */
   --text-voice-channel-color: rgb(142, 146, 151);
   --text-voice-channel-hover-color: #dcddde;
+  --text-voice-channel-selected-text-color: #fff;
   --unread-text-channel-color: #fff;
   --unread-text-channel-bubble-color: var(--main-theme-color);
 
