@@ -1,7 +1,7 @@
 /**
 * @name NotAnotherAnimeTheme
 * @author puckzxz#2080
-* @version 3.1
+* @version 3.2
 * @description An easily customizable and automatically updating theme
 * @invite FdZhbjY
 * @source https://github.com/puckzxz/NotAnotherAnimeTheme
@@ -56,6 +56,11 @@
     Quad Column:    242px
   */
   --server-listing-width: 126px;
+
+  /*
+    Font Size
+  */
+  --font-size: 100%;
 
   /*
     Mention colors
@@ -193,6 +198,7 @@
     Reactions
   */
   --reaction-emoji-background-color: rgba(0, 0, 0, 0);
+  --reaction-emoji-border-color: 1px solid transparent;
   --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
   --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
 }

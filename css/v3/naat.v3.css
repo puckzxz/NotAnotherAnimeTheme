@@ -752,3 +752,11 @@
 .notInteractive-1X92pj.modeSelected-346R90 .name-23GUGE {
   color: var(--text-voice-channel-selected-text-color);
 }
+
+html {
+	font-size: var(--font-size) !important;
+}
+
+.reaction-1hd86g {
+  border: var(--reaction-emoji-border-color);
+}
