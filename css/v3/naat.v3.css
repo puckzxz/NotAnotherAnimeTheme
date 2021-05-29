@@ -760,3 +760,7 @@ html {
 .reaction-1hd86g {
   border: var(--reaction-emoji-border-color);
 }
+
+.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih > div:nth-child(5) {
+	margin-left: 10px;
+}
