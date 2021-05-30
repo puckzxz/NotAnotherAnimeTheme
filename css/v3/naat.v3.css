@@ -756,5 +756,13 @@ html {
 }
 
 .scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih > div:nth-last-child(2) {
-	margin-left: 10px;
+  margin-left: 10px;
+}
+
+.folderIconWrapper-1_bOZe {
+  border-radius: 100%;
+}
+
+.folder-1hbNCn {
+  border-radius: 100%;
 }
