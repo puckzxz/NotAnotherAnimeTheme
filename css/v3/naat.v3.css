@@ -440,6 +440,10 @@
 .headerPlaying-j0WQBV {
   background: var(--small-user-popout-background-transparency);
 }
+.headerTop-2cWpdB {
+  background-color: transparent;
+  border-bottom: none;
+}
 /* Spotify Header */
 .headerSpotify-zpWxgT {
   background: var(--small-user-popout-background-transparency);
@@ -765,4 +769,8 @@ html {
 
 .folder-1hbNCn {
   border-radius: 100%;
+}
+
+.wrapper-2qzCYF {
+  background-color: transparent;
 }
