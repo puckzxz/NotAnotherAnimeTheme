@@ -14,11 +14,11 @@ NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDis
 ## Installation
 
 1. Ensure [Bandaged BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases/latest) is installed.
-2. Open the theme in a new browser tab
-      * [NotAnotherAnimeTheme](https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css)
-3. In the new tab, Right click > "Save As..." > save to the BetterDiscord Theme folder.
+2. Download the theme here:
+      * [NotAnotherAnimeTheme](https://betterdiscord.app/theme/NotAnotherAnimeTheme)
+3. Place the theme file inside of the BetterDiscord `themes` folder.
 4. Restart the Discord client either by right clicking the tray icon and clicking "Quit Discord" or by pressing Ctrl+R inside the client.
-5. Go to User Settings in Discord > Themes > Select `NotAnotherAnimeTheme v3.0 by puckzxz#2080`
+5. Go to User Settings in Discord > Themes > Select `NotAnotherAnimeTheme v3.2 by puckzxz#2080`
 
 ## FAQ
 
