@@ -428,12 +428,12 @@
 }
 
 /* Small user popout */
-.userPopout-3XzG_A {
+.userPopout-xaxa6l {
   background-position: var(--small-user-popout-background-image-position);
   background-image: var(--small-user-popout-background-image);
 }
 /* Regular Header */
-.theme-dark .headerNormal-T_seeN {
+.theme-dark .headerNormal-1mX3KY {
   background-color: var(--small-user-popout-background-transparency);
 }
 /* Gaming Header */
@@ -448,8 +448,8 @@
 .headerSpotify-zpWxgT {
   background: var(--small-user-popout-background-transparency);
 }
-.theme-dark .body-3iLsc4,
-.theme-dark .footer-1fjuF6 {
+.theme-dark .body-3HBlXn,
+.theme-dark .footer-1N3bR3 {
   background-color: var(--small-user-popout-background-transparency);
   color: hsla(0, 0%, 100%, 0.8);
 }
@@ -459,13 +459,13 @@
 }
 
 /* Big user popout */
-.root-SR8cQa {
+.root-1gCeng {
   background-position: var(--big-user-popout-background-image-position);
   background-image: var(--big-user-popout-background-image);
   background-color: transparent;
 }
 /* Default header */
-.topSectionNormal-2-vo2m {
+.topSection-y3p-_D {
   background-color: var(--big-user-popout-background-transparency);
 }
 /* Header gamer */
@@ -479,11 +479,15 @@
 .topSectionStreaming-1Tpf5X {
   background: var(--big-user-popout-background-transparency);
 }
-.body-3ND3kc {
+.body-r6_QPy {
   background-color: var(--big-user-popout-background-transparency);
 }
 .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
   border-top-color: transparent;
+}
+
+.tabBarContainer-37hZsr {
+    border-top: none;
 }
 
 /* Upload Dialog */
