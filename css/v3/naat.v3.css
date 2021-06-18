@@ -390,7 +390,6 @@
 
 /* Info Modal */
 .theme-dark .root-1gCeng {
-  background-color: rgba(20, 20, 20, 0.8);
   box-shadow: none;
 }
 .theme-dark .footer-2gL1pp {
@@ -459,7 +458,7 @@
 }
 
 /* Big user popout */
-.root-1gCeng {
+.root-3QyAh1 {
   background-position: var(--big-user-popout-background-image-position);
   background-image: var(--big-user-popout-background-image);
   background-color: transparent;
@@ -487,7 +486,7 @@
 }
 
 .tabBarContainer-37hZsr {
-    border-top: none;
+  border-top: none;
 }
 
 /* Upload Dialog */
