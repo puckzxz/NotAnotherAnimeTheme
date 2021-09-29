@@ -783,19 +783,19 @@ html {
 }
 
 .bodyInnerWrapper-26fQXj {
-	background-color: transparent;
+  background-color: transparent;
 }
 
 .headerTop-3vNv-a {
-	background-color: var(--small-user-popout-background-transparency);
+  background-color: var(--small-user-popout-background-transparency);
 }
 
 .divider-ewBQKj {
-	background-color: transparent;
+  background-color: transparent;
 }
 
 .footer-3UKYOU {
-	background-color: var(--small-user-popout-background-transparency);
+  background-color: var(--small-user-popout-background-transparency);
 }
 
 .threadSidebar-1o3BTy {
@@ -804,4 +804,8 @@ html {
 
 .container-3hZ-gs {
   background-color: transparent;
+}
+
+.callContainer-36WRfH {
+  background: transparent;
 }
