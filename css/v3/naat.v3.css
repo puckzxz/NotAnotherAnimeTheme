@@ -790,10 +790,6 @@ html {
   background-color: var(--small-user-popout-background-transparency);
 }
 
-.divider-ewBQKj {
-  background-color: transparent;
-}
-
 .footer-3UKYOU {
   background-color: var(--small-user-popout-background-transparency);
   margin-top: 0;
@@ -809,4 +805,8 @@ html {
 
 .callContainer-36WRfH {
   background: transparent;
+}
+
+.profileBannerPreview-3_l0Wd .headerTop-3vNv-a {
+  background-color: rgb(0, 0, 0, 0);
 }
