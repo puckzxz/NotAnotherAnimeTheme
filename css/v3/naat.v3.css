@@ -818,3 +818,12 @@ html {
 .pill-1Z5PKm .item-2hkk8m {
   opacity: 0 !important;
 }
+
+.theme-dark .autocomplete-1vrmpx {
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+}
+
+.theme-dark .selected-1Tbx07 {
+  background-color: rgba(200, 200, 200, 0.15);
+}
