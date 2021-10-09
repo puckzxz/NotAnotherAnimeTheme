@@ -9,9 +9,10 @@
         <img src="https://img.shields.io/github/last-commit/puckzxz/NotAnotherAnimeTheme.svg?logo=GitHub&style=flat-square" /></a>
 </p>
 
-NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases/latest)) allowing for a revitalized and fresh take on the Discord UI. Every part of the theme is customizable, from the background image to the scroll bar colors. The user has full control over the default configuration. Preview pictures can be found [here.](https://github.com/puckzxz/NotAnotherAnimeTheme#images-of-variations)
+NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases/latest) or [Powercord](https://powercord.dev/)) allowing for a revitalized and fresh take on the Discord UI. Every part of the theme is customizable, from the background image to the scroll bar colors. The user has full control over the default configuration. Preview pictures can be found [here.](https://github.com/puckzxz/NotAnotherAnimeTheme#images-of-variations)
 
 ## Installation
+### For BetterDiscord
 
 1. Ensure [Bandaged BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases/latest) is installed.
 2. Download the theme here:
@@ -19,6 +20,10 @@ NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDis
 3. Place the theme file inside of the BetterDiscord `themes` folder.
 4. Restart the Discord client either by right clicking the tray icon and clicking "Quit Discord" or by pressing Ctrl+R inside the client.
 5. Go to User Settings in Discord > Themes > Select `NotAnotherAnimeTheme v3.2 by puckzxz#2080`
+
+### For Powercord
+1. Assuming that Powercord is installed, clone this repository and run ``powercord_install.sh`` or ``powercord_install.bash`` depending on your Operating System.
+2. Great! NotAnotherAnimeTheme is now installed on your Discord client! If it's running, restart it for the changes to take place.
 
 ## FAQ
 
@@ -28,7 +33,7 @@ NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDis
 
 ### Q: *I'm still not sure on how to install this*
 
-* Here is a video that goes through the steps for [downloading](https://www.youtube.com/watch?v=1ML5_F-n5iw) and [installing.](https://www.youtube.com/watch?v=R-aZTjHWRZc)
+* Here is a video that goes through the steps for [downloading](https://www.youtube.com/watch?v=1ML5_F-n5iw) and [installing](https://www.youtube.com/watch?v=R-aZTjHWRZc) on BetterDiscord.
 
 ### Q: *How would I go about customizing the theme?*
 
