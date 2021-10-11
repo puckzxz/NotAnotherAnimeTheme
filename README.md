@@ -22,8 +22,9 @@ NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDis
 5. Go to User Settings in Discord > Themes > Select `NotAnotherAnimeTheme v3.2 by puckzxz#2080`
 
 ### For Powercord
-1. If you are on Mac or Linux, run ``install.sh``. If you are on Windows, run ``install.bash``.
-2. Great! NotAnotherAnimeTheme is now installed on your Discord client! If it's running, restart it for the changes to take place.
+1. Ensure Powercord is installed on your computer. If not, install it [here](https://powercord.dev/installation).
+2. If you are on Mac or Linux, run ``install.sh``. If you are on Windows, run ``install.bash``.
+3. Great! NotAnotherAnimeTheme is now installed on your Discord client! If it's running, restart it for the changes to take place.
 
 ## FAQ
 
