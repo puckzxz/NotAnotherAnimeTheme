@@ -1,0 +1,8 @@
+{
+  "name" : "NotAnotherAnimeTheme",
+  "description" : "A easily customizable and automatically updating theme for Discord",
+  "version" : "3.2",
+  "author" : "puckzxz#2080",
+  "theme" : "NotAnotherAnimeTheme.theme.css",
+  "license" : "Unlicense"
+}
