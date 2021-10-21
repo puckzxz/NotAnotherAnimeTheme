@@ -23,14 +23,16 @@ NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDis
 
 ### For Powercord
 1. Ensure Powercord is installed on your computer. If not, install it [here](https://powercord.dev/installation).
-2. If you are on Mac or Linux, run ``install.sh``. If you are on Windows, run ``install.bash``.
-3. Great! NotAnotherAnimeTheme is now installed on your Discord client! If it's running, restart it for the changes to take place.
+2. Navigate to where the Powercord source files are on your computer
+3. From the Powercord source folder, (Most likely named "powercord") navigate to the themes folder: powercord -> src -> Powercord -> themes.
+4. Within this folder, create a new folder called "NotAnotherAnimeTheme". Download the repository into the folder.
+5. Great! NotAnotherAnimeTheme is now installed on your Discord client! If it's running, restart it for the changes to take place.
 
 ## FAQ
 
 ### Q: *Where is the BetterDiscord Theme folder located?*
 
-* Usually it is installed in ` %AppData%\BetterDiscord\themes`, however for a custom installtion, the location can be found by going to User Settings in Discord > Themes > Open Theme Folder.
+* Usually it is installed in ` %AppData%\BetterDiscord\themes`, however for a custom installation, the location can be found by going to User Settings in Discord > Themes > Open Theme Folder.
 
 ### Q: *I'm still not sure on how to install this*
 
