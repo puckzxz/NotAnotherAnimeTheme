@@ -34,6 +34,9 @@ NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDis
 
 * The details on how to customize the theme are [here.](https://www.youtube.com/watch?v=YYsdNkLOQjU)
 
+### Q: *Where did the different theme files go for the amount of server columns?*
+* Since V3 you now change the amount of columns from inside the theme file, `--server-listing-width`
+
 ## Contributing
 
 Have you made something cool with NotAnotherAnimeTheme and feel like sharing it? Fork me and add it to the community folder! If you're not git savvy you can either open an issue or just PM it to me on discord and I'll add your theme!
