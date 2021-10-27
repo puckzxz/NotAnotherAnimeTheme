@@ -831,3 +831,60 @@ html {
 .translate-2dAEQ6.didRender-33z1u8 .emojiPicker-3PwZFl {
   background-color: var(--emoji-menu-background-color);
 }
+
+.tutorialContainer-11ICd5 .wrapper-25eVIn .childWrapper-anI2G9 {
+  background: var(--home-icon-image) !important;
+  background-position: var(--home-icon-image-position) !important;
+  background-repeat: no-repeat !important;
+  background-size: var(--home-icon-image-zoom) !important;
+  border-radius: 100%;
+}
+
+.tutorialContainer-11ICd5
+  .wrapper-25eVIn
+  .childWrapper-anI2G9
+  .homeIcon-FuNwkv {
+  visibility: hidden;
+}
+
+.tutorialContainer-11ICd5
+  .listItem-GuPuDH
+  .listItemWrapper-KhRmzM
+  .wrapper-1BJsBx
+  .childWrapper-anI2G9 {
+  background-color: transparent;
+}
+
+.homeIcon-tEMBK1 {
+  visibility: hidden;
+}
+
+.tutorialContainer-11ICd5
+  .listItem-2Ig28I
+  .listItemWrapper-2MsAsM
+  .wrapper-1BJsBx
+  svg {
+  opacity: 0;
+}
+
+.tutorialContainer-11ICd5 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.tutorialContainer-11ICd5 .listItem-GuPuDH {
+  right: 5px;
+}
+
+.listItem-2Ig28I {
+  width: initial;
+}
+
+.expandedFolderBackground-3ZDF05 {
+    left: 0px;
+}
+
+.folder-2w6LX1, .folderIconWrapper-1Ml_1q {
+	border-radius: 100%;
+}
