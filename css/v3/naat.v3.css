@@ -882,9 +882,14 @@ html {
 }
 
 .expandedFolderBackground-3ZDF05 {
-    left: 0px;
+  left: 0px;
 }
 
-.folder-2w6LX1, .folderIconWrapper-1Ml_1q {
-	border-radius: 100%;
+.folder-2w6LX1,
+.folderIconWrapper-1Ml_1q {
+  border-radius: 100%;
+}
+
+.container-2wlB3z {
+  background: transparent;
 }
