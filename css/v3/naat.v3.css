@@ -360,7 +360,6 @@
 /* Context menu */
 .menu-3sdvDG {
   background: var(--context-menu-transparency);
-  backdrop-filter: blur(5px);
 }
 
 /* Add Server / Discovery */
