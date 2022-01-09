@@ -92,13 +92,13 @@
 }
 
 .headerTop-2y3V6H {
-  background-color: initial;
+  background-color: transparent;
   border-bottom: none;
 }
 
 .avatar-22FtUu {
   border: none;
-  background-color: initial;
+  background-color: transparent;
 }
 
 .profileBanner-1owKI5 {
@@ -183,7 +183,7 @@
 /* DAY CONTAINER */
 .content-3spvdd {
   color: var(--main-theme-color);
-  background: 0 0;
+  background: transparent;
 }
 
 /* ANNOYANCES */
@@ -220,7 +220,7 @@
 
 .listItem-GuPuDH {
   width: auto;
-  margin-left: 0;
+  margin-left: 0px;
 }
 
 .wrapper-1_HaEi .scroller-3X7KbA > div.listItem-GuPuDH:nth-child(1) {
@@ -247,7 +247,7 @@
   display: block;
   margin: 10px auto 5px;
   margin-left: 24px;
-  background-color: initial;
+  background-color: transparent;
 }
 
 .wrapper-21YSNc {
@@ -273,7 +273,7 @@
 .item-2LIpTv {
   animation: var(--unread-server-animation) 3s linear infinite;
   border: 2px solid var(--main-theme-color);
-  background: 0 0;
+  background: transparent;
   border-radius: 100%;
   display: block;
   margin-left: 0;
@@ -315,7 +315,7 @@
 }
 
 .expandedFolderBackground-2sPsd- {
-  left: 0;
+  left: 0px;
 }
 
 .tutorialContainer-2sGCg9 .listItem-GuPuDH {
@@ -422,7 +422,7 @@
 /* Channel scroller */
 .thin-31rlnD::-webkit-scrollbar-track {
   border-color: transparent;
-  background-color: initial;
+  background-color: transparent;
   border: transparent;
 }
 .thin-31rlnD::-webkit-scrollbar-thumb {
@@ -465,7 +465,7 @@
 .root-8LYsGj {
   background-position: var(--big-user-popout-background-image-position);
   background-image: var(--big-user-popout-background-image);
-  background-color: initial;
+  background-color: transparent;
 }
 /* Default header */
 .topSection-13QKHs {
@@ -557,7 +557,7 @@
   border-bottom: none;
 }
 
-.theme-dark lookFilled-yCfaCM.colorPrimary-3b3xI6 {
+.theme-dark .lookFilled-yCfaCM.colorPrimary-3b3xI6 {
   color: #f6f6f7;
   background-color: rgba(200, 200, 200, 0.2);
 }
@@ -737,7 +737,7 @@
 }
 
 .stageSection-3mAD8V {
-  background: 0 0;
+  background: transparent;
 }
 
 .theme-dark .container-S9SaVf {
@@ -782,7 +782,7 @@ html {
 }
 
 .aboutMeSection---MkQa {
-  background-color: initial;
+  background-color: transparent;
 }
 
 .bodyInnerWrapper-2bQs1k {
@@ -799,7 +799,7 @@ html {
 }
 
 .threadSidebar-1o3BTy {
-  background: 0 0;
+  background: transparent;
 }
 
 .container-3i3IzO {
