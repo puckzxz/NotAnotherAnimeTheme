@@ -21,7 +21,9 @@
   /*
     Theme Background
   */
-  --theme-background-image: url(https://i.imgur.com/j1Z6HVc.jpg);
+  --theme-background-image: url(https://i.imgur.com/j1Z6HVc.jpg); /*The main image that applies over all of Discord*/
+  --theme-background-image-size: cover;
+  --theme-background-image-position: cover; /*Change to something like 50% 50% if the image is offcenter, then play with both values until it fits.*/
 
   /*
     Main Theme Color
@@ -76,9 +78,9 @@
   /*
     Mention colors
   */
-  --mention-color: rgba(250, 166, 26, 0.05);
-  --mention-sider: rgba(250, 166, 26, 1);
-  --mention-hover-color: rgba(250, 166, 26, 0.08);
+  --mention-color: rgba(250, 166, 26, 0.05); /*Messages that mention you will be highlighted in this color*/
+  --mention-sider: rgba(250, 166, 26, 1); /*The small bar on the left side of a message that mentions you*/
+  --mention-hover-color: rgba(250, 166, 26, 0.08); /*Messages that mention you will be highlighted in this color when you're hovering over them.*/
 
   /*
     Server category hover color

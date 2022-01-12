@@ -10,7 +10,8 @@
 
 .appMount-2yBXZl {
   background-image: var(--theme-background-image);
-  background-size: cover;
+  background-size: var(--theme-background-image-size);
+  background-position: var(--theme-background-image-position);
 }
 
 .tutorialContainer-2sGCg9 .wrapper-28eC3z .childWrapper-1j_1ub {
