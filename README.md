@@ -60,7 +60,6 @@ Any issues can be expressed by:
 
 * [Joining the Discord server](https://discord.gg/FdZhbjY)
 * [Opening an issue on GitHub](https://github.com/puckzxz/NotAnotherAnimeTheme/issues)
-* Messaging me on Discord at [puckzxz#2080](https://discord.com/users/135554522616561664)
 
 ## Notes
 
