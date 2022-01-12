@@ -1,3 +1,13 @@
+/**
+* @name NotAnotherAnimeTheme
+* @author puckzxz#2080
+* @version 3.2
+* @description An easily customizable and automatically updating theme
+* @invite FdZhbjY
+* @source https://github.com/puckzxz/NotAnotherAnimeTheme
+* @updateUrl https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css
+*/
+
 .appMount-2yBXZl {
   background-image: var(--theme-background-image);
   background-size: cover;
@@ -401,7 +411,9 @@
 }
 
 /* Channel category color */
-.name-3BUDLf.container-q97qHp .overflow-1wOqNV {
+.wrapper-1S43wv:not(.muted-19J0ih)
+  .name-3BUDLf.container-q97qHp
+  .overflow-1wOqNV {
   color: var(--main-theme-color);
 }
 .wrapper-1S43wv {
