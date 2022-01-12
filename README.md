@@ -9,12 +9,12 @@
         <img src="https://img.shields.io/github/last-commit/puckzxz/NotAnotherAnimeTheme.svg?logo=GitHub&style=flat-square" /></a>
 </p>
 
-NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases/latest) or [Powercord](https://powercord.dev/)) allowing for a revitalized and fresh take on the Discord UI. Every part of the theme is customizable, from the background image to the scroll bar colors. The user has full control over the default configuration. Preview pictures can be found [here.](https://github.com/puckzxz/NotAnotherAnimeTheme#images-of-variations)
+NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDiscord](https://betterdiscord.app) or [Powercord](https://powercord.dev/)) allowing for a revitalized and fresh take on the Discord UI. Every part of the theme is customizable, from the background image to the scroll bar colors. The user has full control over the default configuration. Preview pictures can be found [here.](https://github.com/puckzxz/NotAnotherAnimeTheme#images-of-variations)
 
 ## Installation
 ### For BetterDiscord
 
-1. Ensure [Bandaged BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases/latest) is installed.
+1. Ensure [Bandaged BetterDiscord](https://betterdiscord.app) is installed.
 2. Download the theme here:
       * [NotAnotherAnimeTheme](https://betterdiscord.app/theme/NotAnotherAnimeTheme)
 3. Place the theme file inside of the BetterDiscord `themes` folder.
@@ -41,6 +41,7 @@ NotAnotherAnimeTheme is a highly customizable theme for Discord (with [BetterDis
 ### Q: *How would I go about customizing the theme?*
 
 * The details on how to customize the theme are [here.](https://www.youtube.com/watch?v=YYsdNkLOQjU)
+* Feeling lazy? You can check out these theme generators that do all the hard work for you. [Wubzy's Site](https://wubzy.xyz/util/theme) and [LimeShark](https://limeshark.dev/editor/NotAnotherAnimeTheme)
 
 ### Q: *Where did the different theme files go for the amount of server columns?*
 * Since V3 you now change the amount of columns from inside the theme file, `--server-listing-width`
@@ -59,7 +60,6 @@ Any issues can be expressed by:
 
 * [Joining the Discord server](https://discord.gg/FdZhbjY)
 * [Opening an issue on GitHub](https://github.com/puckzxz/NotAnotherAnimeTheme/issues)
-* Messaging me on Discord at puckzxz#2080
 
 ## Notes
 
