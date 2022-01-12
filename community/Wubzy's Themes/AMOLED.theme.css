@@ -1,0 +1,140 @@
+/**
+* @name AMOLED
+* @author puckzxz#2080
+* @version 3.2
+* @description A custom theme made by WubzyGD#8766's theme generator at https://wubzy.xyz/util/theme based on Puckzxz's NotAnotherAnimeTheme
+* @invite FdZhbjY
+* @source https://github.com/puckzxz/NotAnotherAnimeTheme
+* @updateUrl https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css
+*/
+
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
+
+/* 
+ * =========================================
+ * Created using Wubzy.xyz's theme generator
+ * Questions about the theme or generator? Bugs or suggestions?
+ * Join NotAnotherAnimeTheme's support server at https://discord.gg/FdZhbjY
+ * Feedback is always welcome!
+ * 
+ * Hope you like your theme! ^^
+ * =========================================
+ */
+
+/*Generated at Sat, 14 Aug 2021 22:31:15 GMT -> Generator version Beta - 1.1.3*/
+
+:root {
+
+  /*[MAIN THEME SETTINGS]*/
+  /*Some important settings that will change the majority of your client.*/
+  --theme-background-image: url(https://cdn.discordapp.com/attachments/602726250523394068/876230975280021514/967e5a1e0d7078684ffc3fd1e4e64811.jpg); /*The main image over your whole Discord client*/
+  --main-theme-color: #8b0000; /*The default theme color*/
+  --theme-transparency: rgba(0, 0, 0, 1); /*The mask that applies over the background*/
+  --home-icon-image: url(https://cdn.discordapp.com/attachments/602726250523394068/876224380458385408/IMG_0191.jpg); /*Your friends icon*/
+  --home-icon-image-position: center center;
+  --home-icon-image-zoom: 100%;
+
+  /*
+    Server Listing Width
+    Single Column:  72px
+    Double Column:  126px
+    Triple Column:  184px
+    Quad Column:    242px
+    Pentad Column:  304px
+  */
+  /*[SERVER LISTING]*/
+  /*The number of columns in your server listing.*/
+  --server-listing-width: 72px;
+
+  /*[FONT SIZE]*/
+  --font-size: 100%;
+
+  /*[MENTION COLORS]*/
+  --mention-color: #8b00004b; /*The color messages that mention you will highlight in*/
+  --mention-sider: #8b00007f; /*The small bar on the left of a message that mentions you*/
+  --mention-hover-color: #8b00005f; /*The color a mention highlight changes to when you hover over it*/
+
+  --category-hover-color: #8b00005f; /*Color that categories change to when hovered over*/
+
+  --unread-server-animation: rainbow; /*The color animation that appears over server icons with unreads. Best to leave this be.*/
+
+  /*[VIDEO PLAYER]*/
+  --video-screen-button-background-color: rgba(200, 200, 200, 0.2);
+  --video-screen-button-foreground-color: white;
+  --video-screen-button-background-hovor-color: rgba(200, 200, 200, 0.4);
+  --video-screen-button-foreground-hovor-color: white;
+
+  --member-listing-role-color: var(--main-theme-color);
+
+  /*[USER POPOUTS]*/
+  /*The settings for the popouts when you click on a user in the members list (small popout) and when you click the "profile" button on a user (big popout)*/
+  /*Similar to main theme settings.*/
+  --small-user-popout-background-image: url(https://cdn.discordapp.com/attachments/602726250523394068/876230975280021514/967e5a1e0d7078684ffc3fd1e4e64811.jpg);
+  --small-user-popout-background-transparency: rgba(0,0,0, 1);
+  --small-user-popout-background-image-position: center;
+
+  --big-user-popout-background-image: url(https://cdn.discordapp.com/attachments/602726250523394068/876230975280021514/967e5a1e0d7078684ffc3fd1e4e64811.jpg);
+  --big-user-popout-background-transparency: rgba(0,0,0, 1);
+  --big-user-popout-background-image-position: center;
+
+  /*[CODE BLOCKS]*/
+  --code-markup-background-color: rgba(0, 0, 0, 0.6); /*Code blocks background color*/
+  --code-markup-border: 1px solid transparent; /*An optional border around code blocks (defaults to transparent - or invisible)*/
+
+  --message-box-transparency: rgba(0, 0, 0, 0.6); /*The message box at the bottom. Change the first three values to edit its color, and the last to edit its transparency*/
+
+  --embed-background-transparency: rgba(0, 0, 0, 0.6);
+
+  --message-hover-buttons-background: rgba(200, 200, 200, 0.1); /*The small box that appears around the edit, pin, delete, etc icons when you hover over a message*/
+
+  /*[ADVANCED SETTINGS]*/
+  /*This stuff is more on the advanced/nitty-gritty side. Most of the names are pretty self-explanatory.*/
+
+  --context-menu-transparency: rgba(0, 0, 0, 0.95);
+
+  --add-discover-icon-transparency: rgba(200, 200, 200, 0.15);
+  --add-discover-icon-color: #43b581;
+
+  --channel-limit-count-color: var(--channels-default);
+  --channel-limit-background-left: rgba(200, 200, 200, 0.1);
+  --channel-limit-background-right: rgba(200, 200, 200, 0.2);
+
+  --scrollbar-color: #8b000089;
+
+  --unread-message-divider-color: #f04747;
+  --unread-message-divider-font-color: #fff;
+
+  --new-messages-bar-background-color: var(--main-theme-color); /*The bar atop the screen saying "x new messages" when you're in a channel with unreads*/
+  --new-messages-bar-font-color: #fff;
+
+  --emoji-menu-background-color: rgba(0, 0, 0, 0.6);
+  --emoji-menu-sider-background-color: rgba(0, 0, 0, 0);
+  --emoji-menu-server-header-background-color: rgba(0, 0, 0, 0.8);
+  --emoji-menu-bottom-bar-background-color: black;
+  --emoji-menu-search-bar-background-color: rgba(200, 200, 200, 0.1);
+
+  --message-search-menu-background-color: rgba(0, 0, 0, 0.8);
+  --message-search-container-background-color: rgba(0, 0, 0, 0.6);
+  --message-search-result-background-color: rgba(200, 200, 200, 0.05);
+
+  --text-voice-channel-color: rgb(142, 146, 151);
+  --text-voice-channel-hover-color: #dcddde;
+  --text-voice-channel-selected-text-color: #fff;
+  --unread-text-channel-color: #8b0000;
+  --unread-text-channel-bubble-color: #8b0000;
+
+  --folder-background-color: #2f3136;
+  --expanded-folder-background-color: transparent;
+
+  --reaction-emoji-background-color: rgba(0, 0, 0, 0);
+  --reaction-emoji-border-color: 1px solid transparent;
+  --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
+  --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
+}
+
+/*Changes the way popout background images apply to account for any size mismatching.*/
+.root-3QyAh1 {background-size: cover;} /*Large popout*/
+.userPopout-xaxa6l {background-size: cover;} /*Small popout*/
+
+/*Make the Channel Tabs plugin background invisible so it's flush with your theme's background*/
+.channelTabs-tabContainer, .channelTabs-container {background: 0 0!important; background-color: initial !important;}
