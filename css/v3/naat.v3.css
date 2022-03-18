@@ -10,7 +10,8 @@
 
 .appMount-2yBXZl {
   background-image: var(--theme-background-image);
-  background-size: cover;
+  background-size: var(--theme-background-image-size);
+  background-position: var(--theme-background-image-position);
 }
 
 .tutorialContainer-2sGCg9
@@ -921,6 +922,6 @@ html {
   margin-top: 0px;
 }
 
-.container-3XgAHv {
+.container-3XgAHv, .contentWidth-3aWel5 .header-JUTO-g {
   background: transparent;
 }

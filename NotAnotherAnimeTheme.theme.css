@@ -21,7 +21,9 @@
   /*
     Theme Background
   */
-  --theme-background-image: url(https://i.imgur.com/j1Z6HVc.jpg);
+  --theme-background-image: url(https://i.imgur.com/j1Z6HVc.jpg); /*The main image that applies over all of Discord*/
+  --theme-background-image-size: cover;
+  --theme-background-image-position: cover; /*Change to something like 50% 50% if the image is offcenter, then play with both values until it fits.*/
 
   /*
     Main Theme Color
@@ -30,23 +32,14 @@
 
   /*
     Main Theme Transparency
+
+    This is a color that is placed over your background image.
+    It's best to keep this as black, as it will darken the BG image
+    and make messages easier to read.
+
+    Change the 4th value higher for a darker image, or lower for lighter.
   */
   --theme-transparency: rgba(0, 0, 0, 0.8);
-
-  /*
-    Home Icon Image
-  */
-  --home-icon-image: url(https://i.imgur.com/63g6Em8.jpg);
-
-  /*
-    Change your friends icon image position
-  */
-  --home-icon-image-position: center center;
-
-  /*
-    Change your friends icon image zoom
-  */
-  --home-icon-image-zoom: 100%;
 
   /*
     Server Listing Width
@@ -58,6 +51,26 @@
   --server-listing-width: 126px;
 
   /*
+    Home Icon Image
+
+    Takes the place of the Discord icon in the top left.
+  */
+  --home-icon-image: url(https://i.imgur.com/63g6Em8.jpg);
+
+  /*
+    Change your home icon image position
+
+    You can change it to something like "cover" if the
+    home icon is misaligned or doesn't fit.
+  */
+  --home-icon-image-position: center center;
+
+  /*
+    Change your home icon image zoom
+  */
+  --home-icon-image-zoom: 100%;
+
+  /*
     Font Size
   */
   --font-size: 100%;
@@ -65,9 +78,9 @@
   /*
     Mention colors
   */
-  --mention-color: rgba(250, 166, 26, 0.05);
-  --mention-sider: rgba(250, 166, 26, 1);
-  --mention-hover-color: rgba(250, 166, 26, 0.08);
+  --mention-color: rgba(250, 166, 26, 0.05); /*Messages that mention you will be highlighted in this color*/
+  --mention-sider: rgba(250, 166, 26, 1); /*The small bar on the left side of a message that mentions you*/
+  --mention-hover-color: rgba(250, 166, 26, 0.08); /*Messages that mention you will be highlighted in this color when you're hovering over them.*/
 
   /*
     Server category hover color
@@ -95,17 +108,21 @@
 
   /*
     Small User Popout
+
+    The window that appears when you click on someone in the members list.
   */
   --small-user-popout-background-image: var(--theme-background-image);
   --small-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
-  --small-user-popout-background-image-position: center;
+  --small-user-popout-background-image-position: cover;
 
   /*
     Big User Popout
+
+    The window that appears when you right click a user and select "Profile"
   */
   --big-user-popout-background-image: var(--theme-background-image);
   --big-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
-  --big-user-popout-background-image-position: center;
+  --big-user-popout-background-image-position: cover;
 
   /*
     Code Markup
@@ -119,7 +136,7 @@
   --message-box-transparency: rgba(0, 0, 0, 0.6);
 
   /*
-    Embed Background Transparency
+    Embed Background Transparency/Color
   */
   --embed-background-transparency: rgba(0, 0, 0, 0.6);
 
@@ -129,7 +146,9 @@
   --message-hover-buttons-background: rgba(200, 200, 200, 0.1);
 
   /*
-    Context Menu Transparency
+    Context Menu Transparency/Color
+
+    The menu that appears when right-clicking
   */
   --context-menu-transparency: rgba(15, 15, 15, 0.8);
 
@@ -140,7 +159,9 @@
   --add-discover-icon-color: #43b581;
 
   /*
-    Channel Limit Number Color
+    Voice Channel Limit Number Color
+
+    The small bubble over a voice channel with a maximum number of users
   */
   --channel-limit-count-color: var(--channels-default);
   --channel-limit-background-left: rgba(200, 200, 200, 0.1);
@@ -202,3 +223,22 @@
   --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
   --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
 }
+
+
+/*INSERT CUSTOM CODE BELOW*/
+
+/*
+ * Custom font
+
+ * Remove the comment below to enable a custom font
+ * This will add a font to your *entire* Discord
+
+ * You can change the link to the font in the @import
+ * to get your own. See https://github.com/puckzxz/NotAnotherAnimeTheme/issues/184#issuecomment-1008341747
+ * for more details.
+**/
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+* {font-family: 'Raleway', sans-serif;}
+*/
