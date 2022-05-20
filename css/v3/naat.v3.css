@@ -734,11 +734,11 @@
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.reaction-2A2y9y {
+.reaction-3vwAF2 {
   background: var(--reaction-emoji-background-color);
 }
 
-.reaction-2A2y9y:hover {
+.reaction-3vwAF2:hover {
   background-color: var(--reaction-emoji-hover-background-color);
   border-color: var(--reaction-emoji-hover-border-color);
 }
@@ -772,7 +772,7 @@ html {
   font-size: var(--font-size) !important;
 }
 
-.reaction-2A2y9y {
+.reaction-3vwAF2 {
   border: var(--reaction-emoji-border-color);
 }
 
