@@ -924,3 +924,7 @@ html {
 .container-3XgAHv {
   background: transparent;
 }
+
+.chatTarget-3H6mpC.container-3XgAHv.floating-3M3WeH {
+	background-color: var(--theme-transparency);
+}
