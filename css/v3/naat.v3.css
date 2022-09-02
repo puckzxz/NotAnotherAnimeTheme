@@ -510,6 +510,15 @@
   background-color: var(--message-box-transparency);
 }
 
+/* For the background of the whole preview in user profile settings */
+.profileCustomizationPreview-2-Y173 {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.overlayBackground-H1K9ZY, .profileBadges-1GBCVy {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 /* Add note */
 .textarea-_59yqs:focus {
   background-color: rgba(0, 0, 0, 0.4);
