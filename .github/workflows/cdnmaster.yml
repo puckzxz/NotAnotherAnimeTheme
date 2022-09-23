@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Set up Python 3.9.14
+    - name: Set up Python 3.9.13
       uses: actions/setup-python@v1
       with:
-        python-version: 3.9.14
+        python-version: 3.9.13
     - name: Install Dependencies
       run: |
         pip install b2
