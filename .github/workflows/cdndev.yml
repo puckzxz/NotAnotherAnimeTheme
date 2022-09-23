@@ -1,6 +1,7 @@
 name: "[Dev] NAAT CDN"
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - dev
