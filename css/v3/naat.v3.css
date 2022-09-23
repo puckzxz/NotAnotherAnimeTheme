@@ -496,7 +496,8 @@
   background-image: var(--small-user-popout-background-image);
 }
 
-.userPopoutInnerWithBanner-wsoegj, .userPopoutInnerNonPremium-3zrFkp {
+.userPopoutInnerWithBanner-wsoegj,
+.userPopoutInnerNonPremium-3zrFkp {
   background: var(--small-user-popout-background-transparency);
 }
 
@@ -515,7 +516,8 @@
   background: rgba(0, 0, 0, 0.2);
 }
 
-.overlayBackground-H1K9ZY, .profileBadges-1GBCVy {
+.overlayBackground-H1K9ZY,
+.profileBadges-1GBCVy {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -1020,4 +1022,13 @@ html {
 
 .reaction-3vwAF2 {
   border: var(--reaction-emoji-border-color);
+}
+
+.bannerSVGWrapper-qc0szY {
+  margin-bottom: -3px;
+}
+
+#uid_12484,
+#uid_12489 {
+  display: none;
 }
