@@ -5,7 +5,6 @@
 * @description An easily customizable and automatically updating theme
 * @invite FdZhbjY
 * @source https://github.com/puckzxz/NotAnotherAnimeTheme
-* @updateUrl https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css
 */
 
 .appMount-2yBXZl {
@@ -1030,4 +1029,71 @@ html {
 
 .bannerSVGWrapper-qc0szY mask:first-child {
   display: none;
+}
+
+.theme-dark .background-fkKrXt {
+  background-color: transparent;
+}
+
+.card-3x20HF {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.interactiveCard-2iMtdk {
+  border: 0;
+}
+
+.container-2Hi7Km {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.icon-2IDTxf {
+  background-color: transparent;
+}
+
+.icon-2IDTxf {
+  border: 0;
+}
+
+.container-xwOzwi {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.emptyStateContainer-xWOMPJ {
+  background-color: transparent;
+}
+
+.theme-dark .container-3wLKDe {
+  background-color: transparent;
+}
+
+.container-3YcgdM {
+  background-color: transparent;
+  border: 0;
+}
+
+.divider-AZrXIA {
+  background-color: transparent;
+}
+
+.container-2_J666 {
+  background-color: transparent;
+}
+
+.stepContainer-SaPPyG {
+  background-color: transparent;
+}
+
+.mainCard-3KBsBI {
+  background-color: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(5px);
+}
+
+.sidebarCard-1Gn1ch {
+  background-color: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(5px);
+  border: 0;
 }
