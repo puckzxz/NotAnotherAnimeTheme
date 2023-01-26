@@ -9,7 +9,7 @@
 
 .appMount-2yBXZl {
   background-image: var(--theme-background-image) !important;
-  background-size: cover;
+  background-size: cover !important;
 }
 
 .tutorialContainer-2sGCg9
