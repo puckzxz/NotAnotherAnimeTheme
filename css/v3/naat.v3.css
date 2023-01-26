@@ -8,7 +8,7 @@
 */
 
 .appMount-2yBXZl {
-  background-image: var(--theme-background-image);
+  background-image: var(--theme-background-image) !important;
   background-size: cover;
 }
 
@@ -139,7 +139,11 @@
 }
 
 .scrollableContainer-15eg7h {
-  background-color: var(--message-box-transparency);
+  background: none !important;
+}
+
+.scrollableContainer-15eg7h {
+  background-color: var(--message-box-transparency) !important;
 }
 
 .theme-dark .form-3gdLxP:before {
@@ -1101,4 +1105,28 @@ html {
 .member-48YF_l,
 .members-3WRCEx {
   background-color: transparent;
+}
+
+.scroller-3X7KbA {
+  background: none !important;
+}
+
+.theme-dark .container-1NXEtd {
+  background: none !important;
+}
+
+.container-1zzFcN {
+  background: none !important;
+}
+
+.container-YkUktl {
+  background: none !important;
+}
+
+.chatContent-3KubbW {
+  background: none !important;
+}
+
+.scroller-WSmht3 {
+  background: none !important;
 }
