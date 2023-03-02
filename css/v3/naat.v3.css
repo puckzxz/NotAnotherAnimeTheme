@@ -181,12 +181,12 @@
 }
 
 /* CHAT SCROLLER */
-.auto-2K3UW5::-webkit-scrollbar-track {
+.auto-2TJ1RH::-webkit-scrollbar-track {
   background-color: transparent;
 }
 
 /* SCROLL THUMB */
-.auto-2K3UW5::-webkit-scrollbar-thumb {
+.auto-2TJ1RH::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-color);
 }
 
@@ -453,13 +453,13 @@
 }
 
 /* Channel scroller */
-.thin-31rlnD::-webkit-scrollbar-track {
+.thin-RnSY0a::-webkit-scrollbar-track {
   border-color: transparent;
   background-color: transparent;
   border: transparent;
 }
 
-.thin-31rlnD::-webkit-scrollbar-thumb {
+.thin-RnSY0a::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-color);
 }
 
@@ -915,7 +915,7 @@ html {
   background-color: var(--emoji-menu-background-color);
 }
 
-.tutorialContainer-1pL9QS .wrapper-28eC3z .childWrapper-1j_1ub {
+.childWrapper-1j_1ub {
   background: var(--home-icon-image) !important;
   background-position: var(--home-icon-image-position) !important;
   background-repeat: no-repeat !important;
