@@ -127,10 +127,50 @@
   background: transparent;
 }
 
+.chat-9g_3Xj {
+  background: transparent;
+}
+
 /* CHAT MEMBERS */
 .members-3WRCEx,
 .members-3WRCEx > div {
   background-color: transparent;
+}
+
+.chatContent-2O4SXb {
+  background: transparent;
+}
+
+.container-2vWgD2 {
+  background: transparent;
+}
+
+.members-2y1nVj {
+  background: transparent;
+}
+
+.member-2iQhp7 {
+  background: transparent;
+}
+
+.theme-dark .container-1CH86i {
+  background: transparent;
+}
+
+.container-2NLBJg {
+  background: transparent;
+}
+
+.button-2gNyE9.buttonColor-1PCuWq, .button-2gNyE9 .buttonColor-1PCuWq {
+  background-color: var(--video-screen-button-background-color);
+}
+
+.button-2gNyE9.buttonColor-1PCuWq:hover, .button-2gNyE9 .buttonColor-1PCuWq:hover {
+  background-color: var(--video-screen-button-background-hovor-color);
+}
+
+.channelTextArea-1deLlK {
+  background: transparent;
 }
 
 /* CHAT INPUT */
