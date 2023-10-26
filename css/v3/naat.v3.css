@@ -486,14 +486,14 @@
   color: var(--main-theme-color);
 }
 
-.mainContent_a0b319 .container-36u7Lw {
+.mainContent_a0b319 .container_de798d {
   color: var(--main-theme-color);
 }
 
 .wrapper__9c483.muted_de6e6e:hover .icon_ef4486,
 .wrapper__9c483.muted_de6e6e:hover .name__590d6,
 .wrapper__9c483:hover .icon_ef4486,
-.wrapper__9c483:hover .name__590d6 {
+.wrapper__9c483:hover .name__590d6.container_de798d {
   color: var(--category-hover-color);
 }
 
@@ -1196,10 +1196,6 @@ html {
 
 .wrapper__3d460 {
   background: transparent;
-}
-
-.name__590d6.container_de798d .overflow__87fe8 {
-  color: var(--main-theme-color);
 }
 
 .layer__2efaa {
