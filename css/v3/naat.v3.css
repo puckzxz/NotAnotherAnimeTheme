@@ -1201,3 +1201,41 @@ html {
 .layer__2efaa {
   background: transparent;
 }
+
+.codeView__8b1ff {
+  background-color: var(--code-markup-background-color);
+  border: var(--code-markup-border);
+}
+
+.newMosaicStyle__8d3be .codeView__8b1ff {
+  margin: 0;
+}
+
+.modalTextContainer_ddfc28 {
+  background-color: var(--code-markup-background-color);
+  border: var(--code-markup-border);
+}
+
+.contentWrapper_eab878 {
+  background-color: var(--emoji-menu-background-color);
+}
+
+.theme-dark .page__0b66e {
+  background-color: transparent;
+}
+
+.theme-dark .container_df3aa0 {
+  background-color: transparent;
+}
+
+.mainTableContainer__5ffe0 {
+  background-color: transparent;
+}
+
+.theme-dark .container__7590f {
+  background-color: transparent;
+}
+
+.shop_b31ed2 {
+  background-color: transparent;
+}
