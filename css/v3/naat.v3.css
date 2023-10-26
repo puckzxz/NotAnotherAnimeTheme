@@ -1067,7 +1067,16 @@ html {
   background: var(--reaction-emoji-background-color);
 }
 
+.reaction_fef95b {
+  background: var(--reaction-emoji-background-color);
+}
+
 .reaction_b90ab0:hover {
+  background-color: var(--reaction-emoji-hover-background-color);
+  border-color: var(--reaction-emoji-hover-border-color);
+}
+
+.reaction_fef95b:hover {
   background-color: var(--reaction-emoji-hover-background-color);
   border-color: var(--reaction-emoji-hover-border-color);
 }
