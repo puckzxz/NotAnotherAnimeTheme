@@ -1239,3 +1239,7 @@ html {
 .shop_b31ed2 {
   background-color: transparent;
 }
+
+.modeUnreadImportant_efb53e .name__8d1ec {
+  color: var(--unread-text-channel-color);
+}
