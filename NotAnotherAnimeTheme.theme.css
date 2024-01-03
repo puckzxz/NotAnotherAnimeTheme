@@ -28,7 +28,7 @@
   /*[MAIN THEME SETTINGS]*/
   /*Some important settings that will change the majority of your client.*/
   --theme-background-image: url(https://w.wallhaven.cc/full/p9/wallhaven-p955gm.jpg); /*The main image over your whole Discord client*/
-  --main-theme-color: #be8080; /*The default theme color*/
+  --main-theme-color: #9c6464; /*The default theme color*/
   --theme-transparency: rgba(30, 75, 199, 0.589); /*The mask that applies over the background*/
   --home-icon-image: url(https://www.youloveit.com/uploads/posts/2023-12/1702568534_youloveit_com_honkai_star_rail_winter_icons3.jpg); /*Your friends icon*/
   --home-icon-image-position: center center;
@@ -90,7 +90,7 @@
   /*[ADVANCED SETTINGS]*/
   /*This stuff is more on the advanced/nitty-gritty side. Most of the names are pretty self-explanatory.*/
 
-  --context-menu-transparency: rgba(255,222,245,1);
+  --context-menu-transparency: rgba(172, 94, 137, 0.79);
 
   --add-discover-icon-transparency: rgba(200, 200, 200, 0.4);
   --add-discover-icon-color: #43b581;
@@ -102,10 +102,10 @@
   --scrollbar-color: hsl(335, 40%, 65%);
 
   --unread-message-divider-color: #f04747;
-  --unread-message-divider-font-color: #fff;
+  --unread-message-divider-font-color: #9e4b729f;
 
   --new-messages-bar-background-color: var(--main-theme-color); /*The bar atop the screen saying "x new messages" when you're in a channel with unreads*/
-  --new-messages-bar-font-color: #fff;
+  --new-messages-bar-font-color: #02010100;
 
   --emoji-menu-background-color: rgba(0, 0, 0, 0.6);
   --emoji-menu-sider-background-color: rgba(0, 0, 0, 0);
@@ -118,8 +118,8 @@
   --message-search-result-background-color: rgba(200, 200, 200, 0.05);
 
   --text-voice-channel-color: rgb(19, 76, 145);
-  --text-voice-channel-hover-color: #dcddde;
-  --text-voice-channel-selected-text-color: #fff;
+  --text-voice-channel-hover-color: #000000;
+  --text-voice-channel-selected-text-color: #000000;
   --unread-text-channel-color: #0e0bc4;
   --unread-text-channel-bubble-color: #422A82;
 
