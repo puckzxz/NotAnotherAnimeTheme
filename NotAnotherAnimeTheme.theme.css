@@ -29,7 +29,7 @@
   /*Some important settings that will change the majority of your client.*/
   --theme-background-image: url(https://w.wallhaven.cc/full/p9/wallhaven-p955gm.jpg); /*The main image over your whole Discord client*/
   --main-theme-color: #f9dbdb; /*The default theme color*/
-  --theme-transparency: rgba(5, 120, 133, .4); /*The mask that applies over the background*/
+  --theme-transparency: rgba(103, 176, 194, 0.3); /*The mask that applies over the background*/
   --home-icon-image: url(https://www.youloveit.com/uploads/posts/2023-12/1702568534_youloveit_com_honkai_star_rail_winter_icons3.jpg); /*Your friends icon*/
   --home-icon-image-position: center center;
   --home-icon-image-zoom: 100%;
@@ -50,9 +50,9 @@
   --font-size: 100%;
 
   /*[MENTION COLORS]*/
-  --mention-color: #2c3c55; /*The color messages that mention you will highlight in*/
+  --mention-color: rgba(44, 60, 85, .3); /*The color messages that mention you will highlight in*/
   --mention-sider: #1839ca7f; /*The small bar on the left of a message that mentions you*/
-  --mention-hover-color: #0D2241; /*The color a mention highlight changes to when you hover over it*/
+  --mention-hover-color: rgba(13, 34, 65, .31); /*The color a mention highlight changes to when you hover over it*/
 
   --category-hover-color: #0D2241; /*Color that categories change to when hovered over*/
 
