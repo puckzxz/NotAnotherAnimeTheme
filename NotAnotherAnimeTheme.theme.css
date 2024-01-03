@@ -28,8 +28,8 @@
   /*[MAIN THEME SETTINGS]*/
   /*Some important settings that will change the majority of your client.*/
   --theme-background-image: url(https://w.wallhaven.cc/full/p9/wallhaven-p955gm.jpg); /*The main image over your whole Discord client*/
-  --main-theme-color: #dda5a5; /*The default theme color*/
-  --theme-transparency: rgba(24, 85, 141, 0.67); /*The mask that applies over the background*/
+  --main-theme-color: #be8080; /*The default theme color*/
+  --theme-transparency: rgba(40, 131, 173, 0.5); /*The mask that applies over the background*/
   --home-icon-image: url(https://www.youloveit.com/uploads/posts/2023-12/1702568534_youloveit_com_honkai_star_rail_winter_icons3.jpg); /*Your friends icon*/
   --home-icon-image-position: center center;
   --home-icon-image-zoom: 100%;
@@ -99,7 +99,7 @@
   --channel-limit-background-left: rgba(255, 143, 171, 0.507);
   --channel-limit-background-right: rgba(255, 143, 171, 0.507);
 
-  --scrollbar-color: hsl(335, 43%, 55%);
+  --scrollbar-color: hsl(335, 40%, 65%);
 
   --unread-message-divider-color: #f04747;
   --unread-message-divider-font-color: #fff;
