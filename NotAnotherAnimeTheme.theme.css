@@ -99,7 +99,7 @@
   --channel-limit-background-left: rgba(255, 143, 171, 0.507);
   --channel-limit-background-right: rgba(255, 143, 171, 0.507);
 
-  --scrollbar-color: rgba(236, 170, 197, 1);
+  --scrollbar-color: hsl(335, 43%, 55%);
 
   --unread-message-divider-color: #f04747;
   --unread-message-divider-font-color: #fff;
