@@ -54,7 +54,7 @@
   --mention-sider: #1839ca7f; /*The small bar on the left of a message that mentions you*/
   --mention-hover-color: rgba(13, 34, 65, .31); /*The color a mention highlight changes to when you hover over it*/
 
-  --category-hover-color: #0D2241; /*Color that categories change to when hovered over*/
+  --category-hover-color: #d886bf; /*Color that categories change to when hovered over*/
 
   --unread-server-animation: rainbow; /*The color animation that appears over server icons with unreads. Best to leave this be.*/
 
@@ -85,14 +85,14 @@
 
   --embed-background-transparency: rgba(0, 0, 0, 0.6);
 
-  --message-hover-buttons-background: rgba(200, 200, 200, 0.1); /*The small box that appears around the edit, pin, delete, etc icons when you hover over a message*/
+  --message-hover-buttons-background: rgba(200, 200, 200, 0.5); /*The small box that appears around the edit, pin, delete, etc icons when you hover over a message*/
 
   /*[ADVANCED SETTINGS]*/
   /*This stuff is more on the advanced/nitty-gritty side. Most of the names are pretty self-explanatory.*/
 
   --context-menu-transparency: rgba(255,222,245,1);
 
-  --add-discover-icon-transparency: rgba(200, 200, 200, 0.15);
+  --add-discover-icon-transparency: rgba(200, 200, 200, 0.4);
   --add-discover-icon-color: #43b581;
 
   --channel-limit-count-color: var(--channels-default);
@@ -123,8 +123,8 @@
   --unread-text-channel-color: #0e0bc4;
   --unread-text-channel-bubble-color: #422A82;
 
-  --folder-background-color: #2f3136;
-  --expanded-folder-background-color: transparent;
+  --folder-background-color: hsl(335, 40%, 65%);
+  --expanded-folder-background-color: #000000;
 
   --reaction-emoji-background-color: rgba(0, 0, 0, 0);
   --reaction-emoji-border-color: 1px solid transparent;
