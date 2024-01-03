@@ -47,7 +47,7 @@
   --server-listing-width: 126px;
 
   /*[FONT SIZE]*/
-  --font-size: 100%;
+  --font-size: 120%;
 
   /*[MENTION COLORS]*/
   --mention-color: rgba(44, 60, 85, .3); /*The color messages that mention you will highlight in*/
@@ -81,7 +81,7 @@
   --code-markup-background-color: rgba(0, 0, 0, 0.6); /*Code blocks background color*/
   --code-markup-border: 1px solid transparent; /*An optional border around code blocks (defaults to transparent - or invisible)*/
 
-  --message-box-transparency: rgba(0, 0, 0, 0.6); /*The message box at the bottom. Change the first three values to edit its color, and the last to edit its transparency*/
+  --message-box-transparency: rgba(0, 0, 0, 0.8); /*The message box at the bottom. Change the first three values to edit its color, and the last to edit its transparency*/
 
   --embed-background-transparency: rgba(0, 0, 0, 0.6);
 
@@ -90,16 +90,16 @@
   /*[ADVANCED SETTINGS]*/
   /*This stuff is more on the advanced/nitty-gritty side. Most of the names are pretty self-explanatory.*/
 
-  --context-menu-transparency: rgba(15, 15, 15, 0.8);
+  --context-menu-transparency: rgba(255,222,245,1);
 
   --add-discover-icon-transparency: rgba(200, 200, 200, 0.15);
   --add-discover-icon-color: #43b581;
 
   --channel-limit-count-color: var(--channels-default);
-  --channel-limit-background-left: rgba(200, 200, 200, 0.1);
-  --channel-limit-background-right: rgba(200, 200, 200, 0.2);
+  --channel-limit-background-left: rgba(255, 143, 171, 0.507);
+  --channel-limit-background-right: rgba(255, 143, 171, 0.507);
 
-  --scrollbar-color: #422A8289;
+  --scrollbar-color: #ecaac5;
 
   --unread-message-divider-color: #f04747;
   --unread-message-divider-font-color: #fff;
