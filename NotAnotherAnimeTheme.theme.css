@@ -29,7 +29,7 @@
   /*Some important settings that will change the majority of your client.*/
   --theme-background-image: url(https://w.wallhaven.cc/full/p9/wallhaven-p955gm.jpg); /*The main image over your whole Discord client*/
   --main-theme-color: #057885; /*The default theme color*/
-  --theme-transparency: rgba(#f9dbdb); /*The mask that applies over the background*/
+  --theme-transparency: rgba(249, 219, 219, 1); /*The mask that applies over the background*/
   --home-icon-image: url(https://www.youloveit.com/uploads/posts/2023-12/1702568534_youloveit_com_honkai_star_rail_winter_icons3.jpg); /*Your friends icon*/
   --home-icon-image-position: center center;
   --home-icon-image-zoom: 100%;
