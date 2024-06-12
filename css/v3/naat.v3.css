@@ -231,12 +231,12 @@
 }
 
 /* CHAT SCROLLER */
-.auto_a3c0bd::-webkit-scrollbar-track {
+.auto__020ac::-webkit-scrollbar-track {
   background-color: transparent;
 }
 
 /* SCROLL THUMB */
-.auto_a3c0bd::-webkit-scrollbar-thumb {
+.auto__020ac::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-color);
 }
 
@@ -965,26 +965,15 @@ html {
   background-color: var(--emoji-menu-background-color);
 }
 
-.tutorialContainer_b06ae6 .childWrapper_a6ce15 {
+.tutorialContainer_b06ae6 .childWrapper__760c6 {
   background: var(--home-icon-image) !important;
   background-position: var(--home-icon-image-position) !important;
   background-repeat: no-repeat !important;
   background-size: var(--home-icon-image-zoom) !important;
 }
 
-.tutorialContainer_b06ae6
-  .wrapper__9916c
-  .childWrapper_a6ce15
-  .homeIcon-FuNwkv {
+.tutorialContainer_b06ae6 .wrapper__9916c .childWrapper__760c6 svg {
   visibility: hidden;
-}
-
-.tutorialContainer_b06ae6
-  .listItem-GuPuDH
-  .listItemWrapper-KhRmzM
-  .wrapper__8436d
-  .childWrapper_a6ce15 {
-  background-color: transparent;
 }
 
 .homeIcon-tEMBK1 {
