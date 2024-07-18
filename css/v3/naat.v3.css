@@ -721,11 +721,19 @@
 }
 
 /* Emoji Menu */
+.emojiPicker_c6ee36 {
+  background-color: var(--emoji-menu-background-color);
+}
+
 .contentWrapper_af5dbb {
   background-color: var(--emoji-menu-background-color);
 }
 
-.wrapper_dc0b29 {
+.header_c6ee36 {
+  background-color: var(--emoji-menu-background-color);
+}
+
+.wrapper_ba23fe {
   background-color: var(--emoji-menu-sider-background-color);
 }
 
@@ -934,7 +942,7 @@ html {
   opacity: 0 !important;
 }
 
-.theme-dark .autocomplete_f23da8 {
+.theme-dark .autocomplete_bcc24e {
   background-color: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(5px);
 }
@@ -1229,4 +1237,16 @@ html {
 
 .theme-dark .themed_fc4f04 {
   background: transparent;
+}
+
+.attachedBars_d0696b {
+  background-color: var(--message-box-transparency);
+}
+
+.replyBar_b11c5e {
+  background-color: transparent;
+}
+
+.header_b56bbc {
+  background-color: transparent;
 }
