@@ -1250,3 +1250,7 @@ html {
 .header_b56bbc {
   background-color: transparent;
 }
+
+.button_df39bd {
+  background: var(--message-box-transparency);
+}
