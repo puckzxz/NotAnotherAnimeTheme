@@ -192,6 +192,10 @@
   background-color: var(--message-box-transparency) !important;
 }
 
+.scrollableContainer_bdf0de {
+  background-color: var(--message-box-transparency) !important;
+}
+
 .theme-dark .form_a7d72e:before {
   background: transparent;
 }
