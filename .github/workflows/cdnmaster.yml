@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python 3.9.19
       uses: actions/setup-python@v1
       with:
-        python-version: 3.9.20
+        python-version: 3.9.21
     - name: Install Dependencies
       run: |
         pip install b2
