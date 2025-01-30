@@ -231,17 +231,17 @@
 }
 
 /* CHAT SCROLLER */
-.auto_c49869::-webkit-scrollbar-track {
+.auto_d125d2::-webkit-scrollbar-track {
   background-color: transparent;
 }
 
 /* SCROLL THUMB */
-.auto_c49869::-webkit-scrollbar-thumb {
+.auto_d125d2::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-color);
 }
 
 /* EMBEDS */
-.embedFull_b0068a {
+.embedFull__623de {
   border-left: 4px solid var(--main-theme-color);
   background: var(--embed-background-transparency);
 }
@@ -493,13 +493,13 @@
 }
 
 /* Channel scroller */
-.thin_eed6a8::-webkit-scrollbar-track {
+.thin__99f8c::-webkit-scrollbar-track {
   border-color: transparent;
   background-color: transparent;
   border: transparent;
 }
 
-.thin_eed6a8::-webkit-scrollbar-thumb {
+.thin__99f8c::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-color);
 }
 
