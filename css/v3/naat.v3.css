@@ -483,7 +483,9 @@
 .wrapper__29444.muted__29444:hover .icon__29444,
 .wrapper__29444.muted__29444:hover .name__29444,
 .wrapper__29444:hover .icon__29444,
-.wrapper__29444:hover .name__29444.container__13cf1.text__13cf1 .overflow__82b15 {
+.wrapper__29444:hover
+  .name__29444.container__13cf1.text__13cf1
+  .overflow__82b15 {
   color: var(--category-hover-color);
 }
 
@@ -1301,4 +1303,8 @@ html {
 
 .chatHeaderBar_a5700d.narrow_a5700d {
   background-color: transparent;
+}
+
+.theme-dark .content__37e49 {
+  background: transparent;
 }
