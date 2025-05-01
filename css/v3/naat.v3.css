@@ -194,7 +194,9 @@
     width: initial;
   }
 
-  .stack_dbd263.scroller_ef3116.none_d125d2.scrollerBase_d125d2:last-child .listItem__650eb .pill__5bc7e {
+  .stack_dbd263.scroller_ef3116.none_d125d2.scrollerBase_d125d2:last-child
+    .listItem__650eb
+    .pill__5bc7e {
     display: none !important;
   }
 
@@ -267,13 +269,16 @@
     width: 54px !important;
   }
 
-  .folderGroup__48112:not(.isExpanded__48112) .listItem__650eb .pill_e5445c.wrapper__58105 .item__58105 {
+  .folderGroup__48112:not(.isExpanded__48112)
+    .listItem__650eb
+    .pill_e5445c.wrapper__58105
+    .item__58105 {
     margin-left: -3px !important;
     width: 48px !important;
   }
 
   .stack_dbd263.folderGuildsList__48112 {
-    height: 100px !important;
+    height: 100% !important;
   }
 
   .folderGroupBackground__48112 {
