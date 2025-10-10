@@ -168,6 +168,13 @@
     align-items: flex-start !important;
   }
 
+  .wrapper__67dba .stack_dbd263 {
+    display: initial !important;
+    flex-direction: initial !important;
+    flex-flow: initial !important;
+    align-items: initial !important;
+  }
+
   .tutorialContainer__1f388 {
     display: flex;
     justify-content: center;
