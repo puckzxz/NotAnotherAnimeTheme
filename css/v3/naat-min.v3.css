@@ -17,7 +17,7 @@
     background: transparent;
   }
 
-  .panels_c48ade {
+  .panels__5e434 {
     background: var(--message-box-transparency);
     backdrop-filter: blur(5px);
   }
@@ -229,5 +229,13 @@
 
   .membersWrap_c8ffbb {
     background-color: transparent;
+  }
+
+  .privateChannels_e6b769 {
+    background: none;
+  }
+
+  .chatGradient__36d07 {
+    background: none;
   }
 }
