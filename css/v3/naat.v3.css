@@ -451,4 +451,9 @@
   .chatGradient__36d07 {
     background: none;
   }
+
+  .chatTypingGradientAtBottom__36d07,
+  .chatTypingGradientNotAtBottom__36d07 {
+    background: none;
+  }
 }
