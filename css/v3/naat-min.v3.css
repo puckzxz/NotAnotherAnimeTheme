@@ -1,22 +1,22 @@
-._51fd70792ee2e563-appMount {
+.appMount__51fd7 {
   background: transparent;
   background-image: var(--theme-background-image);
   background-size: cover;
 }
 
-._160d8e55254637e5-app {
+.app__160d8 {
   background: transparent;
 }
 
-._960e4207cea8323e-bg {
+.bg__960e4 {
   background: var(--theme-transparency);
 }
 
-.ef3116c2da186559-wrapper {
+.wrapper_ef3116 {
   background: transparent;
 }
 
-._5e434347c823b592-panels {
+.panels__5e434 {
   background: var(--message-box-transparency);
   backdrop-filter: blur(5px);
 }
@@ -25,35 +25,35 @@
   background: transparent;
 }
 
-._2637a2609f343032-container {
+.container__2637a {
   background: transparent;
 }
 
-.f75fb00fb7356cbe-chat {
+.chat_f75fb0 {
   background: transparent;
 }
 
-.f75fb00fb7356cbe-chatContent {
+.chatContent_f75fb0 {
   background: transparent;
 }
 
-._9293f6b2fc12398a-themed {
+.themed__9293f {
   background: transparent;
 }
 
-.c8ffbb79449f399c-container {
+.container_c8ffbb {
   background: transparent;
 }
 
-.c8ffbb79449f399c-members {
+.members_c8ffbb {
   background: transparent;
 }
 
-.f75fb00fb7356cbe-channelTextArea {
+.channelTextArea_f75fb0 {
   background: var(--message-box-transparency);
 }
 
-._740174f3d6a2c8fe-themedBackground {
+.themedBackground__74017 {
   background: transparent;
 }
 
@@ -61,128 +61,126 @@
   background: transparent;
 }
 
-._99e7cad8d4c55236-scroller {
+.scroller__99e7c {
   background: transparent;
 }
 
-._9293f6b2fc12398a-children:after {
+.children__9293f:after {
   background: transparent;
 }
 
-._6e9f8dce4cc18de3-wrapper
-  ._6e9f8dce4cc18de3-childWrapper._6e9f8dce4cc18de3-childWrapperNoHoverBg
-  svg {
+.wrapper__6e9f8 .childWrapper__6e9f8.childWrapperNoHoverBg__6e9f8 svg {
   display: none;
 }
 
-._918165dab2b1e10b-listItemWrapper
-  .cc5dd25190031396-wrapper
-  ._6e9f8dce4cc18de3-wrapper
-  ._6e9f8dce4cc18de3-childWrapper._6e9f8dce4cc18de3-childWrapperNoHoverBg {
+.listItemWrapper__91816
+  .wrapper_cc5dd2
+  .wrapper__6e9f8
+  .childWrapper__6e9f8.childWrapperNoHoverBg__6e9f8 {
   background-image: var(--home-icon-image);
   background-size: var(--home-icon-image-zoom);
   background-position: var(--home-icon-image-position);
   background-repeat: no-repeat;
 }
 
-._1f388bcaa446c0c8-tutorialContainer
-  .cc5dd25190031396-wrapper
-  ._6e9f8dce4cc18de3-wrapper
-  ._6e9f8dce4cc18de3-childWrapper._6e9f8dce4cc18de3-childWrapperNoHoverBg {
+.tutorialContainer__1f388
+  .wrapper_cc5dd2
+  .wrapper__6e9f8
+  .childWrapper__6e9f8.childWrapperNoHoverBg__6e9f8 {
   background-color: transparent;
 }
 
-._133bf5eea8e33a34-tabBody {
+.tabBody__133bf {
   background: transparent;
 }
 
-._133bf5eea8e33a34-container {
+.container__133bf {
   background: transparent;
 }
 
-.c8ffbb79449f399c-member {
+.member_c8ffbb {
   background-color: transparent;
 }
 
-._133bf5eea8e33a34-nowPlayingColumn {
+.nowPlayingColumn__133bf {
   background-color: transparent;
 }
 
-._7d20cf18f8a2784c-container {
+.container__7d20c {
   background-color: transparent;
 }
 
-.d852db00c0588eb9-wrapper {
+.wrapper_d852db {
   background: transparent;
 }
 
-.fc817765600a960a-wrapper {
+.wrapper_fc8177 {
   background: transparent;
 }
 
-._23e6b439306f125a-standardSidebarView {
+.standardSidebarView__23e6b {
   background: transparent;
 }
 
-._23e6b439306f125a-sidebarRegionScroller {
+.sidebarRegionScroller__23e6b {
   background: transparent;
 }
 
-._960e4207cea8323e-layer {
+.layer__960e4 {
   background: transparent;
 }
 
-._23e6b439306f125a-contentRegion {
+.contentRegion__23e6b {
   background: transparent;
 }
 
-._23e6b439306f125a-contentRegionScroller {
+.contentRegionScroller__23e6b {
   background-color: transparent;
 }
 
-.b77158512e0ab116-channelAttachmentArea {
+.channelAttachmentArea_b77158 {
   background-color: transparent;
 }
 
-.aa605f19898fe32e-upload {
+.upload_aa605f {
   background-color: transparent;
 }
 
-._5ec2fb8b5de26b21-searchBar {
+.searchBar__5ec2f {
   background-color: transparent;
   backdrop-filter: blur(5px);
 }
 
-._7e549558f336cddb-itemCard._00943886e1cf89d1-wrapper.bf1984a18b3ec6f0-outer.bf1984a18b3ec6f0-padded.bf1984a18b3ec6f0-interactive {
+.itemCard__7e549.wrapper__00943.outer_bf1984.padded_bf1984.interactive_bf1984 {
   background-color: transparent;
   backdrop-filter: blur(5px);
 }
 
-._623de82e76ad7f82-embedFull {
+.embedFull__623de {
   background-color: transparent !important;
   backdrop-filter: blur(5px);
 }
 
-._4d95d73152192cf9-footer {
+.footer__4d95d {
   background: transparent;
   backdrop-filter: blur(5px);
 }
 
-._4d95d73152192cf9-textContainer {
+.textContainer__4d95d {
   background-color: transparent;
   backdrop-filter: blur(15px) !important;
 }
 
-._4d95d73152192cf9-codeView {
+.codeView__4d95d {
   background-color: transparent;
 }
 
-._0f2e83213c878a13-container {
+.container__0f2e8 {
   background-color: transparent !important;
   backdrop-filter: blur(5px);
 }
 
-._5dec784a68542d60-panel {
+.panel__5dec7 {
   background-color: transparent !important;
 }
 
@@ -190,54 +188,54 @@
   background-color: transparent;
 }
 
-.bfe55a0aaaf62375-root {
+.root_bfe55a {
   background: transparent;
 }
 
-.cb9592ad77576717-wrapper {
+.wrapper_cb9592 {
   background: transparent;
 }
 
-.cb9592ad77576717-callContainer {
+.callContainer_cb9592 {
   background: transparent;
 }
 
-._01ae244280823725-resizeHandle {
+.resizeHandle__01ae2 {
   background: transparent;
 }
 
-._01ae244280823725-container {
-  background: transparent;
-  backdrop-filter: blur(5px);
-}
-
-._01ae244280823725-chatLayerWrapper {
-  background: transparent;
-}
-
-.cb9592ad77576717-channelChatWrapper {
-  background: transparent;
-}
-
-.f369dba7416c67f0-container {
-  background: transparent;
-}
-
-.f369dba7416c67f0-mainCard {
+.container__01ae2 {
   background: transparent;
   backdrop-filter: blur(5px);
 }
 
-.faa96b2163f6a142-container:hover {
+.chatLayerWrapper__01ae2 {
+  background: transparent;
+}
+
+.channelChatWrapper_cb9592 {
+  background: transparent;
+}
+
+.container_f369db {
+  background: transparent;
+}
+
+.mainCard_f369db {
+  background: transparent;
+  backdrop-filter: blur(5px);
+}
+
+.container_faa96b:hover {
   background: transparent;
   backdrop-filter: blur(15px);
 }
 
-.c8ffbb79449f399c-membersWrap {
+.membersWrap_c8ffbb {
   background-color: transparent;
 }
 
-.e6b7699ce8339e1c-privateChannels {
+.privateChannels_e6b769 {
   background: none;
 }
 
@@ -250,38 +248,38 @@
   background: none;
 }
 
-._9293f6b2fc12398a-themed {
+.themed__9293f {
   background: transparent !important;
 }
 
-._5e434347c823b592-sidebar:after {
+.sidebar__5e434:after {
   background: transparent;
 }
 
-._36d072eab2b2e737-chatGradient {
+.chatGradient__36d07 {
   background: transparent;
 }
 
-#guild-list-unread-dms .ed9a5f50013e19ac-pill {
+#guild-list-unread-dms .pill_ed9a5f {
   display: none;
 }
 
-.e29cd7b93c4f1266-titleContainer {
+.titleContainer_e29cd7 {
   background-color: transparent;
 }
 
-.c6bf1b7af480dfda-header {
+.header_c6bf1b {
   background-color: transparent;
 }
 
-._535437b3d3b11fd1-scroller {
+.scroller__53543 {
   background-color: transparent;
 }
 
-._36d072eab2b2e737-chatTypingGradientNotAtBottom {
+.chatTypingGradientNotAtBottom__36d07 {
   background: transparent;
 }
 
-._36d072eab2b2e737-chatTypingGradientAtBottom {
+.chatTypingGradientAtBottom__36d07 {
   background: transparent;
 }
