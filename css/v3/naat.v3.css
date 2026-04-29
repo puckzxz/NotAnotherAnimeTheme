@@ -160,6 +160,10 @@
   background-color: initial;
 }
 
+#guild-list-unread-dms .item__58105 {
+  display: none !important;
+}
+
 .stack_dbd263.scroller_ef3116.none_d125d2.scrollerBase_d125d2 {
   justify-content: center;
 }
