@@ -84,15 +84,18 @@
   align-content: flex-start;
 }
 
+.tree_ef3116 .stack_dbd263 {
+  display: flex !important;
+  flex-flow: row wrap !important;
+  justify-content: center !important;
+}
+
 .stack_dbd263 .listItem__650eb:not(.wrapper__48112 .listItem__650eb) {
   width: initial;
   padding: 1px;
   margin: 2px;
 }
 
-.stack_dbd263 {
-  justify-content: center !important;
-}
 
 .stack_dbd263 .wrapper__48112 .listItem__650eb {
   width: initial;
