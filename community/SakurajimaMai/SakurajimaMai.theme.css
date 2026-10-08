@@ -1,0 +1,13 @@
+/**
+ * @name Sakurajima Mai Theme
+ * @author takeisan24
+ * @version 3.9.0
+ * @description A calm lavender Sakurajima Mai theme built on NotAnotherAnimeTheme: wallpaper glass, solid popouts, Discord design tokens, Nitro- and plugin-friendly, accessible.
+ * @source https://github.com/takeisan24/Sakurajima-Mai-Discord-Theme
+ * @website https://github.com/takeisan24/Sakurajima-Mai-Discord-Theme
+ */
+
+/* Loads the always-up-to-date theme (which itself imports the
+   NotAnotherAnimeTheme base). Customize it from QuickCSS / Custom CSS, see
+   https://github.com/takeisan24/Sakurajima-Mai-Discord-Theme#customization */
+@import url("https://cdn.jsdelivr.net/gh/takeisan24/Sakurajima-Mai-Discord-Theme@master/SakurajimaMai.theme.css");
