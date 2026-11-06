@@ -6,7 +6,7 @@ on:
     branches:
       - master
     paths:
-      - 'css/**'
+      - 'css/*.css'
 
 jobs:
   build:

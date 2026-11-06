@@ -1,285 +1,254 @@
-.appMount__51fd7 {
+.appMount_gEkNtR {
   background: transparent;
   background-image: var(--theme-background-image);
   background-size: cover;
 }
 
-.app__160d8 {
+.app_QbT-Jy,
+.app_YRXZu0 {
   background: transparent;
 }
 
-.bg__960e4 {
+.bg_Fd0FEH {
   background: var(--theme-transparency);
 }
 
-.wrapper_ef3116 {
+.wrapper_5dqHTG {
   background: transparent;
 }
 
-.panels__5e434 {
+.panels_pog62O {
   background: var(--message-box-transparency);
   backdrop-filter: blur(5px);
 }
 
-.sidebar_c48ade:after {
+.container_H5ozaj {
   background: transparent;
 }
 
-.container__2637a {
+.chat_z_gUBg {
   background: transparent;
 }
 
-.chat_f75fb0 {
+.chatContent_z_gUBg {
   background: transparent;
 }
 
-.chatContent_f75fb0 {
+.themed_ybUK7Z {
+  background: transparent !important;
+}
+
+.container_86es0b {
   background: transparent;
 }
 
-.themed__9293f {
+.members_86es0b {
   background: transparent;
 }
 
-.container_c8ffbb {
-  background: transparent;
-}
-
-.members_c8ffbb {
-  background: transparent;
-}
-
-.channelTextArea_f75fb0 {
+.channelTextArea_z_gUBg {
   background: var(--message-box-transparency);
 }
 
-.themedBackground__74017 {
+.themedBackground_2x8-Qn {
   background: transparent;
 }
 
-.privateChannels__35e86 {
+.scroller_Bce46W {
   background: transparent;
 }
 
-.scroller__99e7c {
+.children_ybUK7Z:after {
   background: transparent;
 }
 
-.children__9293f:after {
-  background: transparent;
-}
-
-.wrapper__6e9f8 .childWrapper__6e9f8.childWrapperNoHoverBg__6e9f8 svg {
+.wrapper_JJ-hgR .childWrapper_JJ-hgR.childWrapperNoHoverBg_JJ-hgR svg {
   display: none;
 }
 
-.listItemWrapper__91816
-  .wrapper_cc5dd2
-  .wrapper__6e9f8
-  .childWrapper__6e9f8.childWrapperNoHoverBg__6e9f8 {
+.wrapper_gFyPwI {
+  background: transparent;
+}
+
+.listItemWrapper_tQErD4
+  .wrapper_hqZPsU
+  .wrapper_JJ-hgR
+  .childWrapper_JJ-hgR.childWrapperNoHoverBg_JJ-hgR {
   background-image: var(--home-icon-image);
   background-size: var(--home-icon-image-zoom);
   background-position: var(--home-icon-image-position);
   background-repeat: no-repeat;
 }
 
-.tutorialContainer__1f388
-  .wrapper_cc5dd2
-  .wrapper__6e9f8
-  .childWrapper__6e9f8.childWrapperNoHoverBg__6e9f8 {
+.tutorialContainer_1IyMuq
+  .wrapper_hqZPsU
+  .wrapper_JJ-hgR
+  .childWrapper_JJ-hgR.childWrapperNoHoverBg_JJ-hgR {
   background-color: transparent;
 }
 
-.tabBody__133bf {
+.tabBody_zrUwGA {
   background: transparent;
 }
 
-.container__133bf {
+.container_zrUwGA {
   background: transparent;
 }
 
-.member_c8ffbb {
+.member_86es0b {
   background-color: transparent;
 }
 
-.nowPlayingColumn__133bf {
+.nowPlayingColumn_zrUwGA {
   background-color: transparent;
 }
 
-.container__7d20c {
+.container_GNEh_C {
   background-color: transparent;
 }
 
-.wrapper_d852db {
+.wrapper_oITdBA {
   background: transparent;
 }
 
-.wrapper_fc8177 {
+.standardSidebarView_jnk11m {
   background: transparent;
 }
 
-.standardSidebarView__23e6b {
+.sidebarRegionScroller_jnk11m {
   background: transparent;
 }
 
-.sidebarRegionScroller__23e6b {
+.layer_Fd0FEH {
   background: transparent;
 }
 
-.layer__960e4 {
+.contentRegion_jnk11m {
   background: transparent;
 }
 
-.contentRegion__23e6b {
-  background: transparent;
-}
-
-.contentRegionScroller__23e6b {
+.contentRegionScroller_jnk11m {
   background-color: transparent;
 }
 
-.channelAttachmentArea_b77158 {
+.channelAttachmentArea_iH8bsl {
   background-color: transparent;
 }
 
-.upload_aa605f {
+.upload_JyxBSo {
   background-color: transparent;
 }
 
-.searchBar__5ec2f {
+.searchBar_wVFOQW {
   background-color: transparent;
   backdrop-filter: blur(5px);
 }
 
-.itemCard__7e549.wrapper__00943.outer_bf1984.padded_bf1984.interactive_bf1984 {
+.itemCard_-7KzVR.wrapper_o3hXTo.outer_ERB-Vv.interactive_ERB-Vv {
   background-color: transparent;
   backdrop-filter: blur(5px);
 }
 
-.embedFull__623de {
+.embedFull_XyW1ZT {
   background-color: transparent !important;
   backdrop-filter: blur(5px);
 }
 
-.footer__4d95d {
+.footer_BOOBu- {
   background: transparent;
   backdrop-filter: blur(5px);
 }
 
-.textContainer__4d95d {
+.textContainer_BOOBu- {
   background-color: transparent;
   backdrop-filter: blur(15px) !important;
 }
 
-.codeView__4d95d {
+.codeView_BOOBu- {
   background-color: transparent;
 }
 
-.container__0f2e8 {
+.container_g7esM5 {
   background-color: transparent !important;
   backdrop-filter: blur(5px);
 }
 
-.panel__5dec7 {
+.panel_8eCwJY {
   background-color: transparent !important;
 }
 
-.scroller__28a87 {
-  background-color: transparent;
-}
-
-.root_bfe55a {
+.root_rTsZa_ {
   background: transparent;
 }
 
-.wrapper_cb9592 {
+.wrapper_hbKzX7 {
   background: transparent;
 }
 
-.callContainer_cb9592 {
+.callContainer_hbKzX7 {
   background: transparent;
 }
 
-.resizeHandle__01ae2 {
+.resizeHandle_FrbQJp {
   background: transparent;
 }
 
-.container__01ae2 {
+.container_FrbQJp {
   background: transparent;
   backdrop-filter: blur(5px);
 }
 
-.chatLayerWrapper__01ae2 {
+.chatLayerWrapper_FrbQJp {
   background: transparent;
 }
 
-.channelChatWrapper_cb9592 {
+.channelChatWrapper_hbKzX7 {
   background: transparent;
 }
 
-.container_f369db {
+.container_BkGrJJ {
   background: transparent;
 }
 
-.mainCard_f369db {
+.mainCard_BkGrJJ {
   background: transparent;
   backdrop-filter: blur(5px);
 }
 
-.container_faa96b:hover {
+.container_SOY5H6:hover {
   background: transparent;
   backdrop-filter: blur(15px);
 }
 
-.membersWrap_c8ffbb {
+.membersWrap_86es0b {
   background-color: transparent;
 }
 
-.privateChannels_e6b769 {
+.privateChannels_u88IQl {
   background: none;
 }
 
-.chatGradient__36d07 {
+.chatGradient_8AE1Qq {
   background: none;
 }
 
-.chatTypingGradientAtBottom__36d07,
-.chatTypingGradientNotAtBottom__36d07 {
+.chatTypingGradientAtBottom_8AE1Qq,
+.chatTypingGradientNotAtBottom_8AE1Qq {
   background: none;
 }
 
-.themed__9293f {
-  background: transparent !important;
-}
-
-.sidebar__5e434:after {
+.sidebar_pog62O:after {
   background: transparent;
 }
 
-.chatGradient__36d07 {
-  background: transparent;
-}
-
-#guild-list-unread-dms .pill_ed9a5f {
-  display: none;
-}
-
-.titleContainer_e29cd7 {
+.titleContainer_7NrAL2 {
   background-color: transparent;
 }
 
-.header_c6bf1b {
+.header_tLZg6c {
   background-color: transparent;
 }
 
-.scroller__53543 {
+.scroller_EDKX0U {
   background-color: transparent;
-}
-
-.chatTypingGradientNotAtBottom__36d07 {
-  background: transparent;
-}
-
-.chatTypingGradientAtBottom__36d07 {
-  background: transparent;
 }
